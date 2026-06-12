@@ -1,0 +1,41 @@
+{
+  "symbol": "015760",
+  "name": "한국전력",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "energy_power",
+  "tags": [
+    "power_equipment",
+    "nuclear"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 36400.0,
+      "high": 39250.0,
+      "low": 36400.0,
+      "close": 38700.0,
+      "volume": 6602459.0,
+      "changeRate": 7.05,
+      "tradingValue": 255515163300.0,
+      "marketCap": 24844009779900.0,
+      "ma5": 36630.0,
+      "ma20": 38307.5,
+      "ma60": 42525.0,
+      "ma200": 46132.0,
+      "rsi14": 47.2,
+      "volumeRatio20d": 1.67,
+      "tradingValueRatio20d": 1.68,
+      "high20": 42900.0,
+      "highLong": 69900.0,
+      "relativeStrength": 3.32,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma20",
+        "ma_bearish_alignment"
+      ],
+      "score": 15
+    }
+  ]
+}

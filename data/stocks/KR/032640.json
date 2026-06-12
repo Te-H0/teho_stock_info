@@ -1,0 +1,40 @@
+{
+  "symbol": "032640",
+  "name": "LG유플러스",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "future_tech",
+  "tags": [
+    "telecom"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 15730.0,
+      "high": 16020.0,
+      "low": 15160.0,
+      "close": 15740.0,
+      "volume": 2490623.0,
+      "changeRate": 4.03,
+      "tradingValue": 39202406020.0,
+      "marketCap": 6680492501680.0,
+      "ma5": 15272.0,
+      "ma20": 15690.0,
+      "ma60": 15982.83,
+      "ma200": 15507.55,
+      "rsi14": 50.1,
+      "volumeRatio20d": 0.68,
+      "tradingValueRatio20d": 0.65,
+      "high20": 18850.0,
+      "highLong": 18850.0,
+      "relativeStrength": 0.3,
+      "signals": [
+        "above_ma20",
+        "above_ma200",
+        "ma_bearish_alignment"
+      ],
+      "score": 10
+    }
+  ]
+}

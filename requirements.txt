@@ -5,3 +5,4 @@ numpy>=1.24
 certifi>=2024.0
 yfinance>=0.2.40
 pykrx>=1.0.45
+schedule>=1.2

@@ -1,0 +1,38 @@
+{
+  "symbol": "NOW",
+  "name": "서비스나우",
+  "country": "US",
+  "market": "NYSE",
+  "primarySector": "future_tech",
+  "tags": [
+    "cloud"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 103.38,
+      "high": 103.38,
+      "low": 98.43,
+      "close": 99.24,
+      "volume": 3235988.0,
+      "changeRate": -3.73,
+      "tradingValue": 321139449.0,
+      "marketCap": 102316440000.0,
+      "ma5": 105.91,
+      "ma20": 109.17,
+      "ma60": 100.41,
+      "ma200": 138.43,
+      "rsi14": 48.2,
+      "volumeRatio20d": 0.09,
+      "tradingValueRatio20d": 0.08,
+      "high20": 139.2,
+      "highLong": 194.726,
+      "relativeStrength": -2.98,
+      "signals": [
+        "ma20_breakdown"
+      ],
+      "score": 0
+    }
+  ]
+}

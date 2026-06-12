@@ -1,0 +1,40 @@
+{
+  "symbol": "030200",
+  "name": "KT",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "future_tech",
+  "tags": [
+    "telecom"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 58100.0,
+      "high": 58600.0,
+      "low": 54800.0,
+      "close": 55400.0,
+      "volume": 1059393.0,
+      "changeRate": -4.15,
+      "tradingValue": 58690372200.0,
+      "marketCap": 13962001349000.0,
+      "ma5": 55200.0,
+      "ma20": 55350.0,
+      "ma60": 58986.67,
+      "ma200": 55288.5,
+      "rsi14": 48.6,
+      "volumeRatio20d": 1.43,
+      "tradingValueRatio20d": 1.43,
+      "high20": 61600.0,
+      "highLong": 70400.0,
+      "relativeStrength": -7.88,
+      "signals": [
+        "above_ma20",
+        "above_ma200",
+        "ma_bearish_alignment"
+      ],
+      "score": 10
+    }
+  ]
+}

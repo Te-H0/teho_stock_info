@@ -62,6 +62,12 @@ class TossClient:
                     time.sleep(max(1, wait))
                     continue
                 raise TossError(f"{path} 실패 {e.code}: {e.read().decode(errors='replace')}")
+            except (urllib.error.URLError, TimeoutError) as e:
+                # 일시적 네트워크(와이파이 끊김 등) → 잠깐 쉬고 재시도
+                if attempt < retries - 1:
+                    time.sleep(3)
+                    continue
+                raise TossError(f"{path} 네트워크 실패: {e}")
         raise TossError(f"{path} 재시도 초과")
 
     # --- 공개 API ---

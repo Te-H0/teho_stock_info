@@ -1,0 +1,38 @@
+{
+  "symbol": "259960",
+  "name": "크래프톤",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "consumer",
+  "tags": [
+    "game"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 234500.0,
+      "high": 241500.0,
+      "low": 233500.0,
+      "close": 237000.0,
+      "volume": 167275.0,
+      "changeRate": 2.38,
+      "tradingValue": 39644175000.0,
+      "marketCap": 10934467341000.0,
+      "ma5": 237100.0,
+      "ma20": 257325.0,
+      "ma60": 256008.33,
+      "ma200": 266297.5,
+      "rsi14": 37.6,
+      "volumeRatio20d": 0.73,
+      "tradingValueRatio20d": 0.67,
+      "high20": 300000.0,
+      "highLong": 344000.0,
+      "relativeStrength": -1.35,
+      "signals": [
+        "ma20_breakdown"
+      ],
+      "score": 0
+    }
+  ]
+}

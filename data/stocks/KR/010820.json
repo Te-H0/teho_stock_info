@@ -29,7 +29,7 @@
       "tradingValueRatio20d": 0.5,
       "high20": 12590.0,
       "highLong": 18730.0,
-      "relativeStrength": -1.98,
+      "relativeStrength": -1.9,
       "signals": [
         "above_ma200",
         "ma20_breakdown",

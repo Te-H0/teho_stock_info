@@ -1,0 +1,41 @@
+{
+  "symbol": "307950",
+  "name": "현대오토에버",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "mobility",
+  "tags": [
+    "autonomous_driving",
+    "auto_parts"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 758000.0,
+      "high": 765000.0,
+      "low": 679000.0,
+      "close": 693000.0,
+      "volume": 492205.0,
+      "changeRate": -3.21,
+      "tradingValue": 341098065000.0,
+      "marketCap": 19004819526000.0,
+      "ma5": 705200.0,
+      "ma20": 713150.0,
+      "ma60": 529475.0,
+      "ma200": 353396.0,
+      "rsi14": 54.3,
+      "volumeRatio20d": 0.56,
+      "tradingValueRatio20d": 0.51,
+      "high20": 1066000.0,
+      "highLong": 1066000.0,
+      "relativeStrength": -6.94,
+      "signals": [
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 10
+    }
+  ]
+}

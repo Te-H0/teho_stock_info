@@ -1,0 +1,40 @@
+{
+  "symbol": "011200",
+  "name": "HMM",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "industrial_material",
+  "tags": [
+    "shipping"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 19100.0,
+      "high": 20150.0,
+      "low": 19010.0,
+      "close": 20100.0,
+      "volume": 3345430.0,
+      "changeRate": 6.97,
+      "tradingValue": 67243143000.0,
+      "marketCap": 18959083197000.0,
+      "ma5": 18976.0,
+      "ma20": 19624.5,
+      "ma60": 20257.83,
+      "ma200": 20782.05,
+      "rsi14": 50.8,
+      "volumeRatio20d": 1.28,
+      "tradingValueRatio20d": 1.31,
+      "high20": 21100.0,
+      "highLong": 27000.0,
+      "relativeStrength": 3.24,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma20",
+        "ma_bearish_alignment"
+      ],
+      "score": 15
+    }
+  ]
+}

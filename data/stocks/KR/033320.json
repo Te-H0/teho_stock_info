@@ -28,7 +28,7 @@
       "tradingValueRatio20d": 0.39,
       "high20": 4440.0,
       "highLong": 5840.0,
-      "relativeStrength": -2.73,
+      "relativeStrength": -2.65,
       "signals": [
         "ma20_breakdown",
         "ma_bearish_alignment"

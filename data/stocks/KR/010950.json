@@ -1,0 +1,39 @@
+{
+  "symbol": "010950",
+  "name": "S-Oil",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "industrial_material",
+  "tags": [
+    "chemical"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 111400.0,
+      "high": 113500.0,
+      "low": 108500.0,
+      "close": 111100.0,
+      "volume": 476180.0,
+      "changeRate": -1.51,
+      "tradingValue": 52903598000.0,
+      "marketCap": 12507948191200.0,
+      "ma5": 110500.0,
+      "ma20": 109850.0,
+      "ma60": 113686.67,
+      "ma200": 91809.5,
+      "rsi14": 54.5,
+      "volumeRatio20d": 0.82,
+      "tradingValueRatio20d": 0.83,
+      "high20": 121200.0,
+      "highLong": 179700.0,
+      "relativeStrength": -5.24,
+      "signals": [
+        "above_ma20",
+        "above_ma200"
+      ],
+      "score": 10
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
   "date": "2026-06-12",
   "session": "close",
-  "marketChange": 3.81,
-  "upCount": 104,
-  "downCount": 22,
-  "totalCount": 126,
-  "upRatio": 0.83,
+  "marketChange": 3.73,
+  "upCount": 125,
+  "downCount": 31,
+  "totalCount": 156,
+  "upRatio": 0.8,
   "strongSectors": [
     "construction",
     "semiconductor_equipment",
@@ -18,7 +18,7 @@
     "adc",
     "semiconductor_material"
   ],
-  "summary": "시장 강세(+3.81%). 건설, 반도체장비, 파운드리 섹터로 자금 유입 감지.",
+  "summary": "시장 강세(+3.73%). 건설, 반도체장비, 파운드리 섹터로 자금 유입 감지.",
   "headline": [
     {
       "key": "kospi",
@@ -43,8 +43,8 @@
       "name": "환율",
       "symbol": "KRW=X",
       "unit": "원",
-      "value": 1518.88,
-      "changeRate": -0.4,
+      "value": 1519.08,
+      "changeRate": -0.39,
       "date": "2026-06-12"
     }
   ],

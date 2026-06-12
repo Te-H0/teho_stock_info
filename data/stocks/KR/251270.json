@@ -1,0 +1,39 @@
+{
+  "symbol": "251270",
+  "name": "넷마블",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "consumer",
+  "tags": [
+    "game"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 43150.0,
+      "high": 43600.0,
+      "low": 41100.0,
+      "close": 42550.0,
+      "volume": 479376.0,
+      "changeRate": -0.35,
+      "tradingValue": 20397448800.0,
+      "marketCap": 3486315996050.0,
+      "ma5": 41200.0,
+      "ma20": 42357.5,
+      "ma60": 47376.67,
+      "ma200": 52805.75,
+      "rsi14": 52.4,
+      "volumeRatio20d": 1.48,
+      "tradingValueRatio20d": 1.49,
+      "high20": 45300.0,
+      "highLong": 69300.0,
+      "relativeStrength": -4.08,
+      "signals": [
+        "above_ma20",
+        "ma_bearish_alignment"
+      ],
+      "score": 5
+    }
+  ]
+}

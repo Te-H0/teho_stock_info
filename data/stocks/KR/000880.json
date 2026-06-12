@@ -1,0 +1,39 @@
+{
+  "symbol": "000880",
+  "name": "한화",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "finance",
+  "tags": [
+    "holding"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 121900.0,
+      "high": 126000.0,
+      "low": 116300.0,
+      "close": 118000.0,
+      "volume": 216809.0,
+      "changeRate": -1.5,
+      "tradingValue": 25583462000.0,
+      "marketCap": 8319934442000.0,
+      "ma5": 117320.0,
+      "ma20": 129535.0,
+      "ma60": 126588.33,
+      "ma200": 105752.5,
+      "rsi14": 40.6,
+      "volumeRatio20d": 0.5,
+      "tradingValueRatio20d": 0.44,
+      "high20": 166400.0,
+      "highLong": 166400.0,
+      "relativeStrength": -5.23,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 5
+    }
+  ]
+}

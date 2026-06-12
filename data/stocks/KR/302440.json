@@ -1,0 +1,39 @@
+{
+  "symbol": "302440",
+  "name": "SK바이오사이언스",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "bio_healthcare",
+  "tags": [
+    "cdmo"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 40000.0,
+      "high": 40650.0,
+      "low": 39100.0,
+      "close": 39450.0,
+      "volume": 193963.0,
+      "changeRate": 1.41,
+      "tradingValue": 7651840350.0,
+      "marketCap": 3095111015850.0,
+      "ma5": 38670.0,
+      "ma20": 40437.5,
+      "ma60": 42040.0,
+      "ma200": 47512.0,
+      "rsi14": 48.6,
+      "volumeRatio20d": 0.7,
+      "tradingValueRatio20d": 0.68,
+      "high20": 43750.0,
+      "highLong": 61300.0,
+      "relativeStrength": -2.32,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

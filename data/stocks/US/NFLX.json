@@ -1,0 +1,39 @@
+{
+  "symbol": "NFLX",
+  "name": "넷플릭스",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "consumer",
+  "tags": [
+    "entertainment"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 81.68,
+      "high": 82.0,
+      "low": 79.41,
+      "close": 79.72,
+      "volume": 2588614.0,
+      "changeRate": -1.91,
+      "tradingValue": 206364308.0,
+      "marketCap": 335684858652.0,
+      "ma5": 81.41,
+      "ma20": 85.04,
+      "ma60": 91.22,
+      "ma200": 99.21,
+      "rsi14": 13.9,
+      "volumeRatio20d": 0.08,
+      "tradingValueRatio20d": 0.07,
+      "high20": 91.48,
+      "highLong": 126.71,
+      "relativeStrength": -1.16,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "symbol": "000150",
+  "name": "두산",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "finance",
+  "tags": [
+    "holding"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 1655000.0,
+      "high": 1920000.0,
+      "low": 1634000.0,
+      "close": 1725000.0,
+      "volume": 254412.0,
+      "changeRate": 6.28,
+      "tradingValue": 438860700000.0,
+      "marketCap": 27934365375000.0,
+      "ma5": 1622200.0,
+      "ma20": 1702000.0,
+      "ma60": 1468966.67,
+      "ma200": 1007440.0,
+      "rsi14": 53.3,
+      "volumeRatio20d": 1.57,
+      "tradingValueRatio20d": 1.53,
+      "high20": 2489000.0,
+      "highLong": 2489000.0,
+      "relativeStrength": 2.55,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma60",
+        "above_ma200"
+      ],
+      "score": 25
+    }
+  ]
+}

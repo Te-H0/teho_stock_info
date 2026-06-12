@@ -1,0 +1,43 @@
+{
+  "symbol": "033780",
+  "name": "KT&G",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "consumer",
+  "tags": [
+    "food"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 185100.0,
+      "high": 190000.0,
+      "low": 184000.0,
+      "close": 188500.0,
+      "volume": 351668.0,
+      "changeRate": 1.95,
+      "tradingValue": 66289418000.0,
+      "marketCap": 19568270956000.0,
+      "ma5": 184020.0,
+      "ma20": 182410.0,
+      "ma60": 171860.0,
+      "ma200": 152787.0,
+      "rsi14": 60.2,
+      "volumeRatio20d": 0.81,
+      "tradingValueRatio20d": 0.83,
+      "high20": 190600.0,
+      "highLong": 190600.0,
+      "relativeStrength": -1.78,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment",
+        "near_20d_high",
+        "near_52w_high"
+      ],
+      "score": 55
+    }
+  ]
+}

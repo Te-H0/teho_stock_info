@@ -1,0 +1,39 @@
+{
+  "symbol": "293490",
+  "name": "카카오게임즈",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "consumer",
+  "tags": [
+    "game"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 8730.0,
+      "high": 9150.0,
+      "low": 8690.0,
+      "close": 9010.0,
+      "volume": 389555.0,
+      "changeRate": 3.44,
+      "tradingValue": 3509890550.0,
+      "marketCap": 808980068110.0,
+      "ma5": 8706.0,
+      "ma20": 9719.5,
+      "ma60": 11494.0,
+      "ma200": 14380.75,
+      "rsi14": 37.8,
+      "volumeRatio20d": 0.86,
+      "tradingValueRatio20d": 0.79,
+      "high20": 11760.0,
+      "highLong": 18900.0,
+      "relativeStrength": -0.29,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

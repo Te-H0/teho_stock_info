@@ -1,0 +1,39 @@
+{
+  "symbol": "263750",
+  "name": "펄어비스",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "consumer",
+  "tags": [
+    "game"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 41700.0,
+      "high": 42050.0,
+      "low": 40650.0,
+      "close": 41050.0,
+      "volume": 819125.0,
+      "changeRate": -0.85,
+      "tradingValue": 33625081250.0,
+      "marketCap": 2637374447750.0,
+      "ma5": 40640.0,
+      "ma20": 43710.0,
+      "ma60": 52358.33,
+      "ma200": 44129.75,
+      "rsi14": 39.4,
+      "volumeRatio20d": 0.52,
+      "tradingValueRatio20d": 0.46,
+      "high20": 53700.0,
+      "highLong": 77400.0,
+      "relativeStrength": -4.58,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

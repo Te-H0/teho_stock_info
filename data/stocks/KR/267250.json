@@ -1,0 +1,39 @@
+{
+  "symbol": "267250",
+  "name": "HD현대",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "finance",
+  "tags": [
+    "holding"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 245500.0,
+      "high": 255000.0,
+      "low": 243000.0,
+      "close": 247000.0,
+      "volume": 229443.0,
+      "changeRate": 1.02,
+      "tradingValue": 56672421000.0,
+      "marketCap": 19511291995000.0,
+      "ma5": 244700.0,
+      "ma20": 267800.0,
+      "ma60": 266708.33,
+      "ma200": 221978.0,
+      "rsi14": 32.9,
+      "volumeRatio20d": 0.82,
+      "tradingValueRatio20d": 0.74,
+      "high20": 307000.0,
+      "highLong": 336000.0,
+      "relativeStrength": -2.71,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 5
+    }
+  ]
+}

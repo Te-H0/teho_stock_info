@@ -1,0 +1,40 @@
+{
+  "symbol": "COST",
+  "name": "코스트코",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "consumer",
+  "tags": [
+    "retail"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 975.53,
+      "high": 984.78,
+      "low": 970.0,
+      "close": 977.03,
+      "volume": 116262.0,
+      "changeRate": 0.14,
+      "tradingValue": 113591462.0,
+      "marketCap": 433292095872.0,
+      "ma5": 975.89,
+      "ma20": 1000.82,
+      "ma60": 1000.96,
+      "ma200": 957.39,
+      "rsi14": 32.1,
+      "volumeRatio20d": 0.05,
+      "tradingValueRatio20d": 0.05,
+      "high20": 1096.5,
+      "highLong": 1096.5,
+      "relativeStrength": 0.89,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 5
+    }
+  ]
+}

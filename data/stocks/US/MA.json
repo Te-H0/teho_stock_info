@@ -1,0 +1,39 @@
+{
+  "symbol": "MA",
+  "name": "마스터카드",
+  "country": "US",
+  "market": "NYSE",
+  "primarySector": "finance",
+  "tags": [
+    "payment"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 488.88,
+      "high": 490.5,
+      "low": 484.58,
+      "close": 487.02,
+      "volume": 125420.0,
+      "changeRate": 0.1,
+      "tradingValue": 61082048.0,
+      "marketCap": 430323009062.0,
+      "ma5": 488.7,
+      "ma20": 491.63,
+      "ma60": 498.79,
+      "ma200": 536.77,
+      "rsi14": 42.6,
+      "volumeRatio20d": 0.03,
+      "tradingValueRatio20d": 0.03,
+      "high20": 512.9,
+      "highLong": 601.6199,
+      "relativeStrength": 0.85,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

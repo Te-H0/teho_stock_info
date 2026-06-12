@@ -1,0 +1,40 @@
+{
+  "symbol": "034730",
+  "name": "SK",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "finance",
+  "tags": [
+    "holding"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 600000.0,
+      "high": 620000.0,
+      "low": 584000.0,
+      "close": 594000.0,
+      "volume": 206014.0,
+      "changeRate": 2.06,
+      "tradingValue": 122372316000.0,
+      "marketCap": 43066605582000.0,
+      "ma5": 583000.0,
+      "ma20": 601400.0,
+      "ma60": 458541.67,
+      "ma200": 323678.5,
+      "rsi14": 53.2,
+      "volumeRatio20d": 0.55,
+      "tradingValueRatio20d": 0.54,
+      "high20": 719000.0,
+      "highLong": 719000.0,
+      "relativeStrength": -1.67,
+      "signals": [
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 10
+    }
+  ]
+}

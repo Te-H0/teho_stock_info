@@ -1,0 +1,40 @@
+{
+  "symbol": "180640",
+  "name": "한진칼",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "finance",
+  "tags": [
+    "holding"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 120000.0,
+      "high": 124000.0,
+      "low": 119700.0,
+      "close": 120800.0,
+      "volume": 149632.0,
+      "changeRate": 2.46,
+      "tradingValue": 18075545600.0,
+      "marketCap": 8064883303200.0,
+      "ma5": 115180.0,
+      "ma20": 114690.0,
+      "ma60": 114986.67,
+      "ma200": 114240.0,
+      "rsi14": 53.4,
+      "volumeRatio20d": 0.45,
+      "tradingValueRatio20d": 0.48,
+      "high20": 126000.0,
+      "highLong": 175900.0,
+      "relativeStrength": -1.27,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200"
+      ],
+      "score": 15
+    }
+  ]
+}

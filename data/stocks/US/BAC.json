@@ -1,0 +1,44 @@
+{
+  "symbol": "BAC",
+  "name": "뱅크오브아메리카",
+  "country": "US",
+  "market": "NYSE",
+  "primarySector": "finance",
+  "tags": [
+    "bank"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 55.6,
+      "high": 55.8,
+      "low": 55.26,
+      "close": 55.64,
+      "volume": 4162804.0,
+      "changeRate": 0.87,
+      "tradingValue": 231618415.0,
+      "marketCap": 394854303822.0,
+      "ma5": 54.68,
+      "ma20": 52.46,
+      "ma60": 51.62,
+      "ma200": 52.11,
+      "rsi14": 73.6,
+      "volumeRatio20d": 0.11,
+      "tradingValueRatio20d": 0.11,
+      "high20": 55.8,
+      "highLong": 57.55,
+      "relativeStrength": 1.62,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment",
+        "near_20d_high",
+        "near_52w_high"
+      ],
+      "score": 65
+    }
+  ]
+}

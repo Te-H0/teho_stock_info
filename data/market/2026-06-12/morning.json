@@ -1,50 +1,50 @@
 {
   "date": "2026-06-12",
   "session": "morning",
-  "marketChange": 0.05,
-  "upCount": 26,
-  "downCount": 22,
-  "totalCount": 48,
-  "upRatio": 0.54,
+  "marketChange": -0.75,
+  "upCount": 21,
+  "downCount": 37,
+  "totalCount": 58,
+  "upRatio": 0.36,
   "strongSectors": [
     "bank",
-    "solar",
-    "semiconductor_material",
-    "packaging",
-    "cloud"
+    "insurance",
+    "power_equipment",
+    "nuclear",
+    "payment"
   ],
   "weakSectors": [
-    "hbm",
-    "memory",
-    "semiconductor_material"
+    "drone",
+    "sto",
+    "satellite"
   ],
-  "summary": "시장 혼조(+0.05%). 은행, 태양광, 반도체소재 섹터로 자금 유입 감지.",
+  "summary": "시장 약세(-0.75%). 은행, 보험, 전력기기 섹터로 자금 유입 감지.",
   "headline": [
     {
       "key": "sp500",
       "name": "S&P500",
       "symbol": "^GSPC",
       "unit": "",
-      "value": 7394.3,
-      "changeRate": 1.75,
-      "date": "2026-06-11"
+      "value": 7373.07,
+      "changeRate": -0.29,
+      "date": "2026-06-12"
     },
     {
       "key": "nasdaq",
       "name": "나스닥",
       "symbol": "^IXIC",
       "unit": "",
-      "value": 25809.66,
-      "changeRate": 2.54,
-      "date": "2026-06-11"
+      "value": 25630.31,
+      "changeRate": -0.69,
+      "date": "2026-06-12"
     },
     {
       "key": "usdkrw",
       "name": "환율",
       "symbol": "KRW=X",
       "unit": "원",
-      "value": 1518.66,
-      "changeRate": -0.42,
+      "value": 1518.88,
+      "changeRate": -0.4,
       "date": "2026-06-12"
     }
   ]

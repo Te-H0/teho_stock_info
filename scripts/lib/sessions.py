@@ -30,6 +30,15 @@ def today_str(now: datetime | None = None) -> str:
     return (now or now_kst()).strftime("%Y-%m-%d")
 
 
+def is_us_review_day(now: datetime | None = None) -> bool:
+    """미국 리뷰(morning) 발송일: 한국 화~토.
+    미국 월~금장이 끝난 '다음 한국 아침'(화·수·목·금·토)에 직전 미국 거래일을 리뷰한다.
+    월요일 아침(미국 금요일은 토요일에 이미 리뷰)·일요일은 보내지 않는다(일요일은 주간 리포트).
+    """
+    now = now or now_kst()
+    return now.weekday() in (1, 2, 3, 4, 5)  # 화(1)~토(5)
+
+
 def is_market_open(country: str, toss=None, now: datetime | None = None) -> bool:
     """1차로 주말 거름. toss 주어지면 공휴일까지 캘린더로 보정."""
     now = now or now_kst()

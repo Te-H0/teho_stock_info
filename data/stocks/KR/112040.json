@@ -1,0 +1,40 @@
+{
+  "symbol": "112040",
+  "name": "위메이드",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "consumer",
+  "tags": [
+    "game",
+    "crypto"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 18000.0,
+      "high": 18500.0,
+      "low": 17760.0,
+      "close": 17990.0,
+      "volume": 184166.0,
+      "changeRate": 0.78,
+      "tradingValue": 3313146340.0,
+      "marketCap": 610733209170.0,
+      "ma5": 17298.0,
+      "ma20": 19126.5,
+      "ma60": 21086.17,
+      "ma200": 25432.1,
+      "rsi14": 38.4,
+      "volumeRatio20d": 0.73,
+      "tradingValueRatio20d": 0.68,
+      "high20": 22500.0,
+      "highLong": 34850.0,
+      "relativeStrength": -2.95,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

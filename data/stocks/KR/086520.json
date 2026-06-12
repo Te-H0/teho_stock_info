@@ -1,0 +1,40 @@
+{
+  "symbol": "086520",
+  "name": "에코프로",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "mobility",
+  "tags": [
+    "battery"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 112700.0,
+      "high": 120100.0,
+      "low": 112400.0,
+      "close": 116600.0,
+      "volume": 2183507.0,
+      "changeRate": 4.86,
+      "tradingValue": 254596916200.0,
+      "marketCap": 15831499323200.0,
+      "ma5": 109280.0,
+      "ma20": 126890.0,
+      "ma60": 142593.33,
+      "ma200": 110510.75,
+      "rsi14": 42.4,
+      "volumeRatio20d": 0.7,
+      "tradingValueRatio20d": 0.62,
+      "high20": 157700.0,
+      "highLong": 190000.0,
+      "relativeStrength": 1.13,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 5
+    }
+  ]
+}

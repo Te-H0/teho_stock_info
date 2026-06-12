@@ -28,7 +28,7 @@
       "tradingValueRatio20d": 2.12,
       "high20": 58200.0,
       "highLong": 67300.0,
-      "relativeStrength": 6.92,
+      "relativeStrength": 7.0,
       "signals": [
         "trading_value_surge",
         "volume_surge",

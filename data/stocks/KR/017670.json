@@ -1,0 +1,41 @@
+{
+  "symbol": "017670",
+  "name": "SK텔레콤",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "future_tech",
+  "tags": [
+    "telecom"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 101400.0,
+      "high": 108500.0,
+      "low": 101000.0,
+      "close": 103200.0,
+      "volume": 3099868.0,
+      "changeRate": 2.69,
+      "tradingValue": 319906377600.0,
+      "marketCap": 22166333469600.0,
+      "ma5": 104360.0,
+      "ma20": 104285.0,
+      "ma60": 94675.0,
+      "ma200": 69959.0,
+      "rsi14": 49.8,
+      "volumeRatio20d": 0.68,
+      "tradingValueRatio20d": 0.63,
+      "high20": 140300.0,
+      "highLong": 140300.0,
+      "relativeStrength": -1.04,
+      "signals": [
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment",
+        "ma20_breakdown"
+      ],
+      "score": 25
+    }
+  ]
+}

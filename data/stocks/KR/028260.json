@@ -1,0 +1,41 @@
+{
+  "symbol": "028260",
+  "name": "삼성물산",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "finance",
+  "tags": [
+    "holding"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 430000.0,
+      "high": 460500.0,
+      "low": 421500.0,
+      "close": 436500.0,
+      "volume": 1024785.0,
+      "changeRate": 5.69,
+      "tradingValue": 447318652500.0,
+      "marketCap": 70786149106500.0,
+      "ma5": 417500.0,
+      "ma20": 423400.0,
+      "ma60": 348441.67,
+      "ma200": 271975.5,
+      "rsi14": 54.3,
+      "volumeRatio20d": 1.01,
+      "tradingValueRatio20d": 1.02,
+      "high20": 565000.0,
+      "highLong": 565000.0,
+      "relativeStrength": 1.96,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma60",
+        "above_ma200"
+      ],
+      "score": 25
+    }
+  ]
+}

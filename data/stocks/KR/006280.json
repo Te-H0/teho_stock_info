@@ -1,0 +1,39 @@
+{
+  "symbol": "006280",
+  "name": "녹십자",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "bio_healthcare",
+  "tags": [
+    "cdmo"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 125000.0,
+      "high": 130000.0,
+      "low": 123100.0,
+      "close": 125800.0,
+      "volume": 70712.0,
+      "changeRate": 1.04,
+      "tradingValue": 8895569600.0,
+      "marketCap": 1470166480400.0,
+      "ma5": 122740.0,
+      "ma20": 133350.0,
+      "ma60": 140031.67,
+      "ma200": 143907.0,
+      "rsi14": 45.8,
+      "volumeRatio20d": 0.46,
+      "tradingValueRatio20d": 0.41,
+      "high20": 186100.0,
+      "highLong": 186100.0,
+      "relativeStrength": -2.69,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

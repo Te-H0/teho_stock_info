@@ -1,0 +1,38 @@
+{
+  "symbol": "CRM",
+  "name": "세일즈포스",
+  "country": "US",
+  "market": "NYSE",
+  "primarySector": "future_tech",
+  "tags": [
+    "cloud"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 164.48,
+      "high": 166.1,
+      "low": 161.4,
+      "close": 162.04,
+      "volume": 945645.0,
+      "changeRate": -2.65,
+      "tradingValue": 153232316.0,
+      "marketCap": 132710760000.0,
+      "ma5": 171.46,
+      "ma20": 181.28,
+      "ma60": 181.22,
+      "ma200": 218.26,
+      "rsi14": 39.4,
+      "volumeRatio20d": 0.06,
+      "tradingValueRatio20d": 0.05,
+      "high20": 211.34,
+      "highLong": 269.11,
+      "relativeStrength": -1.9,
+      "signals": [
+        "ma20_breakdown"
+      ],
+      "score": 0
+    }
+  ]
+}

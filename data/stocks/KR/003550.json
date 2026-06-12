@@ -1,0 +1,40 @@
+{
+  "symbol": "003550",
+  "name": "LG",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "finance",
+  "tags": [
+    "holding"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 110700.0,
+      "high": 113600.0,
+      "low": 104900.0,
+      "close": 106900.0,
+      "volume": 960454.0,
+      "changeRate": -0.93,
+      "tradingValue": 102672532600.0,
+      "marketCap": 16162425227600.0,
+      "ma5": 109060.0,
+      "ma20": 120370.0,
+      "ma60": 102786.67,
+      "ma200": 88834.5,
+      "rsi14": 45.8,
+      "volumeRatio20d": 0.32,
+      "tradingValueRatio20d": 0.25,
+      "high20": 185900.0,
+      "highLong": 185900.0,
+      "relativeStrength": -4.66,
+      "signals": [
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 10
+    }
+  ]
+}

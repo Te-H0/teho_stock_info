@@ -1,0 +1,39 @@
+{
+  "symbol": "047050",
+  "name": "포스코인터내셔널",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "energy_power",
+  "tags": [
+    "power_equipment"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 59200.0,
+      "high": 60300.0,
+      "low": 58200.0,
+      "close": 59500.0,
+      "volume": 636798.0,
+      "changeRate": 1.71,
+      "tradingValue": 37889481000.0,
+      "marketCap": 10467405886000.0,
+      "ma5": 57440.0,
+      "ma20": 64145.0,
+      "ma60": 73051.67,
+      "ma200": 61142.25,
+      "rsi14": 33.1,
+      "volumeRatio20d": 0.71,
+      "tradingValueRatio20d": 0.65,
+      "high20": 76500.0,
+      "highLong": 92100.0,
+      "relativeStrength": -2.02,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

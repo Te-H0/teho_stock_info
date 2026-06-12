@@ -1,0 +1,39 @@
+{
+  "symbol": "225570",
+  "name": "넥슨게임즈",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "consumer",
+  "tags": [
+    "game"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 10970.0,
+      "high": 10970.0,
+      "low": 9520.0,
+      "close": 9700.0,
+      "volume": 209691.0,
+      "changeRate": 3.08,
+      "tradingValue": 2034002700.0,
+      "marketCap": 638843687800.0,
+      "ma5": 9516.0,
+      "ma20": 10462.0,
+      "ma60": 11190.5,
+      "ma200": 12463.8,
+      "rsi14": 29.3,
+      "volumeRatio20d": 0.69,
+      "tradingValueRatio20d": 0.63,
+      "high20": 11960.0,
+      "highLong": 15530.0,
+      "relativeStrength": -0.65,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

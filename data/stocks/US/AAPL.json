@@ -1,0 +1,40 @@
+{
+  "symbol": "AAPL",
+  "name": "애플",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "consumer",
+  "tags": [
+    "consumer_electronics"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 296.08,
+      "high": 297.14,
+      "low": 291.36,
+      "close": 291.65,
+      "volume": 3363381.0,
+      "changeRate": -1.35,
+      "tradingValue": 980930069.0,
+      "marketCap": 4283567377400.0,
+      "ma5": 294.19,
+      "ma20": 303.91,
+      "ma60": 279.76,
+      "ma200": 266.87,
+      "rsi14": 34.5,
+      "volumeRatio20d": 0.07,
+      "tradingValueRatio20d": 0.06,
+      "high20": 317.4,
+      "highLong": 317.4,
+      "relativeStrength": -0.6,
+      "signals": [
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 10
+    }
+  ]
+}

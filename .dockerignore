@@ -1,0 +1,11 @@
+.git
+.env
+__pycache__
+*.pyc
+.venv
+venv
+data
+reports
+docs
+scripts/_research_*.json
+.DS_Store

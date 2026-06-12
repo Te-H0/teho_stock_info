@@ -1,0 +1,41 @@
+{
+  "symbol": "018260",
+  "name": "삼성에스디에스",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "future_tech",
+  "tags": [
+    "cloud"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 236500.0,
+      "high": 247750.0,
+      "low": 229000.0,
+      "close": 235000.0,
+      "volume": 1225944.0,
+      "changeRate": 1.73,
+      "tradingValue": 288096840000.0,
+      "marketCap": 18183783000000.0,
+      "ma5": 238900.0,
+      "ma20": 231780.0,
+      "ma60": 187720.0,
+      "ma200": 174261.0,
+      "rsi14": 56.1,
+      "volumeRatio20d": 0.48,
+      "tradingValueRatio20d": 0.43,
+      "high20": 389000.0,
+      "highLong": 389000.0,
+      "relativeStrength": -2.0,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment"
+      ],
+      "score": 30
+    }
+  ]
+}

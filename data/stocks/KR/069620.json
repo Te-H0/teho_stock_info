@@ -1,0 +1,40 @@
+{
+  "symbol": "069620",
+  "name": "대웅제약",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "bio_healthcare",
+  "tags": [
+    "obesity_drug",
+    "immuno_oncology"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 122000.0,
+      "high": 124100.0,
+      "low": 119600.0,
+      "close": 121000.0,
+      "volume": 37245.0,
+      "changeRate": 0.0,
+      "tradingValue": 4506645000.0,
+      "marketCap": 1401975575000.0,
+      "ma5": 119840.0,
+      "ma20": 129025.0,
+      "ma60": 145193.33,
+      "ma200": 154667.0,
+      "rsi14": 25.7,
+      "volumeRatio20d": 0.69,
+      "tradingValueRatio20d": 0.64,
+      "high20": 145800.0,
+      "highLong": 208000.0,
+      "relativeStrength": -3.73,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

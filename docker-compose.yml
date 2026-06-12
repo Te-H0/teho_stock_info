@@ -1,0 +1,11 @@
+services:
+  market-radar:
+    build: .
+    container_name: market-radar
+    env_file: .env          # 키는 .env 에서 주입 (이미지에 안 들어감)
+    environment:
+      - TZ=Asia/Seoul
+    restart: always         # 맥 재부팅/도커 재시작 시 자동으로 다시 띄움
+    volumes:
+      - ./data:/app/data        # 데이터 호스트에 영속 저장
+      - ./reports:/app/reports

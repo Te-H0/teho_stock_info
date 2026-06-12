@@ -1,0 +1,39 @@
+{
+  "symbol": "326030",
+  "name": "SK바이오팜",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "bio_healthcare",
+  "tags": [
+    "immuno_oncology"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 89800.0,
+      "high": 92300.0,
+      "low": 87900.0,
+      "close": 88900.0,
+      "volume": 230079.0,
+      "changeRate": -0.34,
+      "tradingValue": 20454023100.0,
+      "marketCap": 6962047925000.0,
+      "ma5": 87600.0,
+      "ma20": 91995.0,
+      "ma60": 96856.67,
+      "ma200": 109923.5,
+      "rsi14": 43.5,
+      "volumeRatio20d": 0.35,
+      "tradingValueRatio20d": 0.34,
+      "high20": 104000.0,
+      "highLong": 147800.0,
+      "relativeStrength": -4.07,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

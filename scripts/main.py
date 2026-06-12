@@ -39,11 +39,15 @@ def run() -> None:
 
     toss = TossClient(env["TOSS_CLIENT_ID"], env["TOSS_CLIENT_SECRET"])
 
-    # 발송 기준은 항상 '한국 영업일' (한국 사용자가 한국장 보기 전 받는 브리핑이므로).
-    # 미국 데이터는 collect가 '가장 최근 미국 거래일 종가'를 자동으로 가져옴
-    # (예: 한국 월요일 아침 → 미국 금요일 종가). 별도 날짜 계산 불필요.
-    if not force and not sessions.is_market_open("KR", toss):
-        print(f"[휴장] {date} 한국 영업일 아님 → 수집/발송 생략")
+    # 발송일 판정:
+    #  - close(한국): 한국 영업일(평일·비공휴일)
+    #  - morning(미국): 미국장 다음 한국 아침(화~토). 월요일·일요일 아침엔 미국을 보내지 않음.
+    if session == "close":
+        ok = sessions.is_market_open("KR", toss)
+    else:
+        ok = sessions.is_us_review_day()
+    if not force and not ok:
+        print(f"[휴장] {date} {session} 발송일 아님 → 수집/발송 생략")
         return
 
     sectors_cfg = load_sectors()

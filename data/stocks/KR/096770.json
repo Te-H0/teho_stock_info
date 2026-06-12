@@ -1,0 +1,40 @@
+{
+  "symbol": "096770",
+  "name": "SK이노베이션",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "industrial_material",
+  "tags": [
+    "chemical",
+    "battery"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 107300.0,
+      "high": 109600.0,
+      "low": 104500.0,
+      "close": 106200.0,
+      "volume": 780228.0,
+      "changeRate": 2.12,
+      "tradingValue": 82860213600.0,
+      "marketCap": 17953406085600.0,
+      "ma5": 104740.0,
+      "ma20": 115680.0,
+      "ma60": 121583.33,
+      "ma200": 115325.0,
+      "rsi14": 35.8,
+      "volumeRatio20d": 0.8,
+      "tradingValueRatio20d": 0.72,
+      "high20": 136400.0,
+      "highLong": 166000.0,
+      "relativeStrength": -1.61,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}
