@@ -1,0 +1,42 @@
+{
+  "symbol": "012450",
+  "name": "한화에어로스페이스",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "defense_space",
+  "tags": [
+    "defense",
+    "aerospace",
+    "satellite"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 1031000.0,
+      "high": 1105000.0,
+      "low": 1015000.0,
+      "close": 1092000.0,
+      "volume": 311920.0,
+      "changeRate": 7.48,
+      "tradingValue": 340616640000.0,
+      "marketCap": 56307233892000.0,
+      "ma5": 1032200.0,
+      "ma20": 1157800.0,
+      "ma60": 1319450.0,
+      "ma200": 1133020.0,
+      "rsi14": 28.6,
+      "volumeRatio20d": 1.0,
+      "tradingValueRatio20d": 0.94,
+      "high20": 1344000.0,
+      "highLong": 1713000.0,
+      "relativeStrength": 3.67,
+      "signals": [
+        "relative_strength_strong",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 10
+    }
+  ]
+}

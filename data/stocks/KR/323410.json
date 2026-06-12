@@ -1,0 +1,41 @@
+{
+  "symbol": "323410",
+  "name": "카카오뱅크",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "finance",
+  "tags": [
+    "fintech",
+    "bank",
+    "crypto"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 23600.0,
+      "high": 24450.0,
+      "low": 23250.0,
+      "close": 23850.0,
+      "volume": 1755762.0,
+      "changeRate": 1.49,
+      "tradingValue": 41874923700.0,
+      "marketCap": 11379322422450.0,
+      "ma5": 23820.0,
+      "ma20": 22742.5,
+      "ma60": 23881.67,
+      "ma200": 23606.75,
+      "rsi14": 58.1,
+      "volumeRatio20d": 0.89,
+      "tradingValueRatio20d": 0.93,
+      "high20": 25050.0,
+      "highLong": 30850.0,
+      "relativeStrength": -2.32,
+      "signals": [
+        "above_ma20",
+        "above_ma200"
+      ],
+      "score": 10
+    }
+  ]
+}

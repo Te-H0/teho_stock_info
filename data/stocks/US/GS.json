@@ -1,0 +1,43 @@
+{
+  "symbol": "GS",
+  "name": "골드만삭스",
+  "country": "US",
+  "market": "NYSE",
+  "primarySector": "finance",
+  "tags": [
+    "securities",
+    "bank"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 1032.3412,
+      "high": 1055.0,
+      "low": 1031.005,
+      "close": 1048.0,
+      "volume": 6591.0,
+      "changeRate": 1.19,
+      "tradingValue": 6907368.0,
+      "marketCap": 309167777208.0,
+      "ma5": 1032.39,
+      "ma20": 1013.15,
+      "ma60": 934.77,
+      "ma200": 869.64,
+      "rsi14": 58.6,
+      "volumeRatio20d": 0.0,
+      "tradingValueRatio20d": 0.0,
+      "high20": 1098.3631,
+      "highLong": 1098.3631,
+      "relativeStrength": 1.14,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment",
+        "near_52w_high"
+      ],
+      "score": 45
+    }
+  ]
+}

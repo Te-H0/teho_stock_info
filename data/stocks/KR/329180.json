@@ -1,0 +1,41 @@
+{
+  "symbol": "329180",
+  "name": "HD현대중공업",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "defense_space",
+  "tags": [
+    "shipbuilding",
+    "defense"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 656000.0,
+      "high": 678000.0,
+      "low": 642000.0,
+      "close": 650000.0,
+      "volume": 603662.0,
+      "changeRate": 1.4,
+      "tradingValue": 392380300000.0,
+      "marketCap": 68224796250000.0,
+      "ma5": 631200.0,
+      "ma20": 662050.0,
+      "ma60": 597066.67,
+      "ma200": 562537.5,
+      "rsi14": 48.1,
+      "volumeRatio20d": 0.8,
+      "tradingValueRatio20d": 0.77,
+      "high20": 768000.0,
+      "highLong": 768000.0,
+      "relativeStrength": -2.41,
+      "signals": [
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 10
+    }
+  ]
+}

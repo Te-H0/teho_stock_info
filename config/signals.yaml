@@ -1,0 +1,131 @@
+# 시그널 정의. 코드는 ID만 저장하고, 이름/설명/점수는 여기서 관리.
+# 기획문서 대비 변경: MACD/스토캐스틱 시그널 제거(트레이딩용), 상대강도 시그널 추가(자금흐름용).
+
+stockSignals:
+  - id: trading_value_surge
+    name: 거래대금 급증
+    description: 20일 평균 거래대금 대비 오늘 거래대금이 2배 이상
+    category: money
+    markets: [KR]   # 미국은 토스 거래량이 앱 내부 물량뿐이라 부정확 → KR만
+    condition: { metric: tradingValueRatio20d, op: ">=", value: 2.0 }
+    score: 15
+  - id: trading_value_surge_strong
+    name: 거래대금 폭증
+    description: 20일 평균 대비 3배 이상 (급증 +15에 누적되어 강도 반영)
+    category: money
+    markets: [KR]
+    condition: { metric: tradingValueRatio20d, op: ">=", value: 3.0 }
+    score: 5
+  - id: volume_surge
+    name: 거래량 급증
+    description: 20일 평균 거래량 대비 오늘 거래량이 2배 이상
+    category: money
+    markets: [KR]
+    condition: { metric: volumeRatio20d, op: ">=", value: 2.0 }
+    score: 10
+  - id: relative_strength_strong
+    name: 시장 대비 강세
+    description: 종목 등락률이 시장 대비 임계 이상 (자금 쏠림)
+    category: relative_strength
+    condition: { metric: relativeStrength, op: ">=", value: 1.5 }
+    score: 10
+  - id: above_ma20
+    name: 20일선 상회
+    description: 종가가 20일 이동평균선 위
+    category: trend
+    condition: { metric: close, op: ">", compareTo: ma20 }
+    score: 5
+  - id: above_ma60
+    name: 60일선 상회
+    description: 종가가 60일 이동평균선 위
+    category: trend
+    condition: { metric: close, op: ">", compareTo: ma60 }
+    score: 5
+  - id: above_ma200
+    name: 200일선 상회
+    description: 종가가 200일 이동평균선 위 (장기 추세 양호, 약세장 반등 거름)
+    category: trend
+    condition: { metric: close, op: ">", compareTo: ma200 }
+    score: 5
+  - id: ma_bullish_alignment
+    name: 이동평균 정배열
+    description: 5일선 > 20일선 > 60일선
+    category: trend
+    condition: { expression: "ma5 > ma20 and ma20 > ma60" }
+    score: 15
+  - id: near_20d_high
+    name: 20일 신고가 근접
+    description: 종가가 최근 20일 고점의 97% 이상
+    category: breakout
+    condition: { expression: "close >= high20 * 0.97" }
+    score: 10
+  - id: breakout_20d_high
+    name: 20일 신고가 돌파
+    description: 종가가 최근 20일 고점 이상으로 마감
+    category: breakout
+    condition: { expression: "close >= high20" }
+    score: 15
+  - id: near_52w_high
+    name: 52주 신고가 근접
+    description: 종가가 최근 52주(200일) 고점의 95% 이상
+    category: breakout
+    condition: { expression: "highLong is not None and close >= highLong * 0.95" }
+    score: 15
+  - id: breakout_52w_high
+    name: 52주 신고가 돌파
+    description: 종가가 최근 52주(200일) 고점 이상 (강한 추세 전환)
+    category: breakout
+    condition: { expression: "highLong is not None and close >= highLong" }
+    score: 20
+  - id: rsi_overheated
+    name: RSI 과열
+    description: RSI가 75 이상으로 단기 과열 가능성
+    category: risk
+    condition: { metric: rsi14, op: ">=", value: 75 }
+    score: -10
+  # 약세 시그널 (하락장 대칭용. 점수 0 = 표시 전용, 종목 점수엔 영향 없음)
+  - id: ma20_breakdown
+    name: 20일선 이탈
+    description: 종가가 20일 이동평균선 아래로 이탈
+    category: weakness
+    condition: { metric: close, op: "<", compareTo: ma20 }
+    score: 0
+  - id: ma_bearish_alignment
+    name: 역배열
+    description: 5일선 < 20일선 < 60일선 (하락 추세 정렬)
+    category: weakness
+    condition: { expression: "ma5 < ma20 and ma20 < ma60" }
+    score: 0
+
+sectorSignals:
+  - id: sector_relative_strength
+    name: 섹터 시장 대비 강세
+    description: 섹터 등락률이 시장 대비 임계 이상 (돈이 이 섹터로 쏠림)
+    category: sector_flow
+    condition: { metric: relativeStrength, op: ">=", value: 1.0 }
+    score: 25
+  - id: sector_trading_value_surge
+    name: 섹터 거래대금 증가
+    description: 섹터 전체 거래대금이 20일 평균 대비 1.5배 이상
+    category: sector_flow
+    markets: [KR]   # 미국 거래량 부정확 → KR만
+    condition: { metric: tradingValueRatio20d, op: ">=", value: 1.5 }
+    score: 20
+  - id: sector_breadth_strong
+    name: 섹터 상승 확산
+    description: 섹터 내 상승 종목 비율이 70% 이상
+    category: sector_breadth
+    condition: { metric: upRatio, op: ">=", value: 0.7 }
+    score: 20
+  - id: sector_leaders_strong
+    name: 대장주 동반 강세
+    description: 섹터 내 leader 종목 중 2개 이상이 상승
+    category: sector_leader
+    condition: { expression: "leaderUpCount >= 2" }
+    score: 20
+  - id: sector_breakout_many
+    name: 신고가 종목 다수
+    description: 섹터 내 20일 신고가 돌파 종목이 2개 이상
+    category: sector_breakout
+    condition: { expression: "breakoutCount >= 2" }
+    score: 15

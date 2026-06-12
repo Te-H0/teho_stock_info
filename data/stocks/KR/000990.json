@@ -1,0 +1,43 @@
+{
+  "symbol": "000990",
+  "name": "DB하이텍",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "foundry"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 166000.0,
+      "high": 181600.0,
+      "low": 154200.0,
+      "close": 171200.0,
+      "volume": 3183408.0,
+      "changeRate": 7.61,
+      "tradingValue": 544999449600.0,
+      "marketCap": 7447985465600.0,
+      "ma5": 162340.0,
+      "ma20": 175360.0,
+      "ma60": 135250.0,
+      "ma200": 88923.0,
+      "rsi14": 48.5,
+      "volumeRatio20d": 3.04,
+      "tradingValueRatio20d": 2.87,
+      "high20": 241000.0,
+      "highLong": 241000.0,
+      "relativeStrength": 3.8,
+      "signals": [
+        "trading_value_surge",
+        "volume_surge",
+        "relative_strength_strong",
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 45
+    }
+  ]
+}

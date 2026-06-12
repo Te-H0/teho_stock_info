@@ -1,0 +1,39 @@
+{
+  "symbol": "082740",
+  "name": "한화엔진",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "defense_space",
+  "tags": [
+    "shipbuilding"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 54500.0,
+      "high": 56100.0,
+      "low": 52700.0,
+      "close": 55000.0,
+      "volume": 979268.0,
+      "changeRate": 1.48,
+      "tradingValue": 53859740000.0,
+      "marketCap": 4589592810000.0,
+      "ma5": 53180.0,
+      "ma20": 63925.0,
+      "ma60": 60835.0,
+      "ma200": 51195.75,
+      "rsi14": 26.8,
+      "volumeRatio20d": 0.7,
+      "tradingValueRatio20d": 0.58,
+      "high20": 80700.0,
+      "highLong": 94400.0,
+      "relativeStrength": -2.33,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 5
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "symbol": "000810",
+  "name": "삼성화재",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "finance",
+  "tags": [
+    "insurance"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 660000.0,
+      "high": 695000.0,
+      "low": 646000.0,
+      "close": 655000.0,
+      "volume": 134841.0,
+      "changeRate": 0.15,
+      "tradingValue": 88320855000.0,
+      "marketCap": 29244094815000.0,
+      "ma5": 648800.0,
+      "ma20": 602350.0,
+      "ma60": 514533.33,
+      "ma200": 491435.0,
+      "rsi14": 62.8,
+      "volumeRatio20d": 0.54,
+      "tradingValueRatio20d": 0.58,
+      "high20": 757000.0,
+      "highLong": 757000.0,
+      "relativeStrength": -3.66,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment"
+      ],
+      "score": 30
+    }
+  ]
+}

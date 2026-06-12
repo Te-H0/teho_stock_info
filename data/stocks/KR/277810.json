@@ -1,0 +1,39 @@
+{
+  "symbol": "277810",
+  "name": "레인보우로보틱스",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "future_tech",
+  "tags": [
+    "robot"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 629000.0,
+      "high": 683000.0,
+      "low": 620000.0,
+      "close": 632000.0,
+      "volume": 396271.0,
+      "changeRate": 3.1,
+      "tradingValue": 250443272000.0,
+      "marketCap": 12260710256000.0,
+      "ma5": 618800.0,
+      "ma20": 709600.0,
+      "ma60": 662833.33,
+      "ma200": 522187.5,
+      "rsi14": 40.5,
+      "volumeRatio20d": 0.95,
+      "tradingValueRatio20d": 0.8,
+      "high20": 928000.0,
+      "highLong": 979000.0,
+      "relativeStrength": -0.71,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 5
+    }
+  ]
+}

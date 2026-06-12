@@ -1,0 +1,39 @@
+{
+  "symbol": "035900",
+  "name": "JYP Ent.",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "consumer",
+  "tags": [
+    "entertainment"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 55400.0,
+      "high": 57100.0,
+      "low": 54200.0,
+      "close": 55900.0,
+      "volume": 417675.0,
+      "changeRate": 1.82,
+      "tradingValue": 23348032500.0,
+      "marketCap": 1986266302800.0,
+      "ma5": 53160.0,
+      "ma20": 57430.0,
+      "ma60": 60566.67,
+      "ma200": 68612.5,
+      "rsi14": 39.7,
+      "volumeRatio20d": 1.02,
+      "tradingValueRatio20d": 0.98,
+      "high20": 64900.0,
+      "highLong": 105100.0,
+      "relativeStrength": -1.99,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

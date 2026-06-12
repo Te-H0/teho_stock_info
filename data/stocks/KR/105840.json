@@ -1,0 +1,39 @@
+{
+  "symbol": "105840",
+  "name": "우진",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "energy_power",
+  "tags": [
+    "nuclear"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 18010.0,
+      "high": 19040.0,
+      "low": 17870.0,
+      "close": 18070.0,
+      "volume": 408919.0,
+      "changeRate": 2.96,
+      "tradingValue": 7389166330.0,
+      "marketCap": 364971896900.0,
+      "ma5": 17452.0,
+      "ma20": 19914.5,
+      "ma60": 23789.0,
+      "ma200": 19677.8,
+      "rsi14": 31.5,
+      "volumeRatio20d": 1.22,
+      "tradingValueRatio20d": 1.07,
+      "high20": 23700.0,
+      "highLong": 31700.0,
+      "relativeStrength": -0.85,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

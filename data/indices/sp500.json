@@ -1,0 +1,12 @@
+{
+  "key": "sp500",
+  "name": "S&P500",
+  "symbol": "^GSPC",
+  "history": [
+    {
+      "date": "2026-06-11",
+      "value": 7394.3,
+      "changeRate": 1.75
+    }
+  ]
+}

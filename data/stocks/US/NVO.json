@@ -1,0 +1,39 @@
+{
+  "symbol": "NVO",
+  "name": "노보노디스크(ADR)",
+  "country": "US",
+  "market": "NYSE",
+  "primarySector": "bio_healthcare",
+  "tags": [
+    "obesity_drug"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 44.06,
+      "high": 44.21,
+      "low": 43.2301,
+      "close": 43.93,
+      "volume": 160531.0,
+      "changeRate": -0.07,
+      "tradingValue": 7052127.0,
+      "marketCap": 147868380000.0,
+      "ma5": 42.78,
+      "ma20": 43.86,
+      "ma60": 41.42,
+      "ma200": 48.41,
+      "rsi14": 46.1,
+      "volumeRatio20d": 0.01,
+      "tradingValueRatio20d": 0.01,
+      "high20": 46.05,
+      "highLong": 64.16,
+      "relativeStrength": -0.12,
+      "signals": [
+        "above_ma20",
+        "above_ma60"
+      ],
+      "score": 10
+    }
+  ]
+}

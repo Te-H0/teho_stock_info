@@ -1,0 +1,39 @@
+{
+  "symbol": "192820",
+  "name": "코스맥스",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "consumer",
+  "tags": [
+    "cosmetics"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 169400.0,
+      "high": 171900.0,
+      "low": 164700.0,
+      "close": 169700.0,
+      "volume": 88498.0,
+      "changeRate": 2.17,
+      "tradingValue": 15018110600.0,
+      "marketCap": 1926011677300.0,
+      "ma5": 164820.0,
+      "ma20": 173700.0,
+      "ma60": 192101.67,
+      "ma200": 191071.5,
+      "rsi14": 44.5,
+      "volumeRatio20d": 0.76,
+      "tradingValueRatio20d": 0.72,
+      "high20": 196500.0,
+      "highLong": 249000.0,
+      "relativeStrength": -1.64,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

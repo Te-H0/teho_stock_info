@@ -1,0 +1,40 @@
+{
+  "symbol": "141080",
+  "name": "리가켐바이오",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "bio_healthcare",
+  "tags": [
+    "adc",
+    "immuno_oncology"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 137000.0,
+      "high": 140900.0,
+      "low": 128000.0,
+      "close": 130700.0,
+      "volume": 471827.0,
+      "changeRate": -3.83,
+      "tradingValue": 61667788900.0,
+      "marketCap": 4838437932600.0,
+      "ma5": 127760.0,
+      "ma20": 148775.0,
+      "ma60": 178623.33,
+      "ma200": 169963.0,
+      "rsi14": 45.4,
+      "volumeRatio20d": 0.63,
+      "tradingValueRatio20d": 0.54,
+      "high20": 210000.0,
+      "highLong": 260000.0,
+      "relativeStrength": -7.64,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "symbol": "046970",
+  "name": "우리로",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "future_tech",
+  "tags": [
+    "quantum",
+    "optical_communication"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 6380.0,
+      "high": 6810.0,
+      "low": 6300.0,
+      "close": 6460.0,
+      "volume": 1145877.0,
+      "changeRate": 5.9,
+      "tradingValue": 7402365420.0,
+      "marketCap": 283109493540.0,
+      "ma5": 6292.0,
+      "ma20": 7645.0,
+      "ma60": 7969.33,
+      "ma200": 3328.6,
+      "rsi14": 36.6,
+      "volumeRatio20d": 0.25,
+      "tradingValueRatio20d": 0.19,
+      "high20": 11140.0,
+      "highLong": 16200.0,
+      "relativeStrength": 2.09,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 15
+    }
+  ]
+}

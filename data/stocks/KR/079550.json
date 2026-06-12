@@ -1,0 +1,41 @@
+{
+  "symbol": "079550",
+  "name": "LIG디펜스앤에어로스페이스",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "defense_space",
+  "tags": [
+    "defense",
+    "drone"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 740000.0,
+      "high": 797000.0,
+      "low": 731000.0,
+      "close": 774000.0,
+      "volume": 303186.0,
+      "changeRate": 2.25,
+      "tradingValue": 234665964000.0,
+      "marketCap": 17028000000000.0,
+      "ma5": 743800.0,
+      "ma20": 806500.0,
+      "ma60": 828983.33,
+      "ma200": 590352.5,
+      "rsi14": 39.7,
+      "volumeRatio20d": 0.86,
+      "tradingValueRatio20d": 0.82,
+      "high20": 939000.0,
+      "highLong": 1118000.0,
+      "relativeStrength": -1.56,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 5
+    }
+  ]
+}

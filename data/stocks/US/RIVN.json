@@ -1,0 +1,39 @@
+{
+  "symbol": "RIVN",
+  "name": "리비안",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "mobility",
+  "tags": [
+    "ev"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 15.53,
+      "high": 15.71,
+      "low": 15.4301,
+      "close": 15.5,
+      "volume": 149206.0,
+      "changeRate": -0.26,
+      "tradingValue": 2312693.0,
+      "marketCap": 19839641718.0,
+      "ma5": 15.67,
+      "ma20": 15.4,
+      "ma60": 15.49,
+      "ma200": 15.63,
+      "rsi14": 56.8,
+      "volumeRatio20d": 0.0,
+      "tradingValueRatio20d": 0.0,
+      "high20": 18.55,
+      "highLong": 22.69,
+      "relativeStrength": -0.31,
+      "signals": [
+        "above_ma20",
+        "above_ma60"
+      ],
+      "score": 10
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "symbol": "GOOGL",
+  "name": "알파벳 A",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "future_tech",
+  "tags": [
+    "cloud",
+    "quantum",
+    "autonomous_driving"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 359.13,
+      "high": 365.35,
+      "low": 347.74,
+      "close": 361.4015,
+      "volume": 1524002.0,
+      "changeRate": 1.02,
+      "tradingValue": 550776609.0,
+      "marketCap": 2417515335137.0,
+      "ma5": 360.62,
+      "ma20": 376.51,
+      "ma60": 350.33,
+      "ma200": 307.95,
+      "rsi14": 35.5,
+      "volumeRatio20d": 0.05,
+      "tradingValueRatio20d": 0.05,
+      "high20": 408.61,
+      "highLong": 408.61,
+      "relativeStrength": 0.97,
+      "signals": [
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 10
+    }
+  ]
+}

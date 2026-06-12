@@ -1,0 +1,39 @@
+{
+  "symbol": "000100",
+  "name": "유한양행",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "bio_healthcare",
+  "tags": [
+    "immuno_oncology"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 76500.0,
+      "high": 79000.0,
+      "low": 76500.0,
+      "close": 77600.0,
+      "volume": 367200.0,
+      "changeRate": 1.31,
+      "tradingValue": 28494720000.0,
+      "marketCap": 6180653837600.0,
+      "ma5": 75740.0,
+      "ma20": 81760.0,
+      "ma60": 90050.0,
+      "ma200": 106852.0,
+      "rsi14": 40.8,
+      "volumeRatio20d": 0.71,
+      "tradingValueRatio20d": 0.67,
+      "high20": 91000.0,
+      "highLong": 129200.0,
+      "relativeStrength": -2.5,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

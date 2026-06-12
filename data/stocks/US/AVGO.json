@@ -1,0 +1,41 @@
+{
+  "symbol": "AVGO",
+  "name": "브로드컴",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "datacenter",
+    "optical_communication",
+    "semiconductor_equipment"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 383.73,
+      "high": 389.5,
+      "low": 375.61,
+      "close": 384.12,
+      "volume": 174447.0,
+      "changeRate": -0.38,
+      "tradingValue": 67008582.0,
+      "marketCap": 1827481705656.0,
+      "ma5": 386.11,
+      "ma20": 418.83,
+      "ma60": 390.68,
+      "ma200": 358.11,
+      "rsi14": 43.0,
+      "volumeRatio20d": 0.01,
+      "tradingValueRatio20d": 0.01,
+      "high20": 495.0,
+      "highLong": 495.0,
+      "relativeStrength": -0.43,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 5
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "symbol": "000660",
+  "name": "SK하이닉스",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "memory",
+    "hbm",
+    "datacenter"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 2278000.0,
+      "high": 2346000.0,
+      "low": 2114000.0,
+      "close": 2162000.0,
+      "volume": 9508078.0,
+      "changeRate": 1.12,
+      "tradingValue": 20556464636000.0,
+      "marketCap": 1540862513130000.0,
+      "ma5": 2105800.0,
+      "ma20": 2076000.0,
+      "ma60": 1473850.0,
+      "ma200": 856337.5,
+      "rsi14": 57.9,
+      "volumeRatio20d": 0.95,
+      "tradingValueRatio20d": 0.99,
+      "high20": 2470000.0,
+      "highLong": 2470000.0,
+      "relativeStrength": -2.69,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment"
+      ],
+      "score": 30
+    }
+  ]
+}

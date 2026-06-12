@@ -1,0 +1,42 @@
+{
+  "symbol": "ASML",
+  "name": "ASML 홀딩(ADR)",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "semiconductor_equipment"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 1855.23,
+      "high": 1913.834,
+      "low": 1779.19,
+      "close": 1835.61,
+      "volume": 76120.0,
+      "changeRate": -3.36,
+      "tradingValue": 139726633.0,
+      "marketCap": 707476520051.0,
+      "ma5": 1799.22,
+      "ma20": 1655.64,
+      "ma60": 1503.99,
+      "ma200": 1245.02,
+      "rsi14": 64.1,
+      "volumeRatio20d": 0.04,
+      "tradingValueRatio20d": 0.05,
+      "high20": 1913.834,
+      "highLong": 1913.834,
+      "relativeStrength": -3.41,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment",
+        "near_52w_high"
+      ],
+      "score": 45
+    }
+  ]
+}

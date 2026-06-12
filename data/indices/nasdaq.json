@@ -1,0 +1,12 @@
+{
+  "key": "nasdaq",
+  "name": "나스닥",
+  "symbol": "^IXIC",
+  "history": [
+    {
+      "date": "2026-06-11",
+      "value": 25809.66,
+      "changeRate": 2.54
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+name: Market Radar
+
+on:
+  schedule:
+    # 한국시간 기준 (UTC). 평일만.
+    - cron: "30 22 * * 0-4"   # KST 07:30 아침(미국 마감 리뷰) — UTC 전날 22:30
+    - cron: "0 7 * * 1-5"     # KST 16:00 마감(한국 정리) — UTC 07:00
+  workflow_dispatch:          # 수동 실행 (세션 선택)
+    inputs:
+      session:
+        description: "morning(미국) / close(한국)"
+        required: false
+        default: close
+
+permissions:
+  contents: write             # 데이터 커밋/푸시용
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Market Radar
+        env:
+          TOSS_CLIENT_ID: ${{ secrets.TOSS_CLIENT_ID }}
+          TOSS_CLIENT_SECRET: ${{ secrets.TOSS_CLIENT_SECRET }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          KRX_ID: ${{ secrets.KRX_ID }}
+          KRX_PW: ${{ secrets.KRX_PW }}
+        run: |
+          # cron 시각으로 세션 결정 (수동 실행 시 입력값 사용)
+          if [ -n "${{ github.event.inputs.session }}" ]; then
+            SESSION="${{ github.event.inputs.session }}"
+          elif [ "${{ github.event.schedule }}" = "30 22 * * 0-4" ]; then
+            SESSION=morning
+          else
+            SESSION=close
+          fi
+          echo "session=$SESSION"
+          python scripts/main.py "$SESSION"
+
+      - name: Commit & push data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data reports
+          git diff --cached --quiet || git commit -m "Update market radar data"
+          git push

@@ -1,0 +1,39 @@
+{
+  "symbol": "039130",
+  "name": "하나투어",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "consumer",
+  "tags": [
+    "travel"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 35000.0,
+      "high": 38400.0,
+      "low": 35000.0,
+      "close": 36150.0,
+      "volume": 90159.0,
+      "changeRate": 4.18,
+      "tradingValue": 3259247850.0,
+      "marketCap": 559961041800.0,
+      "ma5": 34620.0,
+      "ma20": 36932.5,
+      "ma60": 40165.83,
+      "ma200": 45865.25,
+      "rsi14": 43.3,
+      "volumeRatio20d": 0.95,
+      "tradingValueRatio20d": 0.92,
+      "high20": 40650.0,
+      "highLong": 56000.0,
+      "relativeStrength": 0.37,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "date": "2026-06-12",
+  "session": "close",
+  "marketChange": 3.81,
+  "upCount": 104,
+  "downCount": 22,
+  "totalCount": 126,
+  "upRatio": 0.83,
+  "strongSectors": [
+    "construction",
+    "semiconductor_equipment",
+    "foundry",
+    "nuclear",
+    "bank"
+  ],
+  "weakSectors": [
+    "medical_device",
+    "adc",
+    "semiconductor_material"
+  ],
+  "summary": "시장 강세(+3.81%). 건설, 반도체장비, 파운드리 섹터로 자금 유입 감지.",
+  "headline": [
+    {
+      "key": "kospi",
+      "name": "코스피",
+      "symbol": "^KS11",
+      "unit": "",
+      "value": 8123.62,
+      "changeRate": 4.63,
+      "date": "2026-06-12"
+    },
+    {
+      "key": "kosdaq",
+      "name": "코스닥",
+      "symbol": "^KQ11",
+      "unit": "",
+      "value": 1029.05,
+      "changeRate": 3.22,
+      "date": "2026-06-12"
+    },
+    {
+      "key": "usdkrw",
+      "name": "환율",
+      "symbol": "KRW=X",
+      "unit": "원",
+      "value": 1518.88,
+      "changeRate": -0.4,
+      "date": "2026-06-12"
+    }
+  ],
+  "flow": {
+    "date": "20260612",
+    "market": {
+      "외국인": 2491288260279,
+      "기관": 2918479001243,
+      "개인": -5259007176457
+    },
+    "byInvestor": {
+      "외국인": {
+        "emoji": "🌍",
+        "buy": {
+          "sector": "HBM",
+          "value": 2258759322000
+        },
+        "sell": {
+          "sector": "조선",
+          "value": -136855076475
+        }
+      },
+      "기관": {
+        "emoji": "🏦",
+        "buy": {
+          "sector": "메모리",
+          "value": 1536282603500
+        },
+        "sell": {
+          "sector": "반도체소재",
+          "value": -634251584200
+        }
+      },
+      "개인": {
+        "emoji": "👤",
+        "buy": {
+          "sector": "전선",
+          "value": 128554302630
+        },
+        "sell": {
+          "sector": "HBM",
+          "value": -3191656769250
+        }
+      }
+    },
+    "pinnedStocks": {
+      "005930": {
+        "외국인": 971587008000,
+        "기관": 1097528696500,
+        "개인": -1979878605750
+      },
+      "000660": {
+        "외국인": 1288200729000,
+        "기관": -550974932500,
+        "개인": -674383450000
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "symbol": "017800",
+  "name": "현대엘리베이터",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "industrial_material",
+  "tags": [
+    "machinery"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 81100.0,
+      "high": 82700.0,
+      "low": 79100.0,
+      "close": 81100.0,
+      "volume": 514869.0,
+      "changeRate": 0.25,
+      "tradingValue": 41755875900.0,
+      "marketCap": 3170392423500.0,
+      "ma5": 78040.0,
+      "ma20": 81590.0,
+      "ma60": 88960.0,
+      "ma200": 87160.5,
+      "rsi14": 46.2,
+      "volumeRatio20d": 1.26,
+      "tradingValueRatio20d": 1.23,
+      "high20": 94900.0,
+      "highLong": 114300.0,
+      "relativeStrength": -3.56,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

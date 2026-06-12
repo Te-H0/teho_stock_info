@@ -1,0 +1,44 @@
+{
+  "symbol": "058470",
+  "name": "리노공업",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "semiconductor_equipment",
+    "semiconductor_material"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 102000.0,
+      "high": 109500.0,
+      "low": 99100.0,
+      "close": 102800.0,
+      "volume": 13321843.0,
+      "changeRate": 1.48,
+      "tradingValue": 1369485460400.0,
+      "marketCap": 7834578180000.0,
+      "ma5": 96620.0,
+      "ma20": 99650.0,
+      "ma60": 107250.0,
+      "ma200": 79360.0,
+      "rsi14": 49.5,
+      "volumeRatio20d": 9.6,
+      "tradingValueRatio20d": 9.86,
+      "high20": 115700.0,
+      "highLong": 133100.0,
+      "relativeStrength": -2.33,
+      "signals": [
+        "trading_value_surge",
+        "trading_value_surge_strong",
+        "volume_surge",
+        "above_ma20",
+        "above_ma200",
+        "ma_bearish_alignment"
+      ],
+      "score": 40
+    }
+  ]
+}

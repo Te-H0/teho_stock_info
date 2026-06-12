@@ -1,0 +1,38 @@
+{
+  "symbol": "CRSP",
+  "name": "크리스퍼 테라퓨틱스",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "bio_healthcare",
+  "tags": [
+    "immuno_oncology"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 49.41,
+      "high": 51.0,
+      "low": 49.41,
+      "close": 50.56,
+      "volume": 3781.0,
+      "changeRate": 0.66,
+      "tradingValue": 191167.0,
+      "marketCap": 4876450924.0,
+      "ma5": 50.66,
+      "ma20": 51.57,
+      "ma60": 51.57,
+      "ma200": 55.53,
+      "rsi14": 50.4,
+      "volumeRatio20d": 0.0,
+      "tradingValueRatio20d": 0.0,
+      "high20": 59.0,
+      "highLong": 78.48,
+      "relativeStrength": 0.61,
+      "signals": [
+        "ma20_breakdown"
+      ],
+      "score": 0
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "symbol": "003230",
+  "name": "삼양식품",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "consumer",
+  "tags": [
+    "food"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 1177000.0,
+      "high": 1212000.0,
+      "low": 1136000.0,
+      "close": 1149000.0,
+      "volume": 70885.0,
+      "changeRate": -1.88,
+      "tradingValue": 81446865000.0,
+      "marketCap": 8655434235000.0,
+      "ma5": 1125000.0,
+      "ma20": 1238450.0,
+      "ma60": 1252283.33,
+      "ma200": 1297610.0,
+      "rsi14": 30.0,
+      "volumeRatio20d": 0.67,
+      "tradingValueRatio20d": 0.6,
+      "high20": 1484000.0,
+      "highLong": 1665000.0,
+      "relativeStrength": -5.69,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

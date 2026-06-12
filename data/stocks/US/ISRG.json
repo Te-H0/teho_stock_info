@@ -1,0 +1,40 @@
+{
+  "symbol": "ISRG",
+  "name": "인튜이티브 서지컬",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "bio_healthcare",
+  "tags": [
+    "medical_device",
+    "robot"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 413.3377,
+      "high": 417.9002,
+      "low": 412.7,
+      "close": 414.39,
+      "volume": 1743.0,
+      "changeRate": 0.36,
+      "tradingValue": 722282.0,
+      "marketCap": 146761540096.0,
+      "ma5": 416.91,
+      "ma20": 424.01,
+      "ma60": 447.41,
+      "ma200": 491.93,
+      "rsi14": 37.7,
+      "volumeRatio20d": 0.0,
+      "tradingValueRatio20d": 0.0,
+      "high20": 449.77,
+      "highLong": 603.88,
+      "relativeStrength": 0.31,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

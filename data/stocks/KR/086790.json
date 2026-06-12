@@ -1,0 +1,42 @@
+{
+  "symbol": "086790",
+  "name": "하나금융지주",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "finance",
+  "tags": [
+    "bank",
+    "crypto"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 116000.0,
+      "high": 125200.0,
+      "low": 115200.0,
+      "close": 122000.0,
+      "volume": 1347099.0,
+      "changeRate": 5.81,
+      "tradingValue": 164346078000.0,
+      "marketCap": 33472865256000.0,
+      "ma5": 117460.0,
+      "ma20": 118285.0,
+      "ma60": 118076.67,
+      "ma200": 102612.5,
+      "rsi14": 53.4,
+      "volumeRatio20d": 1.17,
+      "tradingValueRatio20d": 1.21,
+      "high20": 128600.0,
+      "highLong": 133700.0,
+      "relativeStrength": 2.0,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma60",
+        "above_ma200"
+      ],
+      "score": 25
+    }
+  ]
+}

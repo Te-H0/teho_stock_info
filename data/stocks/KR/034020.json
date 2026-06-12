@@ -1,0 +1,42 @@
+{
+  "symbol": "034020",
+  "name": "두산에너빌리티",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "energy_power",
+  "tags": [
+    "nuclear",
+    "wind",
+    "power_equipment"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 92700.0,
+      "high": 97300.0,
+      "low": 91100.0,
+      "close": 94700.0,
+      "volume": 7565638.0,
+      "changeRate": 5.11,
+      "tradingValue": 716465918600.0,
+      "marketCap": 60661140526200.0,
+      "ma5": 90940.0,
+      "ma20": 103070.0,
+      "ma60": 108070.0,
+      "ma200": 88388.0,
+      "rsi14": 39.1,
+      "volumeRatio20d": 0.98,
+      "tradingValueRatio20d": 0.88,
+      "high20": 122800.0,
+      "highLong": 139200.0,
+      "relativeStrength": 1.3,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 5
+    }
+  ]
+}

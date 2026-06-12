@@ -1,0 +1,40 @@
+{
+  "symbol": "011170",
+  "name": "롯데케미칼",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "industrial_material",
+  "tags": [
+    "chemical"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 77800.0,
+      "high": 79100.0,
+      "low": 76000.0,
+      "close": 77500.0,
+      "volume": 229981.0,
+      "changeRate": 2.11,
+      "tradingValue": 17823527500.0,
+      "marketCap": 3315094972500.0,
+      "ma5": 75360.0,
+      "ma20": 80205.0,
+      "ma60": 86753.33,
+      "ma200": 77126.0,
+      "rsi14": 42.6,
+      "volumeRatio20d": 0.78,
+      "tradingValueRatio20d": 0.74,
+      "high20": 93100.0,
+      "highLong": 119700.0,
+      "relativeStrength": -1.7,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 5
+    }
+  ]
+}

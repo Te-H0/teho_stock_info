@@ -1,0 +1,49 @@
+{
+  "symbol": "403870",
+  "name": "HPSP",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "semiconductor_equipment"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 57300.0,
+      "high": 71500.0,
+      "low": 56600.0,
+      "close": 71500.0,
+      "volume": 16855107.0,
+      "changeRate": 30.0,
+      "tradingValue": 1205140150500.0,
+      "marketCap": 5884450000000.0,
+      "ma5": 56750.0,
+      "ma20": 52452.5,
+      "ma60": 49518.33,
+      "ma200": 38838.75,
+      "rsi14": 64.1,
+      "volumeRatio20d": 4.05,
+      "tradingValueRatio20d": 5.49,
+      "high20": 71500.0,
+      "highLong": 71500.0,
+      "relativeStrength": 26.19,
+      "signals": [
+        "trading_value_surge",
+        "trading_value_surge_strong",
+        "volume_surge",
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment",
+        "near_20d_high",
+        "breakout_20d_high",
+        "near_52w_high",
+        "breakout_52w_high"
+      ],
+      "score": 130
+    }
+  ]
+}

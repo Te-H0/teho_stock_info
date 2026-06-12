@@ -1,0 +1,40 @@
+{
+  "symbol": "139480",
+  "name": "이마트",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "consumer",
+  "tags": [
+    "retail"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 89900.0,
+      "high": 93500.0,
+      "low": 87900.0,
+      "close": 89100.0,
+      "volume": 323779.0,
+      "changeRate": 0.56,
+      "tradingValue": 28848708900.0,
+      "marketCap": 2458787472900.0,
+      "ma5": 87440.0,
+      "ma20": 91500.0,
+      "ma60": 97193.33,
+      "ma200": 87615.5,
+      "rsi14": 42.7,
+      "volumeRatio20d": 0.71,
+      "tradingValueRatio20d": 0.67,
+      "high20": 118700.0,
+      "highLong": 137500.0,
+      "relativeStrength": -3.25,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 5
+    }
+  ]
+}

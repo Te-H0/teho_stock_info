@@ -1,0 +1,43 @@
+{
+  "symbol": "052690",
+  "name": "한전기술",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "energy_power",
+  "tags": [
+    "nuclear"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 125000.0,
+      "high": 151300.0,
+      "low": 118700.0,
+      "close": 133600.0,
+      "volume": 723088.0,
+      "changeRate": 12.55,
+      "tradingValue": 96604556800.0,
+      "marketCap": 5106192000000.0,
+      "ma5": 120860.0,
+      "ma20": 134505.0,
+      "ma60": 160153.33,
+      "ma200": 124569.5,
+      "rsi14": 44.3,
+      "volumeRatio20d": 2.87,
+      "tradingValueRatio20d": 2.78,
+      "high20": 160000.0,
+      "highLong": 198000.0,
+      "relativeStrength": 8.74,
+      "signals": [
+        "trading_value_surge",
+        "volume_surge",
+        "relative_strength_strong",
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 40
+    }
+  ]
+}

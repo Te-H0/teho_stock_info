@@ -1,0 +1,39 @@
+{
+  "symbol": "211270",
+  "name": "AP위성",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "defense_space",
+  "tags": [
+    "satellite"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 12970.0,
+      "high": 13370.0,
+      "low": 12220.0,
+      "close": 12260.0,
+      "volume": 337891.0,
+      "changeRate": -2.62,
+      "tradingValue": 4142543660.0,
+      "marketCap": 184909047040.0,
+      "ma5": 12130.0,
+      "ma20": 14777.0,
+      "ma60": 16146.33,
+      "ma200": 14493.95,
+      "rsi14": 32.0,
+      "volumeRatio20d": 0.67,
+      "tradingValueRatio20d": 0.5,
+      "high20": 19840.0,
+      "highLong": 22400.0,
+      "relativeStrength": -6.43,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

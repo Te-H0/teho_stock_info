@@ -1,0 +1,40 @@
+{
+  "symbol": "257720",
+  "name": "실리콘투",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "consumer",
+  "tags": [
+    "cosmetics",
+    "retail"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 35900.0,
+      "high": 36650.0,
+      "low": 34550.0,
+      "close": 34800.0,
+      "volume": 746097.0,
+      "changeRate": -2.11,
+      "tradingValue": 25964175600.0,
+      "marketCap": 2282053569600.0,
+      "ma5": 34160.0,
+      "ma20": 36655.0,
+      "ma60": 40494.17,
+      "ma200": 42698.75,
+      "rsi14": 37.2,
+      "volumeRatio20d": 0.67,
+      "tradingValueRatio20d": 0.63,
+      "high20": 43150.0,
+      "highLong": 56100.0,
+      "relativeStrength": -5.92,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

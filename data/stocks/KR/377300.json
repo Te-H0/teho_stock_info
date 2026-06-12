@@ -1,0 +1,40 @@
+{
+  "symbol": "377300",
+  "name": "카카오페이",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "finance",
+  "tags": [
+    "fintech",
+    "crypto"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 45600.0,
+      "high": 46350.0,
+      "low": 44450.0,
+      "close": 44950.0,
+      "volume": 599555.0,
+      "changeRate": 0.11,
+      "tradingValue": 26949997250.0,
+      "marketCap": 6079769561250.0,
+      "ma5": 43620.0,
+      "ma20": 46777.5,
+      "ma60": 52232.5,
+      "ma200": 54208.5,
+      "rsi14": 44.0,
+      "volumeRatio20d": 0.79,
+      "tradingValueRatio20d": 0.74,
+      "high20": 57800.0,
+      "highLong": 80800.0,
+      "relativeStrength": -3.7,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

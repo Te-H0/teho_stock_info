@@ -1,0 +1,40 @@
+{
+  "symbol": "247540",
+  "name": "에코프로비엠",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "mobility",
+  "tags": [
+    "battery"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 170100.0,
+      "high": 178600.0,
+      "low": 167900.0,
+      "close": 171900.0,
+      "volume": 1040083.0,
+      "changeRate": 2.44,
+      "tradingValue": 178790267700.0,
+      "marketCap": 16817051604600.0,
+      "ma5": 166660.0,
+      "ma20": 192295.0,
+      "ma60": 200971.67,
+      "ma200": 171513.0,
+      "rsi14": 41.1,
+      "volumeRatio20d": 0.77,
+      "tradingValueRatio20d": 0.67,
+      "high20": 235500.0,
+      "highLong": 260000.0,
+      "relativeStrength": -1.37,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 5
+    }
+  ]
+}

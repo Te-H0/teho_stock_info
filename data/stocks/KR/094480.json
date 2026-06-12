@@ -1,0 +1,40 @@
+{
+  "symbol": "094480",
+  "name": "갤럭시아머니트리",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "finance",
+  "tags": [
+    "sto",
+    "fintech"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 6000.0,
+      "high": 6380.0,
+      "low": 5980.0,
+      "close": 6180.0,
+      "volume": 200697.0,
+      "changeRate": 4.57,
+      "tradingValue": 1240307460.0,
+      "marketCap": 242440398840.0,
+      "ma5": 5862.0,
+      "ma20": 6462.0,
+      "ma60": 7775.5,
+      "ma200": 9316.05,
+      "rsi14": 38.9,
+      "volumeRatio20d": 0.74,
+      "tradingValueRatio20d": 0.69,
+      "high20": 7780.0,
+      "highLong": 12250.0,
+      "relativeStrength": 0.76,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

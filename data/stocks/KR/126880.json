@@ -1,0 +1,39 @@
+{
+  "symbol": "126880",
+  "name": "제이엔케이글로벌",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "datacenter"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 3050.0,
+      "high": 3200.0,
+      "low": 2985.0,
+      "close": 3115.0,
+      "volume": 93098.0,
+      "changeRate": 0.97,
+      "tradingValue": 290000270.0,
+      "marketCap": 72283272845.0,
+      "ma5": 3004.0,
+      "ma20": 3184.0,
+      "ma60": 3616.42,
+      "ma200": 3927.43,
+      "rsi14": 48.6,
+      "volumeRatio20d": 0.74,
+      "tradingValueRatio20d": 0.71,
+      "high20": 3580.0,
+      "highLong": 5520.0,
+      "relativeStrength": -2.84,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

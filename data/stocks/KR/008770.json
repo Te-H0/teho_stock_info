@@ -1,0 +1,41 @@
+{
+  "symbol": "008770",
+  "name": "호텔신라",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "consumer",
+  "tags": [
+    "travel",
+    "retail"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 56000.0,
+      "high": 57400.0,
+      "low": 54900.0,
+      "close": 55100.0,
+      "volume": 457918.0,
+      "changeRate": -0.9,
+      "tradingValue": 25231281800.0,
+      "marketCap": 2162571467100.0,
+      "ma5": 54900.0,
+      "ma20": 56520.0,
+      "ma60": 53813.33,
+      "ma200": 49424.75,
+      "rsi14": 43.9,
+      "volumeRatio20d": 0.81,
+      "tradingValueRatio20d": 0.78,
+      "high20": 67700.0,
+      "highLong": 70300.0,
+      "relativeStrength": -4.71,
+      "signals": [
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 10
+    }
+  ]
+}

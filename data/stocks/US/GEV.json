@@ -1,0 +1,42 @@
+{
+  "symbol": "GEV",
+  "name": "GE 버노바",
+  "country": "US",
+  "market": "NYSE",
+  "primarySector": "energy_power",
+  "tags": [
+    "power_equipment",
+    "nuclear",
+    "wind"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 908.2072,
+      "high": 925.0,
+      "low": 900.57,
+      "close": 910.6327,
+      "volume": 10886.0,
+      "changeRate": 0.42,
+      "tradingValue": 9913148.0,
+      "marketCap": 244705214591.0,
+      "ma5": 907.7,
+      "ma20": 978.1,
+      "ma60": 989.4,
+      "ma200": 764.13,
+      "rsi14": 30.3,
+      "volumeRatio20d": 0.0,
+      "tradingValueRatio20d": 0.0,
+      "high20": 1094.9999,
+      "highLong": 1181.95,
+      "relativeStrength": 0.37,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 5
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "symbol": "047810",
+  "name": "한국항공우주",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "defense_space",
+  "tags": [
+    "aerospace",
+    "defense",
+    "satellite"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 142000.0,
+      "high": 146700.0,
+      "low": 139000.0,
+      "close": 141500.0,
+      "volume": 1011845.0,
+      "changeRate": -0.35,
+      "tradingValue": 143176067500.0,
+      "marketCap": 13792727640500.0,
+      "ma5": 134140.0,
+      "ma20": 153680.0,
+      "ma60": 172368.33,
+      "ma200": 139223.0,
+      "rsi14": 36.0,
+      "volumeRatio20d": 0.96,
+      "tradingValueRatio20d": 0.88,
+      "high20": 175200.0,
+      "highLong": 215500.0,
+      "relativeStrength": -4.16,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 5
+    }
+  ]
+}

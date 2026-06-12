@@ -1,0 +1,39 @@
+{
+  "symbol": "097950",
+  "name": "CJ제일제당",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "consumer",
+  "tags": [
+    "food"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 195100.0,
+      "high": 202500.0,
+      "low": 195100.0,
+      "close": 200000.0,
+      "volume": 87470.0,
+      "changeRate": 2.41,
+      "tradingValue": 17494000000.0,
+      "marketCap": 3010837200000.0,
+      "ma5": 196180.0,
+      "ma20": 207560.0,
+      "ma60": 220193.33,
+      "ma200": 220589.5,
+      "rsi14": 31.1,
+      "volumeRatio20d": 0.85,
+      "tradingValueRatio20d": 0.81,
+      "high20": 237500.0,
+      "highLong": 252000.0,
+      "relativeStrength": -1.4,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

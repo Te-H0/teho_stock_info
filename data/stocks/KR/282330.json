@@ -1,0 +1,40 @@
+{
+  "symbol": "282330",
+  "name": "BGF리테일",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "consumer",
+  "tags": [
+    "retail"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 129400.0,
+      "high": 132000.0,
+      "low": 124300.0,
+      "close": 129000.0,
+      "volume": 125468.0,
+      "changeRate": 0.78,
+      "tradingValue": 16185372000.0,
+      "marketCap": 2229623874000.0,
+      "ma5": 128300.0,
+      "ma20": 130515.0,
+      "ma60": 131061.67,
+      "ma200": 118467.0,
+      "rsi14": 45.4,
+      "volumeRatio20d": 1.67,
+      "tradingValueRatio20d": 1.64,
+      "high20": 146000.0,
+      "highLong": 148000.0,
+      "relativeStrength": -3.03,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 5
+    }
+  ]
+}

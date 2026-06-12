@@ -1,0 +1,40 @@
+{
+  "symbol": "SMR",
+  "name": "뉴스케일파워",
+  "country": "US",
+  "market": "NYSE",
+  "primarySector": "energy_power",
+  "tags": [
+    "nuclear"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 9.8904,
+      "high": 10.31,
+      "low": 9.67,
+      "close": 9.819,
+      "volume": 1300105.0,
+      "changeRate": 2.6,
+      "tradingValue": 12765731.0,
+      "marketCap": 3588659471.0,
+      "ma5": 9.89,
+      "ma20": 11.25,
+      "ma60": 11.41,
+      "ma200": 21.23,
+      "rsi14": 40.8,
+      "volumeRatio20d": 0.04,
+      "tradingValueRatio20d": 0.03,
+      "high20": 14.3,
+      "highLong": 57.42,
+      "relativeStrength": 2.55,
+      "signals": [
+        "relative_strength_strong",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 10
+    }
+  ]
+}

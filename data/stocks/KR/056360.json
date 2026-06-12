@@ -1,0 +1,42 @@
+{
+  "symbol": "056360",
+  "name": "코위버",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "future_tech",
+  "tags": [
+    "quantum",
+    "optical_communication"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 7150.0,
+      "high": 7710.0,
+      "low": 7090.0,
+      "close": 7230.0,
+      "volume": 220714.0,
+      "changeRate": 5.7,
+      "tradingValue": 1595762220.0,
+      "marketCap": 70830864000.0,
+      "ma5": 6838.0,
+      "ma20": 8396.5,
+      "ma60": 8823.67,
+      "ma200": 6378.1,
+      "rsi14": 42.5,
+      "volumeRatio20d": 0.42,
+      "tradingValueRatio20d": 0.31,
+      "high20": 12190.0,
+      "highLong": 14550.0,
+      "relativeStrength": 1.89,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 15
+    }
+  ]
+}

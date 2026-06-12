@@ -1,0 +1,44 @@
+{
+  "symbol": "000500",
+  "name": "가온전선",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "energy_power",
+  "tags": [
+    "cable",
+    "datacenter"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 335000.0,
+      "high": 370500.0,
+      "low": 246000.0,
+      "close": 265000.0,
+      "volume": 1230559.0,
+      "changeRate": -18.21,
+      "tradingValue": 326098135000.0,
+      "marketCap": 4383925475000.0,
+      "ma5": 303400.0,
+      "ma20": 353575.0,
+      "ma60": 242228.33,
+      "ma200": 126342.0,
+      "rsi14": 32.2,
+      "volumeRatio20d": 5.34,
+      "tradingValueRatio20d": 3.74,
+      "high20": 551000.0,
+      "highLong": 635000.0,
+      "relativeStrength": -22.02,
+      "signals": [
+        "trading_value_surge",
+        "trading_value_surge_strong",
+        "volume_surge",
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 40
+    }
+  ]
+}

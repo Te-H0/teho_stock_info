@@ -1,0 +1,40 @@
+{
+  "symbol": "171090",
+  "name": "선익시스템",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "future_tech",
+  "tags": [
+    "xr"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 77900.0,
+      "high": 82100.0,
+      "low": 77000.0,
+      "close": 78200.0,
+      "volume": 170467.0,
+      "changeRate": 0.51,
+      "tradingValue": 13330519400.0,
+      "marketCap": 790025353200.0,
+      "ma5": 74420.0,
+      "ma20": 80510.0,
+      "ma60": 90991.67,
+      "ma200": 69031.75,
+      "rsi14": 47.9,
+      "volumeRatio20d": 0.74,
+      "tradingValueRatio20d": 0.69,
+      "high20": 102700.0,
+      "highLong": 144000.0,
+      "relativeStrength": -3.3,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 5
+    }
+  ]
+}

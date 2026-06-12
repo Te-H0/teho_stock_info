@@ -1,0 +1,40 @@
+{
+  "symbol": "BNTX",
+  "name": "바이오엔테크(ADR)",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "bio_healthcare",
+  "tags": [
+    "immuno_oncology",
+    "adc"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 89.65,
+      "high": 89.65,
+      "low": 88.2,
+      "close": 88.3,
+      "volume": 1813.0,
+      "changeRate": -1.38,
+      "tradingValue": 160088.0,
+      "marketCap": 22329680246.0,
+      "ma5": 87.2,
+      "ma20": 89.86,
+      "ma60": 93.65,
+      "ma200": 99.76,
+      "rsi14": 41.5,
+      "volumeRatio20d": 0.0,
+      "tradingValueRatio20d": 0.0,
+      "high20": 97.44,
+      "highLong": 124.0,
+      "relativeStrength": -1.43,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

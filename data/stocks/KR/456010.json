@@ -1,0 +1,40 @@
+{
+  "symbol": "456010",
+  "name": "아이씨티케이",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "future_tech",
+  "tags": [
+    "quantum"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 24600.0,
+      "high": 25350.0,
+      "low": 23350.0,
+      "close": 23600.0,
+      "volume": 537836.0,
+      "changeRate": 4.42,
+      "tradingValue": 12692929600.0,
+      "marketCap": 330657098400.0,
+      "ma5": 23340.0,
+      "ma20": 26007.0,
+      "ma60": 21090.5,
+      "ma200": 17001.6,
+      "rsi14": 49.5,
+      "volumeRatio20d": 0.29,
+      "tradingValueRatio20d": 0.24,
+      "high20": 39950.0,
+      "highLong": 39950.0,
+      "relativeStrength": 0.61,
+      "signals": [
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 10
+    }
+  ]
+}

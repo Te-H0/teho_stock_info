@@ -1,0 +1,39 @@
+{
+  "symbol": "041510",
+  "name": "에스엠",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "consumer",
+  "tags": [
+    "entertainment"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 88400.0,
+      "high": 89700.0,
+      "low": 82300.0,
+      "close": 84300.0,
+      "volume": 266002.0,
+      "changeRate": -4.1,
+      "tradingValue": 22423968600.0,
+      "marketCap": 1930022367000.0,
+      "ma5": 77780.0,
+      "ma20": 82490.0,
+      "ma60": 88486.67,
+      "ma200": 110002.0,
+      "rsi14": 48.8,
+      "volumeRatio20d": 1.4,
+      "tradingValueRatio20d": 1.4,
+      "high20": 95600.0,
+      "highLong": 190000.0,
+      "relativeStrength": -7.91,
+      "signals": [
+        "above_ma20",
+        "ma_bearish_alignment"
+      ],
+      "score": 5
+    }
+  ]
+}

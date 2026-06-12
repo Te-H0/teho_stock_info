@@ -1,0 +1,43 @@
+{
+  "symbol": "SNDK",
+  "name": "샌디스크",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "memory"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 1913.3,
+      "high": 1919.0,
+      "low": 1840.0,
+      "close": 1872.0,
+      "volume": 233650.0,
+      "changeRate": -0.51,
+      "tradingValue": 437392800.0,
+      "marketCap": 277224026976.0,
+      "ma5": 1737.06,
+      "ma20": 1618.35,
+      "ma60": 1187.4,
+      "ma200": 572.52,
+      "rsi14": 68.7,
+      "volumeRatio20d": 0.02,
+      "tradingValueRatio20d": 0.02,
+      "high20": 1919.0,
+      "highLong": 1919.0,
+      "relativeStrength": -0.56,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment",
+        "near_20d_high",
+        "near_52w_high"
+      ],
+      "score": 55
+    }
+  ]
+}

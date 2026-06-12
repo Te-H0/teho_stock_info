@@ -1,0 +1,40 @@
+{
+  "symbol": "041190",
+  "name": "우리기술투자",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "finance",
+  "tags": [
+    "crypto",
+    "sto"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 5350.0,
+      "high": 5620.0,
+      "low": 5290.0,
+      "close": 5480.0,
+      "volume": 821534.0,
+      "changeRate": 4.58,
+      "tradingValue": 4502006320.0,
+      "marketCap": 460320000000.0,
+      "ma5": 5310.0,
+      "ma20": 5844.5,
+      "ma60": 6335.83,
+      "ma200": 8019.25,
+      "rsi14": 38.3,
+      "volumeRatio20d": 0.7,
+      "tradingValueRatio20d": 0.65,
+      "high20": 7000.0,
+      "highLong": 13140.0,
+      "relativeStrength": 0.77,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

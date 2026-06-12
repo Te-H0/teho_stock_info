@@ -1,0 +1,42 @@
+{
+  "symbol": "009150",
+  "name": "삼성전기",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "packaging",
+    "semiconductor_material"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 1945000.0,
+      "high": 1992000.0,
+      "low": 1694000.0,
+      "close": 1747000.0,
+      "volume": 3424010.0,
+      "changeRate": -3.37,
+      "tradingValue": 5981745470000.0,
+      "marketCap": 130489886912000.0,
+      "ma5": 1799800.0,
+      "ma20": 1558000.0,
+      "ma60": 943941.67,
+      "ma200": 461499.5,
+      "rsi14": 61.4,
+      "volumeRatio20d": 1.22,
+      "tradingValueRatio20d": 1.32,
+      "high20": 2192000.0,
+      "highLong": 2192000.0,
+      "relativeStrength": -7.18,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment"
+      ],
+      "score": 30
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "symbol": "138040",
+  "name": "메리츠금융지주",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "finance",
+  "tags": [
+    "insurance",
+    "securities"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 106100.0,
+      "high": 110300.0,
+      "low": 106000.0,
+      "close": 108400.0,
+      "volume": 351777.0,
+      "changeRate": 2.55,
+      "tradingValue": 38132626800.0,
+      "marketCap": 18140444393200.0,
+      "ma5": 106440.0,
+      "ma20": 106535.0,
+      "ma60": 111295.0,
+      "ma200": 114638.5,
+      "rsi14": 49.0,
+      "volumeRatio20d": 0.79,
+      "tradingValueRatio20d": 0.81,
+      "high20": 111700.0,
+      "highLong": 149800.0,
+      "relativeStrength": -1.26,
+      "signals": [
+        "above_ma20",
+        "near_20d_high",
+        "ma_bearish_alignment"
+      ],
+      "score": 15
+    }
+  ]
+}

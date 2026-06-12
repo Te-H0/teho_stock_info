@@ -1,0 +1,41 @@
+{
+  "symbol": "105560",
+  "name": "KB금융",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "finance",
+  "tags": [
+    "bank"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 153300.0,
+      "high": 167200.0,
+      "low": 153300.0,
+      "close": 162000.0,
+      "volume": 1867886.0,
+      "changeRate": 6.44,
+      "tradingValue": 302597532000.0,
+      "marketCap": 57459412908000.0,
+      "ma5": 155100.0,
+      "ma20": 155975.0,
+      "ma60": 155180.0,
+      "ma200": 135907.5,
+      "rsi14": 55.2,
+      "volumeRatio20d": 1.05,
+      "tradingValueRatio20d": 1.09,
+      "high20": 175700.0,
+      "highLong": 175700.0,
+      "relativeStrength": 2.63,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma60",
+        "above_ma200"
+      ],
+      "score": 25
+    }
+  ]
+}

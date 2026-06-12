@@ -1,0 +1,40 @@
+{
+  "symbol": "042660",
+  "name": "한화오션",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "defense_space",
+  "tags": [
+    "shipbuilding",
+    "defense"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 118300.0,
+      "high": 121100.0,
+      "low": 111100.0,
+      "close": 113200.0,
+      "volume": 4891483.0,
+      "changeRate": -3.99,
+      "tradingValue": 553715875600.0,
+      "marketCap": 34685996200800.0,
+      "ma5": 109180.0,
+      "ma20": 117170.0,
+      "ma60": 123993.33,
+      "ma200": 123337.5,
+      "rsi14": 49.9,
+      "volumeRatio20d": 1.37,
+      "tradingValueRatio20d": 1.28,
+      "high20": 139700.0,
+      "highLong": 154800.0,
+      "relativeStrength": -7.8,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

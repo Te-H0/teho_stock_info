@@ -1,0 +1,41 @@
+{
+  "symbol": "010140",
+  "name": "삼성중공업",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "defense_space",
+  "tags": [
+    "shipbuilding"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 25800.0,
+      "high": 27600.0,
+      "low": 25800.0,
+      "close": 27200.0,
+      "volume": 9967202.0,
+      "changeRate": 5.43,
+      "tradingValue": 271107894400.0,
+      "marketCap": 23936000000000.0,
+      "ma5": 26260.0,
+      "ma20": 28145.0,
+      "ma60": 29046.67,
+      "ma200": 26524.9,
+      "rsi14": 41.8,
+      "volumeRatio20d": 0.8,
+      "tradingValueRatio20d": 0.76,
+      "high20": 31700.0,
+      "highLong": 35900.0,
+      "relativeStrength": 1.62,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 15
+    }
+  ]
+}

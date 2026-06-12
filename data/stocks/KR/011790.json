@@ -1,0 +1,41 @@
+{
+  "symbol": "011790",
+  "name": "SKC",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "semiconductor_material",
+    "packaging"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 140000.0,
+      "high": 148000.0,
+      "low": 138200.0,
+      "close": 140200.0,
+      "volume": 1441084.0,
+      "changeRate": 1.67,
+      "tradingValue": 202039976800.0,
+      "marketCap": 6953681379600.0,
+      "ma5": 133040.0,
+      "ma20": 138750.0,
+      "ma60": 119184.0,
+      "ma200": 106630.24,
+      "rsi14": 52.0,
+      "volumeRatio20d": 0.69,
+      "tradingValueRatio20d": 0.67,
+      "high20": 181000.0,
+      "highLong": 188400.0,
+      "relativeStrength": -2.14,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200"
+      ],
+      "score": 15
+    }
+  ]
+}

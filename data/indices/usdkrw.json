@@ -1,0 +1,12 @@
+{
+  "key": "usdkrw",
+  "name": "환율",
+  "symbol": "KRW=X",
+  "history": [
+    {
+      "date": "2026-06-12",
+      "value": 1518.66,
+      "changeRate": -0.42
+    }
+  ]
+}

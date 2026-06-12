@@ -1,0 +1,39 @@
+{
+  "symbol": "214150",
+  "name": "클래시스",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "bio_healthcare",
+  "tags": [
+    "medical_device"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 47150.0,
+      "high": 48500.0,
+      "low": 43850.0,
+      "close": 44250.0,
+      "volume": 522775.0,
+      "changeRate": -4.74,
+      "tradingValue": 23132793750.0,
+      "marketCap": 2886677910750.0,
+      "ma5": 44010.0,
+      "ma20": 46602.5,
+      "ma60": 52007.5,
+      "ma200": 54836.0,
+      "rsi14": 41.8,
+      "volumeRatio20d": 1.12,
+      "tradingValueRatio20d": 1.04,
+      "high20": 55000.0,
+      "highLong": 77600.0,
+      "relativeStrength": -8.55,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

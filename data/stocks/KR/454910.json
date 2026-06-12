@@ -1,0 +1,40 @@
+{
+  "symbol": "454910",
+  "name": "두산로보틱스",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "future_tech",
+  "tags": [
+    "robot"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 114500.0,
+      "high": 119300.0,
+      "low": 107800.0,
+      "close": 110300.0,
+      "volume": 3643328.0,
+      "changeRate": 0.18,
+      "tradingValue": 401859078400.0,
+      "marketCap": 7149643794000.0,
+      "ma5": 113340.0,
+      "ma20": 117680.0,
+      "ma60": 100993.33,
+      "ma200": 87490.5,
+      "rsi14": 51.6,
+      "volumeRatio20d": 0.48,
+      "tradingValueRatio20d": 0.41,
+      "high20": 176200.0,
+      "highLong": 176200.0,
+      "relativeStrength": -3.63,
+      "signals": [
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 10
+    }
+  ]
+}

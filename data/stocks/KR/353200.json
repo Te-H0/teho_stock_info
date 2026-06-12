@@ -1,0 +1,44 @@
+{
+  "symbol": "353200",
+  "name": "대덕전자",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "packaging",
+    "semiconductor_material"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 166800.0,
+      "high": 178500.0,
+      "low": 151300.0,
+      "close": 165200.0,
+      "volume": 2797695.0,
+      "changeRate": 5.36,
+      "tradingValue": 462179214000.0,
+      "marketCap": 8163676010000.0,
+      "ma5": 152540.0,
+      "ma20": 154180.0,
+      "ma60": 115448.33,
+      "ma200": 64975.0,
+      "rsi14": 56.5,
+      "volumeRatio20d": 2.46,
+      "tradingValueRatio20d": 2.57,
+      "high20": 198000.0,
+      "highLong": 198000.0,
+      "relativeStrength": 1.55,
+      "signals": [
+        "trading_value_surge",
+        "volume_surge",
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma60",
+        "above_ma200"
+      ],
+      "score": 50
+    }
+  ]
+}

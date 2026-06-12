@@ -1,0 +1,41 @@
+{
+  "symbol": "009830",
+  "name": "한화솔루션",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "energy_power",
+  "tags": [
+    "solar",
+    "chemical"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 37500.0,
+      "high": 38800.0,
+      "low": 36750.0,
+      "close": 37100.0,
+      "volume": 4048786.0,
+      "changeRate": 1.09,
+      "tradingValue": 150209960600.0,
+      "marketCap": 6377213085600.0,
+      "ma5": 36160.0,
+      "ma20": 40162.5,
+      "ma60": 42700.0,
+      "ma200": 35258.75,
+      "rsi14": 41.1,
+      "volumeRatio20d": 1.01,
+      "tradingValueRatio20d": 0.91,
+      "high20": 48350.0,
+      "highLong": 59300.0,
+      "relativeStrength": -2.72,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 5
+    }
+  ]
+}

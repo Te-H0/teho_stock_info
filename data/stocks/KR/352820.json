@@ -1,0 +1,39 @@
+{
+  "symbol": "352820",
+  "name": "하이브",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "consumer",
+  "tags": [
+    "entertainment"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 220000.0,
+      "high": 231000.0,
+      "low": 218500.0,
+      "close": 228000.0,
+      "volume": 518226.0,
+      "changeRate": 3.87,
+      "tradingValue": 118155528000.0,
+      "marketCap": 9827312772000.0,
+      "ma5": 210620.0,
+      "ma20": 223405.0,
+      "ma60": 256751.67,
+      "ma200": 299558.0,
+      "rsi14": 48.9,
+      "volumeRatio20d": 1.08,
+      "tradingValueRatio20d": 1.1,
+      "high20": 255000.0,
+      "highLong": 418000.0,
+      "relativeStrength": 0.06,
+      "signals": [
+        "above_ma20",
+        "ma_bearish_alignment"
+      ],
+      "score": 5
+    }
+  ]
+}

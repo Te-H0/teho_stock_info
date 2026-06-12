@@ -1,0 +1,41 @@
+{
+  "symbol": "CRCL",
+  "name": "써클 인터넷 그룹",
+  "country": "US",
+  "market": "NYSE",
+  "primarySector": "finance",
+  "tags": [
+    "crypto",
+    "fintech",
+    "sto"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 82.51,
+      "high": 84.51,
+      "low": 81.71,
+      "close": 82.65,
+      "volume": 152536.0,
+      "changeRate": 0.02,
+      "tradingValue": 12607100.0,
+      "marketCap": 20544808880.0,
+      "ma5": 81.57,
+      "ma20": 98.93,
+      "ma60": 102.84,
+      "ma200": 100.3,
+      "rsi14": 26.2,
+      "volumeRatio20d": 0.01,
+      "tradingValueRatio20d": 0.01,
+      "high20": 118.85,
+      "highLong": 159.47,
+      "relativeStrength": -0.03,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

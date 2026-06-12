@@ -1,0 +1,44 @@
+{
+  "symbol": "204320",
+  "name": "HL만도",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "mobility",
+  "tags": [
+    "autonomous_driving",
+    "auto_parts"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 52000.0,
+      "high": 65000.0,
+      "low": 51900.0,
+      "close": 65000.0,
+      "volume": 2969052.0,
+      "changeRate": 27.45,
+      "tradingValue": 192988380000.0,
+      "marketCap": 3052212800000.0,
+      "ma5": 53690.0,
+      "ma20": 58267.5,
+      "ma60": 55219.17,
+      "ma200": 49610.5,
+      "rsi14": 56.1,
+      "volumeRatio20d": 2.07,
+      "tradingValueRatio20d": 2.24,
+      "high20": 68000.0,
+      "highLong": 76700.0,
+      "relativeStrength": 23.64,
+      "signals": [
+        "trading_value_surge",
+        "volume_surge",
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma60",
+        "above_ma200"
+      ],
+      "score": 50
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "symbol": "001820",
+  "name": "삼화콘덴서",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "energy_power",
+  "tags": [
+    "ess",
+    "power_equipment"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 140000.0,
+      "high": 143900.0,
+      "low": 121900.0,
+      "close": 128200.0,
+      "volume": 1104660.0,
+      "changeRate": -3.83,
+      "tradingValue": 141617412000.0,
+      "marketCap": 1332639000000.0,
+      "ma5": 119760.0,
+      "ma20": 106215.0,
+      "ma60": 76186.67,
+      "ma200": 46343.5,
+      "rsi14": 62.9,
+      "volumeRatio20d": 0.61,
+      "tradingValueRatio20d": 0.64,
+      "high20": 172800.0,
+      "highLong": 172800.0,
+      "relativeStrength": -7.64,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment"
+      ],
+      "score": 30
+    }
+  ]
+}

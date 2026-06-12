@@ -1,0 +1,42 @@
+{
+  "symbol": "003530",
+  "name": "한화투자증권",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "finance",
+  "tags": [
+    "crypto",
+    "securities",
+    "sto"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 5700.0,
+      "high": 5970.0,
+      "low": 5700.0,
+      "close": 5850.0,
+      "volume": 1832238.0,
+      "changeRate": 6.75,
+      "tradingValue": 10718592300.0,
+      "marketCap": 1255104483750.0,
+      "ma5": 5562.0,
+      "ma20": 6229.0,
+      "ma60": 7056.83,
+      "ma200": 6110.3,
+      "rsi14": 35.4,
+      "volumeRatio20d": 0.82,
+      "tradingValueRatio20d": 0.75,
+      "high20": 7720.0,
+      "highLong": 10300.0,
+      "relativeStrength": 2.94,
+      "signals": [
+        "relative_strength_strong",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 10
+    }
+  ]
+}

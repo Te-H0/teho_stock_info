@@ -1,0 +1,42 @@
+{
+  "symbol": "JPM",
+  "name": "제이피모건 체이스",
+  "country": "US",
+  "market": "NYSE",
+  "primarySector": "finance",
+  "tags": [
+    "bank"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 314.518,
+      "high": 315.9,
+      "low": 309.137,
+      "close": 315.37,
+      "volume": 6407.0,
+      "changeRate": 0.6,
+      "tradingValue": 2020576.0,
+      "marketCap": 845891604398.0,
+      "ma5": 312.36,
+      "ma20": 304.56,
+      "ma60": 303.74,
+      "ma200": 306.53,
+      "rsi14": 60.1,
+      "volumeRatio20d": 0.0,
+      "tradingValueRatio20d": 0.0,
+      "high20": 316.415,
+      "highLong": 337.25,
+      "relativeStrength": 0.55,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment",
+        "near_20d_high"
+      ],
+      "score": 40
+    }
+  ]
+}

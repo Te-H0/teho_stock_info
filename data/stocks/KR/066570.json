@@ -1,0 +1,41 @@
+{
+  "symbol": "066570",
+  "name": "LG전자",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "future_tech",
+  "tags": [
+    "robot",
+    "xr"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 235000.0,
+      "high": 247500.0,
+      "low": 221500.0,
+      "close": 228000.0,
+      "volume": 7173690.0,
+      "changeRate": -0.22,
+      "tradingValue": 1635601320000.0,
+      "marketCap": 37137697464000.0,
+      "ma5": 237000.0,
+      "ma20": 253150.0,
+      "ma60": 168881.67,
+      "ma200": 115760.5,
+      "rsi14": 49.4,
+      "volumeRatio20d": 0.55,
+      "tradingValueRatio20d": 0.47,
+      "high20": 467500.0,
+      "highLong": 467500.0,
+      "relativeStrength": -4.03,
+      "signals": [
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 10
+    }
+  ]
+}

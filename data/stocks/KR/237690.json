@@ -1,0 +1,39 @@
+{
+  "symbol": "237690",
+  "name": "에스티팜",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "bio_healthcare",
+  "tags": [
+    "cdmo"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 124500.0,
+      "high": 130600.0,
+      "low": 121000.0,
+      "close": 123300.0,
+      "volume": 211733.0,
+      "changeRate": 0.16,
+      "tradingValue": 26106678900.0,
+      "marketCap": 2572930445400.0,
+      "ma5": 118040.0,
+      "ma20": 127500.0,
+      "ma60": 141425.0,
+      "ma200": 123911.0,
+      "rsi14": 46.7,
+      "volumeRatio20d": 1.09,
+      "tradingValueRatio20d": 1.04,
+      "high20": 148000.0,
+      "highLong": 172100.0,
+      "relativeStrength": -3.65,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

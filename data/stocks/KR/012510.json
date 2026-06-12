@@ -1,0 +1,42 @@
+{
+  "symbol": "012510",
+  "name": "더존비즈온",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "future_tech",
+  "tags": [
+    "cloud",
+    "fintech"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 120100.0,
+      "high": 120500.0,
+      "low": 120000.0,
+      "close": 120400.0,
+      "volume": 35723.0,
+      "changeRate": 0.33,
+      "tradingValue": 4301049200.0,
+      "marketCap": 3506515513200.0,
+      "ma5": 120000.0,
+      "ma20": 119900.0,
+      "ma60": 119510.0,
+      "ma200": 99755.0,
+      "rsi14": 53.6,
+      "volumeRatio20d": 0.83,
+      "tradingValueRatio20d": 0.83,
+      "high20": 156000.0,
+      "highLong": 156000.0,
+      "relativeStrength": -3.48,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment"
+      ],
+      "score": 30
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "symbol": "PLTR",
+  "name": "팔란티어",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "defense_space",
+  "tags": [
+    "defense"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 131.41,
+      "high": 132.58,
+      "low": 130.5,
+      "close": 131.2,
+      "volume": 249830.0,
+      "changeRate": 0.09,
+      "tradingValue": 32777696.0,
+      "marketCap": 314527331382.0,
+      "ma5": 132.21,
+      "ma20": 138.91,
+      "ma60": 141.38,
+      "ma200": 160.43,
+      "rsi14": 45.7,
+      "volumeRatio20d": 0.01,
+      "tradingValueRatio20d": 0.01,
+      "high20": 163.7,
+      "highLong": 207.52,
+      "relativeStrength": 0.04,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

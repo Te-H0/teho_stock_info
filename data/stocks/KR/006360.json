@@ -1,0 +1,44 @@
+{
+  "symbol": "006360",
+  "name": "GS건설",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "industrial_material",
+  "tags": [
+    "construction"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 28850.0,
+      "high": 32200.0,
+      "low": 27700.0,
+      "close": 29850.0,
+      "volume": 7738204.0,
+      "changeRate": 11.8,
+      "tradingValue": 230985389400.0,
+      "marketCap": 2554607476500.0,
+      "ma5": 27030.0,
+      "ma20": 29460.0,
+      "ma60": 32553.33,
+      "ma200": 23351.5,
+      "rsi14": 47.2,
+      "volumeRatio20d": 3.25,
+      "tradingValueRatio20d": 3.2,
+      "high20": 36750.0,
+      "highLong": 45000.0,
+      "relativeStrength": 7.99,
+      "signals": [
+        "trading_value_surge",
+        "trading_value_surge_strong",
+        "volume_surge",
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma200",
+        "ma_bearish_alignment"
+      ],
+      "score": 50
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "symbol": "RKLB",
+  "name": "로켓 랩",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "defense_space",
+  "tags": [
+    "aerospace",
+    "satellite"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 123.73,
+      "high": 125.7329,
+      "low": 115.25,
+      "close": 118.29,
+      "volume": 1919237.0,
+      "changeRate": 3.06,
+      "tradingValue": 227026545.0,
+      "marketCap": 68474233618.0,
+      "ma5": 112.0,
+      "ma20": 125.71,
+      "ma60": 95.22,
+      "ma200": 72.69,
+      "rsi14": 40.5,
+      "volumeRatio20d": 0.07,
+      "tradingValueRatio20d": 0.07,
+      "high20": 150.9999,
+      "highLong": 150.9999,
+      "relativeStrength": 3.01,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 20
+    }
+  ]
+}

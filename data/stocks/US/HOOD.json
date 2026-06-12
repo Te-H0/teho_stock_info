@@ -1,0 +1,43 @@
+{
+  "symbol": "HOOD",
+  "name": "로빈후드",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "finance",
+  "tags": [
+    "fintech",
+    "securities",
+    "crypto"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 92.2032,
+      "high": 93.5,
+      "low": 91.0,
+      "close": 91.8204,
+      "volume": 333724.0,
+      "changeRate": -0.44,
+      "tradingValue": 30642671.0,
+      "marketCap": 82684734536.0,
+      "ma5": 87.84,
+      "ma20": 82.75,
+      "ma60": 78.51,
+      "ma200": 102.8,
+      "rsi14": 66.2,
+      "volumeRatio20d": 0.01,
+      "tradingValueRatio20d": 0.01,
+      "high20": 94.4,
+      "highLong": 153.8599,
+      "relativeStrength": -0.49,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "ma_bullish_alignment",
+        "near_20d_high"
+      ],
+      "score": 35
+    }
+  ]
+}

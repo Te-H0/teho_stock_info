@@ -1,0 +1,39 @@
+{
+  "symbol": "009540",
+  "name": "HD한국조선해양",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "defense_space",
+  "tags": [
+    "shipbuilding"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 381000.0,
+      "high": 401000.0,
+      "low": 381000.0,
+      "close": 393000.0,
+      "volume": 354991.0,
+      "changeRate": 3.56,
+      "tradingValue": 139511463000.0,
+      "marketCap": 27813834588000.0,
+      "ma5": 374900.0,
+      "ma20": 403225.0,
+      "ma60": 411850.0,
+      "ma200": 417975.0,
+      "rsi14": 44.4,
+      "volumeRatio20d": 0.96,
+      "tradingValueRatio20d": 0.93,
+      "high20": 469500.0,
+      "highLong": 494500.0,
+      "relativeStrength": -0.25,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

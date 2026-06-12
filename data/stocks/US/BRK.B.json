@@ -1,0 +1,41 @@
+{
+  "symbol": "BRK.B",
+  "name": "버크셔 해서웨이 B",
+  "country": "US",
+  "market": "NYSE",
+  "primarySector": "finance",
+  "tags": [
+    "insurance"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 484.47,
+      "high": 486.5,
+      "low": 483.81,
+      "close": 485.5615,
+      "volume": 7429.0,
+      "changeRate": -0.05,
+      "tradingValue": 3607236.0,
+      "marketCap": 678964858667.0,
+      "ma5": 485.96,
+      "ma20": 481.4,
+      "ma60": 477.8,
+      "ma200": 490.37,
+      "rsi14": 49.0,
+      "volumeRatio20d": 0.0,
+      "tradingValueRatio20d": 0.0,
+      "high20": 491.0,
+      "highLong": 516.85,
+      "relativeStrength": -0.1,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "ma_bullish_alignment",
+        "near_20d_high"
+      ],
+      "score": 35
+    }
+  ]
+}

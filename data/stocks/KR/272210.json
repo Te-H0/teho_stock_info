@@ -1,0 +1,43 @@
+{
+  "symbol": "272210",
+  "name": "한화시스템",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "defense_space",
+  "tags": [
+    "satellite",
+    "defense",
+    "drone"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 89500.0,
+      "high": 100400.0,
+      "low": 86600.0,
+      "close": 95400.0,
+      "volume": 2103332.0,
+      "changeRate": 5.41,
+      "tradingValue": 200657872800.0,
+      "marketCap": 18022909710600.0,
+      "ma5": 89740.0,
+      "ma20": 100810.0,
+      "ma60": 118451.67,
+      "ma200": 85329.25,
+      "rsi14": 41.7,
+      "volumeRatio20d": 1.46,
+      "tradingValueRatio20d": 1.37,
+      "high20": 118000.0,
+      "highLong": 184000.0,
+      "relativeStrength": 1.6,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 15
+    }
+  ]
+}

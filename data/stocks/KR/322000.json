@@ -1,0 +1,39 @@
+{
+  "symbol": "322000",
+  "name": "HD현대에너지솔루션",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "energy_power",
+  "tags": [
+    "solar"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 160000.0,
+      "high": 160000.0,
+      "low": 147100.0,
+      "close": 150500.0,
+      "volume": 287079.0,
+      "changeRate": -1.63,
+      "tradingValue": 43205389500.0,
+      "marketCap": 1685600000000.0,
+      "ma5": 147580.0,
+      "ma20": 178425.0,
+      "ma60": 171613.33,
+      "ma200": 93599.25,
+      "rsi14": 34.9,
+      "volumeRatio20d": 0.52,
+      "tradingValueRatio20d": 0.4,
+      "high20": 256000.0,
+      "highLong": 256000.0,
+      "relativeStrength": -5.44,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 5
+    }
+  ]
+}

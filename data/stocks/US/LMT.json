@@ -1,0 +1,42 @@
+{
+  "symbol": "LMT",
+  "name": "록히드 마틴",
+  "country": "US",
+  "market": "NYSE",
+  "primarySector": "defense_space",
+  "tags": [
+    "defense",
+    "aerospace",
+    "satellite"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 548.0815,
+      "high": 549.99,
+      "low": 542.8871,
+      "close": 549.0,
+      "volume": 3006.0,
+      "changeRate": 0.06,
+      "tradingValue": 1650294.0,
+      "marketCap": 126579420792.0,
+      "ma5": 534.58,
+      "ma20": 526.95,
+      "ma60": 557.78,
+      "ma200": 537.02,
+      "rsi14": 59.0,
+      "volumeRatio20d": 0.0,
+      "tradingValueRatio20d": 0.0,
+      "high20": 550.99,
+      "highLong": 692.0,
+      "relativeStrength": 0.01,
+      "signals": [
+        "above_ma20",
+        "above_ma200",
+        "near_20d_high"
+      ],
+      "score": 20
+    }
+  ]
+}

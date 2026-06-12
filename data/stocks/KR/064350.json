@@ -1,0 +1,41 @@
+{
+  "symbol": "064350",
+  "name": "현대로템",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "defense_space",
+  "tags": [
+    "defense"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 189500.0,
+      "high": 213000.0,
+      "low": 188000.0,
+      "close": 207000.0,
+      "volume": 1246509.0,
+      "changeRate": 9.64,
+      "tradingValue": 258027363000.0,
+      "marketCap": 22592454651000.0,
+      "ma5": 187720.0,
+      "ma20": 198610.0,
+      "ma60": 208230.0,
+      "ma200": 206164.0,
+      "rsi14": 54.3,
+      "volumeRatio20d": 1.41,
+      "tradingValueRatio20d": 1.46,
+      "high20": 224500.0,
+      "highLong": 282000.0,
+      "relativeStrength": 5.83,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma200",
+        "ma_bearish_alignment"
+      ],
+      "score": 20
+    }
+  ]
+}

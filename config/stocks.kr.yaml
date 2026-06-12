@@ -1,0 +1,1488 @@
+# 토스 stocks API로 심볼·상장상태·종목명 검증 완료. 종목명은 토스 공식명.
+# 한 종목은 primarySector(대분류) 1개 + tags(소분류) 여러 개.
+stocks:
+- symbol: 005930
+  name: 삼성전자
+  country: KR
+  market: KOSPI
+  primarySector: ai_semiconductor
+  tags:
+  - memory
+  - foundry
+  - hbm
+  - gpu
+  leader: true
+  enabled: true
+- symbol: '000660'
+  name: SK하이닉스
+  country: KR
+  market: KOSPI
+  primarySector: ai_semiconductor
+  tags:
+  - memory
+  - hbm
+  - datacenter
+  leader: true
+  enabled: true
+- symbol: '042700'
+  name: 한미반도체
+  country: KR
+  market: KOSPI
+  primarySector: ai_semiconductor
+  tags:
+  - hbm
+  - semiconductor_equipment
+  - packaging
+  leader: true
+  enabled: true
+- symbol: 039030
+  name: 이오테크닉스
+  country: KR
+  market: KOSDAQ
+  primarySector: ai_semiconductor
+  tags:
+  - semiconductor_equipment
+  - packaging
+  leader: true
+  enabled: true
+- symbol: 036930
+  name: 주성엔지니어링
+  country: KR
+  market: KOSDAQ
+  primarySector: ai_semiconductor
+  tags:
+  - semiconductor_equipment
+  leader: true
+  enabled: true
+- symbol: '240810'
+  name: 원익IPS
+  country: KR
+  market: KOSDAQ
+  primarySector: ai_semiconductor
+  tags:
+  - semiconductor_equipment
+  leader: false
+  enabled: true
+- symbol: '403870'
+  name: HPSP
+  country: KR
+  market: KOSDAQ
+  primarySector: ai_semiconductor
+  tags:
+  - semiconductor_equipment
+  leader: true
+  enabled: true
+- symbol: 058470
+  name: 리노공업
+  country: KR
+  market: KOSDAQ
+  primarySector: ai_semiconductor
+  tags:
+  - semiconductor_equipment
+  - semiconductor_material
+  leader: true
+  enabled: true
+- symbol: '357780'
+  name: 솔브레인
+  country: KR
+  market: KOSDAQ
+  primarySector: ai_semiconductor
+  tags:
+  - semiconductor_material
+  leader: true
+  enabled: true
+- symbol: 005290
+  name: 동진쎄미켐
+  country: KR
+  market: KOSDAQ
+  primarySector: ai_semiconductor
+  tags:
+  - semiconductor_material
+  leader: true
+  enabled: true
+- symbol: '402340'
+  name: SK스퀘어
+  country: KR
+  market: KOSPI
+  primarySector: ai_semiconductor
+  tags:
+  - memory
+  - datacenter
+  leader: false
+  enabled: true
+- symbol: 000990
+  name: DB하이텍
+  country: KR
+  market: KOSPI
+  primarySector: ai_semiconductor
+  tags:
+  - foundry
+  leader: true
+  enabled: true
+- symbol: 011790
+  name: SKC
+  country: KR
+  market: KOSPI
+  primarySector: ai_semiconductor
+  tags:
+  - semiconductor_material
+  - packaging
+  leader: true
+  enabled: true
+- symbol: '353200'
+  name: 대덕전자
+  country: KR
+  market: KOSPI
+  primarySector: ai_semiconductor
+  tags:
+  - packaging
+  - semiconductor_material
+  leader: false
+  enabled: true
+- symbol: 009150
+  name: 삼성전기
+  country: KR
+  market: KOSPI
+  primarySector: ai_semiconductor
+  tags:
+  - packaging
+  - semiconductor_material
+  leader: true
+  enabled: true
+- symbol: '067310'
+  name: 하나마이크론
+  country: KR
+  market: KOSDAQ
+  primarySector: ai_semiconductor
+  tags:
+  - packaging
+  leader: false
+  enabled: true
+- symbol: 083310
+  name: 엘오티베큠
+  country: KR
+  market: KOSDAQ
+  primarySector: ai_semiconductor
+  tags:
+  - semiconductor_equipment
+  leader: false
+  enabled: true
+- symbol: '138080'
+  name: 오이솔루션
+  country: KR
+  market: KOSDAQ
+  primarySector: ai_semiconductor
+  tags:
+  - optical_communication
+  leader: true
+  enabled: true
+- symbol: 069540
+  name: 빛과전자
+  country: KR
+  market: KOSDAQ
+  primarySector: ai_semiconductor
+  tags:
+  - optical_communication
+  leader: false
+  enabled: true
+- symbol: '126880'
+  name: 제이엔케이글로벌
+  country: KR
+  market: KOSDAQ
+  primarySector: ai_semiconductor
+  tags:
+  - datacenter
+  leader: false
+  enabled: true
+- symbol: '000500'
+  name: 가온전선
+  country: KR
+  market: KOSPI
+  primarySector: energy_power
+  tags:
+  - cable
+  - datacenter
+  leader: true
+  enabled: true
+- symbol: '010120'
+  name: LS ELECTRIC
+  country: KR
+  market: KOSPI
+  primarySector: energy_power
+  tags:
+  - power_equipment
+  - transformer
+  - ess
+  leader: true
+  enabled: true
+- symbol: '267260'
+  name: HD현대일렉트릭
+  country: KR
+  market: KOSPI
+  primarySector: energy_power
+  tags:
+  - transformer
+  - power_equipment
+  leader: true
+  enabled: true
+- symbol: '298040'
+  name: 효성중공업
+  country: KR
+  market: KOSPI
+  primarySector: energy_power
+  tags:
+  - transformer
+  - power_equipment
+  - ess
+  leader: true
+  enabled: true
+- symbol: '006260'
+  name: LS
+  country: KR
+  market: KOSPI
+  primarySector: energy_power
+  tags:
+  - cable
+  - power_equipment
+  leader: false
+  enabled: true
+- symbol: '001440'
+  name: 대한전선
+  country: KR
+  market: KOSPI
+  primarySector: energy_power
+  tags:
+  - cable
+  leader: true
+  enabled: true
+- symbol: '006340'
+  name: 대원전선
+  country: KR
+  market: KOSPI
+  primarySector: energy_power
+  tags:
+  - cable
+  leader: false
+  enabled: true
+- symbol: '034020'
+  name: 두산에너빌리티
+  country: KR
+  market: KOSPI
+  primarySector: energy_power
+  tags:
+  - nuclear
+  - wind
+  - power_equipment
+  leader: true
+  enabled: true
+- symbol: 052690
+  name: 한전기술
+  country: KR
+  market: KOSPI
+  primarySector: energy_power
+  tags:
+  - nuclear
+  leader: true
+  enabled: true
+- symbol: '105840'
+  name: 우진
+  country: KR
+  market: KOSPI
+  primarySector: energy_power
+  tags:
+  - nuclear
+  leader: false
+  enabled: true
+- symbol: 083650
+  name: 비에이치아이
+  country: KR
+  market: KOSDAQ
+  primarySector: energy_power
+  tags:
+  - nuclear
+  - power_equipment
+  leader: false
+  enabled: true
+- symbol: 009830
+  name: 한화솔루션
+  country: KR
+  market: KOSPI
+  primarySector: energy_power
+  tags:
+  - solar
+  - chemical
+  leader: true
+  enabled: true
+- symbol: '322000'
+  name: HD현대에너지솔루션
+  country: KR
+  market: KOSPI
+  primarySector: energy_power
+  tags:
+  - solar
+  leader: false
+  enabled: true
+- symbol: '010060'
+  name: OCI홀딩스
+  country: KR
+  market: KOSPI
+  primarySector: energy_power
+  tags:
+  - solar
+  leader: true
+  enabled: true
+- symbol: '112610'
+  name: 씨에스윈드
+  country: KR
+  market: KOSPI
+  primarySector: energy_power
+  tags:
+  - wind
+  leader: true
+  enabled: true
+- symbol: '297090'
+  name: 씨에스베어링
+  country: KR
+  market: KOSDAQ
+  primarySector: energy_power
+  tags:
+  - wind
+  leader: false
+  enabled: true
+- symbol: 001820
+  name: 삼화콘덴서
+  country: KR
+  market: KOSPI
+  primarySector: energy_power
+  tags:
+  - ess
+  - power_equipment
+  leader: false
+  enabled: true
+- symbol: '012450'
+  name: 한화에어로스페이스
+  country: KR
+  market: KOSPI
+  primarySector: defense_space
+  tags:
+  - defense
+  - aerospace
+  - satellite
+  leader: true
+  enabled: true
+- symbol: '064350'
+  name: 현대로템
+  country: KR
+  market: KOSPI
+  primarySector: defense_space
+  tags:
+  - defense
+  leader: true
+  enabled: true
+- symbol: 079550
+  name: LIG디펜스앤에어로스페이스
+  country: KR
+  market: KOSPI
+  primarySector: defense_space
+  tags:
+  - defense
+  - drone
+  leader: true
+  enabled: true
+- symbol: 047810
+  name: 한국항공우주
+  country: KR
+  market: KOSPI
+  primarySector: defense_space
+  tags:
+  - aerospace
+  - defense
+  - satellite
+  leader: true
+  enabled: true
+- symbol: '272210'
+  name: 한화시스템
+  country: KR
+  market: KOSPI
+  primarySector: defense_space
+  tags:
+  - satellite
+  - defense
+  - drone
+  leader: true
+  enabled: true
+- symbol: '329180'
+  name: HD현대중공업
+  country: KR
+  market: KOSPI
+  primarySector: defense_space
+  tags:
+  - shipbuilding
+  - defense
+  leader: true
+  enabled: true
+- symbol: '042660'
+  name: 한화오션
+  country: KR
+  market: KOSPI
+  primarySector: defense_space
+  tags:
+  - shipbuilding
+  - defense
+  leader: true
+  enabled: true
+- symbol: '010140'
+  name: 삼성중공업
+  country: KR
+  market: KOSPI
+  primarySector: defense_space
+  tags:
+  - shipbuilding
+  leader: true
+  enabled: true
+- symbol: 009540
+  name: HD한국조선해양
+  country: KR
+  market: KOSPI
+  primarySector: defense_space
+  tags:
+  - shipbuilding
+  leader: true
+  enabled: true
+- symbol: 010820
+  name: 퍼스텍
+  country: KR
+  market: KOSPI
+  primarySector: defense_space
+  tags:
+  - drone
+  - defense
+  leader: false
+  enabled: true
+- symbol: '033320'
+  name: 제이씨현시스템
+  country: KR
+  market: KOSDAQ
+  primarySector: defense_space
+  tags:
+  - drone
+  leader: false
+  enabled: true
+- symbol: '211270'
+  name: AP위성
+  country: KR
+  market: KOSDAQ
+  primarySector: defense_space
+  tags:
+  - satellite
+  leader: true
+  enabled: true
+- symbol: '189300'
+  name: 인텔리안테크
+  country: KR
+  market: KOSDAQ
+  primarySector: defense_space
+  tags:
+  - satellite
+  leader: true
+  enabled: true
+- symbol: 099320
+  name: 쎄트렉아이
+  country: KR
+  market: KOSDAQ
+  primarySector: defense_space
+  tags:
+  - satellite
+  - aerospace
+  leader: true
+  enabled: true
+- symbol: '274090'
+  name: 켄코아에어로스페이스
+  country: KR
+  market: KOSDAQ
+  primarySector: defense_space
+  tags:
+  - aerospace
+  leader: false
+  enabled: true
+- symbol: '105560'
+  name: KB금융
+  country: KR
+  market: KOSPI
+  primarySector: finance
+  tags:
+  - bank
+  leader: true
+  enabled: true
+- symbol: '055550'
+  name: 신한지주
+  country: KR
+  market: KOSPI
+  primarySector: finance
+  tags:
+  - bank
+  leader: true
+  enabled: true
+- symbol: 086790
+  name: 하나금융지주
+  country: KR
+  market: KOSPI
+  primarySector: finance
+  tags:
+  - bank
+  - crypto
+  leader: true
+  enabled: true
+- symbol: '138040'
+  name: 메리츠금융지주
+  country: KR
+  market: KOSPI
+  primarySector: finance
+  tags:
+  - insurance
+  - securities
+  leader: true
+  enabled: true
+- symbol: 032830
+  name: 삼성생명
+  country: KR
+  market: KOSPI
+  primarySector: finance
+  tags:
+  - insurance
+  leader: true
+  enabled: true
+- symbol: 000810
+  name: 삼성화재
+  country: KR
+  market: KOSPI
+  primarySector: finance
+  tags:
+  - insurance
+  leader: true
+  enabled: true
+- symbol: '071050'
+  name: 한국금융지주
+  country: KR
+  market: KOSPI
+  primarySector: finance
+  tags:
+  - securities
+  - crypto
+  leader: true
+  enabled: true
+- symbol: 006800
+  name: 미래에셋증권
+  country: KR
+  market: KOSPI
+  primarySector: finance
+  tags:
+  - securities
+  - sto
+  leader: true
+  enabled: true
+- symbol: 039490
+  name: 키움증권
+  country: KR
+  market: KOSPI
+  primarySector: finance
+  tags:
+  - securities
+  - fintech
+  leader: true
+  enabled: true
+- symbol: '323410'
+  name: 카카오뱅크
+  country: KR
+  market: KOSPI
+  primarySector: finance
+  tags:
+  - fintech
+  - bank
+  - crypto
+  leader: true
+  enabled: true
+- symbol: '377300'
+  name: 카카오페이
+  country: KR
+  market: KOSPI
+  primarySector: finance
+  tags:
+  - fintech
+  - crypto
+  leader: true
+  enabled: true
+- symbol: 041190
+  name: 우리기술투자
+  country: KR
+  market: KOSDAQ
+  primarySector: finance
+  tags:
+  - crypto
+  - sto
+  leader: true
+  enabled: true
+- symbol: '003530'
+  name: 한화투자증권
+  country: KR
+  market: KOSPI
+  primarySector: finance
+  tags:
+  - crypto
+  - securities
+  - sto
+  leader: false
+  enabled: true
+- symbol: 094480
+  name: 갤럭시아머니트리
+  country: KR
+  market: KOSDAQ
+  primarySector: finance
+  tags:
+  - sto
+  - fintech
+  leader: true
+  enabled: true
+- symbol: 082740
+  name: 한화엔진
+  country: KR
+  market: KOSPI
+  primarySector: defense_space
+  tags:
+  - shipbuilding
+  leader: false
+  enabled: true
+- symbol: '207940'
+  name: 삼성바이오로직스
+  country: KR
+  market: KOSPI
+  primarySector: bio_healthcare
+  tags:
+  - cdmo
+  leader: true
+  enabled: true
+- symbol: '237690'
+  name: 에스티팜
+  country: KR
+  market: KOSDAQ
+  primarySector: bio_healthcare
+  tags:
+  - cdmo
+  leader: true
+  enabled: true
+- symbol: '141080'
+  name: 리가켐바이오
+  country: KR
+  market: KOSDAQ
+  primarySector: bio_healthcare
+  tags:
+  - adc
+  - immuno_oncology
+  leader: true
+  enabled: true
+- symbol: '196170'
+  name: 알테오젠
+  country: KR
+  market: KOSDAQ
+  primarySector: bio_healthcare
+  tags:
+  - adc
+  - cdmo
+  leader: true
+  enabled: true
+- symbol: '128940'
+  name: 한미약품
+  country: KR
+  market: KOSPI
+  primarySector: bio_healthcare
+  tags:
+  - obesity_drug
+  - immuno_oncology
+  leader: true
+  enabled: true
+- symbol: 087010
+  name: 펩트론
+  country: KR
+  market: KOSDAQ
+  primarySector: bio_healthcare
+  tags:
+  - obesity_drug
+  leader: true
+  enabled: true
+- symbol: '389470'
+  name: 인벤티지랩
+  country: KR
+  market: KOSDAQ
+  primarySector: bio_healthcare
+  tags:
+  - obesity_drug
+  leader: false
+  enabled: true
+- symbol: '000100'
+  name: 유한양행
+  country: KR
+  market: KOSPI
+  primarySector: bio_healthcare
+  tags:
+  - immuno_oncology
+  leader: true
+  enabled: true
+- symbol: '328130'
+  name: 루닛
+  country: KR
+  market: KOSDAQ
+  primarySector: bio_healthcare
+  tags:
+  - medical_device
+  - immuno_oncology
+  leader: true
+  enabled: true
+- symbol: '214150'
+  name: 클래시스
+  country: KR
+  market: KOSDAQ
+  primarySector: bio_healthcare
+  tags:
+  - medical_device
+  leader: true
+  enabled: true
+- symbol: 068270
+  name: 셀트리온
+  country: KR
+  market: KOSPI
+  primarySector: bio_healthcare
+  tags:
+  - cdmo
+  - immuno_oncology
+  leader: true
+  enabled: true
+- symbol: '373220'
+  name: LG에너지솔루션
+  country: KR
+  market: KOSPI
+  primarySector: mobility
+  tags:
+  - battery
+  - ev
+  - ess
+  leader: true
+  enabled: true
+- symbol: '006400'
+  name: 삼성SDI
+  country: KR
+  market: KOSPI
+  primarySector: mobility
+  tags:
+  - battery
+  - ev
+  - ess
+  leader: true
+  enabled: true
+- symbol: '247540'
+  name: 에코프로비엠
+  country: KR
+  market: KOSDAQ
+  primarySector: mobility
+  tags:
+  - battery
+  leader: true
+  enabled: true
+- symbol: '003670'
+  name: 포스코퓨처엠
+  country: KR
+  market: KOSPI
+  primarySector: mobility
+  tags:
+  - battery
+  leader: true
+  enabled: true
+- symbol: 066970
+  name: 엘앤에프
+  country: KR
+  market: KOSPI
+  primarySector: mobility
+  tags:
+  - battery
+  leader: false
+  enabled: true
+- symbol: 005380
+  name: 현대차
+  country: KR
+  market: KOSPI
+  primarySector: mobility
+  tags:
+  - ev
+  - autonomous_driving
+  - auto_parts
+  leader: true
+  enabled: true
+- symbol: '000270'
+  name: 기아
+  country: KR
+  market: KOSPI
+  primarySector: mobility
+  tags:
+  - ev
+  - auto_parts
+  leader: true
+  enabled: true
+- symbol: '012330'
+  name: 현대모비스
+  country: KR
+  market: KOSPI
+  primarySector: mobility
+  tags:
+  - auto_parts
+  - autonomous_driving
+  leader: true
+  enabled: true
+- symbol: '204320'
+  name: HL만도
+  country: KR
+  market: KOSPI
+  primarySector: mobility
+  tags:
+  - autonomous_driving
+  - auto_parts
+  leader: true
+  enabled: true
+- symbol: 018880
+  name: 한온시스템
+  country: KR
+  market: KOSPI
+  primarySector: mobility
+  tags:
+  - auto_parts
+  - ev
+  leader: false
+  enabled: true
+- symbol: 005850
+  name: 에스엘
+  country: KR
+  market: KOSPI
+  primarySector: mobility
+  tags:
+  - auto_parts
+  leader: false
+  enabled: true
+- symbol: 097950
+  name: CJ제일제당
+  country: KR
+  market: KOSPI
+  primarySector: consumer
+  tags:
+  - food
+  leader: true
+  enabled: true
+- symbol: '004370'
+  name: 농심
+  country: KR
+  market: KOSPI
+  primarySector: consumer
+  tags:
+  - food
+  leader: true
+  enabled: true
+- symbol: '003230'
+  name: 삼양식품
+  country: KR
+  market: KOSPI
+  primarySector: consumer
+  tags:
+  - food
+  leader: true
+  enabled: true
+- symbol: 090430
+  name: 아모레퍼시픽
+  country: KR
+  market: KOSPI
+  primarySector: consumer
+  tags:
+  - cosmetics
+  leader: true
+  enabled: true
+- symbol: '161890'
+  name: 한국콜마
+  country: KR
+  market: KOSPI
+  primarySector: consumer
+  tags:
+  - cosmetics
+  leader: true
+  enabled: true
+- symbol: '192820'
+  name: 코스맥스
+  country: KR
+  market: KOSPI
+  primarySector: consumer
+  tags:
+  - cosmetics
+  leader: true
+  enabled: true
+- symbol: '257720'
+  name: 실리콘투
+  country: KR
+  market: KOSDAQ
+  primarySector: consumer
+  tags:
+  - cosmetics
+  - retail
+  leader: true
+  enabled: true
+- symbol: '139480'
+  name: 이마트
+  country: KR
+  market: KOSPI
+  primarySector: consumer
+  tags:
+  - retail
+  leader: true
+  enabled: true
+- symbol: '282330'
+  name: BGF리테일
+  country: KR
+  market: KOSPI
+  primarySector: consumer
+  tags:
+  - retail
+  leader: true
+  enabled: true
+- symbol: 008770
+  name: 호텔신라
+  country: KR
+  market: KOSPI
+  primarySector: consumer
+  tags:
+  - travel
+  - retail
+  leader: true
+  enabled: true
+- symbol: 039130
+  name: 하나투어
+  country: KR
+  market: KOSPI
+  primarySector: consumer
+  tags:
+  - travel
+  leader: true
+  enabled: true
+- symbol: 003490
+  name: 대한항공
+  country: KR
+  market: KOSPI
+  primarySector: consumer
+  tags:
+  - travel
+  leader: true
+  enabled: true
+- symbol: '352820'
+  name: 하이브
+  country: KR
+  market: KOSPI
+  primarySector: consumer
+  tags:
+  - entertainment
+  leader: true
+  enabled: true
+- symbol: 035900
+  name: JYP Ent.
+  country: KR
+  market: KOSDAQ
+  primarySector: consumer
+  tags:
+  - entertainment
+  leader: true
+  enabled: true
+- symbol: '041510'
+  name: 에스엠
+  country: KR
+  market: KOSDAQ
+  primarySector: consumer
+  tags:
+  - entertainment
+  leader: false
+  enabled: true
+- symbol: 005490
+  name: POSCO홀딩스
+  country: KR
+  market: KOSPI
+  primarySector: industrial_material
+  tags:
+  - steel
+  - battery
+  leader: true
+  enabled: true
+- symbol: '004020'
+  name: 현대제철
+  country: KR
+  market: KOSPI
+  primarySector: industrial_material
+  tags:
+  - steel
+  leader: true
+  enabled: true
+- symbol: 051910
+  name: LG화학
+  country: KR
+  market: KOSPI
+  primarySector: industrial_material
+  tags:
+  - chemical
+  - battery
+  leader: true
+  enabled: true
+- symbol: '011170'
+  name: 롯데케미칼
+  country: KR
+  market: KOSPI
+  primarySector: industrial_material
+  tags:
+  - chemical
+  leader: true
+  enabled: true
+- symbol: 011780
+  name: 금호석유화학
+  country: KR
+  market: KOSPI
+  primarySector: industrial_material
+  tags:
+  - chemical
+  leader: false
+  enabled: true
+- symbol: '000720'
+  name: 현대건설
+  country: KR
+  market: KOSPI
+  primarySector: industrial_material
+  tags:
+  - construction
+  - nuclear
+  leader: true
+  enabled: true
+- symbol: 028050
+  name: 삼성E&A
+  country: KR
+  market: KOSPI
+  primarySector: industrial_material
+  tags:
+  - construction
+  leader: true
+  enabled: true
+- symbol: '006360'
+  name: GS건설
+  country: KR
+  market: KOSPI
+  primarySector: industrial_material
+  tags:
+  - construction
+  leader: false
+  enabled: true
+- symbol: '241560'
+  name: 두산밥캣
+  country: KR
+  market: KOSPI
+  primarySector: industrial_material
+  tags:
+  - machinery
+  leader: true
+  enabled: true
+- symbol: 017800
+  name: 현대엘리베이터
+  country: KR
+  market: KOSPI
+  primarySector: industrial_material
+  tags:
+  - machinery
+  leader: false
+  enabled: true
+- symbol: '277810'
+  name: 레인보우로보틱스
+  country: KR
+  market: KOSDAQ
+  primarySector: future_tech
+  tags:
+  - robot
+  leader: true
+  enabled: true
+- symbol: '454910'
+  name: 두산로보틱스
+  country: KR
+  market: KOSPI
+  primarySector: future_tech
+  tags:
+  - robot
+  leader: true
+  enabled: true
+- symbol: '066570'
+  name: LG전자
+  country: KR
+  market: KOSPI
+  primarySector: future_tech
+  tags:
+  - robot
+  - xr
+  leader: true
+  enabled: true
+- symbol: '108490'
+  name: 로보티즈
+  country: KR
+  market: KOSDAQ
+  primarySector: future_tech
+  tags:
+  - robot
+  leader: false
+  enabled: true
+- symbol: '456010'
+  name: 아이씨티케이
+  country: KR
+  market: KOSDAQ
+  primarySector: future_tech
+  tags:
+  - quantum
+  leader: true
+  enabled: true
+- symbol: 046970
+  name: 우리로
+  country: KR
+  market: KOSDAQ
+  primarySector: future_tech
+  tags:
+  - quantum
+  - optical_communication
+  leader: false
+  enabled: true
+- symbol: '056360'
+  name: 코위버
+  country: KR
+  market: KOSDAQ
+  primarySector: future_tech
+  tags:
+  - quantum
+  - optical_communication
+  leader: false
+  enabled: true
+- symbol: '171090'
+  name: 선익시스템
+  country: KR
+  market: KOSDAQ
+  primarySector: future_tech
+  tags:
+  - xr
+  leader: false
+  enabled: true
+- symbol: '035420'
+  name: NAVER
+  country: KR
+  market: KOSPI
+  primarySector: future_tech
+  tags:
+  - cloud
+  - datacenter
+  - crypto
+  leader: true
+  enabled: true
+- symbol: '035720'
+  name: 카카오
+  country: KR
+  market: KOSPI
+  primarySector: future_tech
+  tags:
+  - cloud
+  - fintech
+  - crypto
+  leader: true
+  enabled: true
+- symbol: '012510'
+  name: 더존비즈온
+  country: KR
+  market: KOSPI
+  primarySector: future_tech
+  tags:
+  - cloud
+  - fintech
+  leader: true
+  enabled: true
+- symbol: 079940
+  name: 가비아
+  country: KR
+  market: KOSDAQ
+  primarySector: future_tech
+  tags:
+  - cloud
+  leader: false
+  enabled: true
+- symbol: '017670'
+  name: SK텔레콤
+  country: KR
+  market: KOSPI
+  primarySector: future_tech
+  tags:
+  - telecom
+  leader: true
+  enabled: true
+- symbol: '030200'
+  name: KT
+  country: KR
+  market: KOSPI
+  primarySector: future_tech
+  tags:
+  - telecom
+  leader: true
+  enabled: true
+- symbol: '032640'
+  name: LG유플러스
+  country: KR
+  market: KOSPI
+  primarySector: future_tech
+  tags:
+  - telecom
+  leader: false
+  enabled: true
+- symbol: '259960'
+  name: 크래프톤
+  country: KR
+  market: KOSPI
+  primarySector: consumer
+  tags:
+  - game
+  leader: true
+  enabled: true
+- symbol: '251270'
+  name: 넷마블
+  country: KR
+  market: KOSPI
+  primarySector: consumer
+  tags:
+  - game
+  leader: true
+  enabled: true
+- symbol: '036570'
+  name: NC
+  country: KR
+  market: KOSPI
+  primarySector: consumer
+  tags:
+  - game
+  leader: true
+  enabled: true
+- symbol: '293490'
+  name: 카카오게임즈
+  country: KR
+  market: KOSDAQ
+  primarySector: consumer
+  tags:
+  - game
+  leader: false
+  enabled: true
+- symbol: '263750'
+  name: 펄어비스
+  country: KR
+  market: KOSDAQ
+  primarySector: consumer
+  tags:
+  - game
+  leader: false
+  enabled: true
+- symbol: '112040'
+  name: 위메이드
+  country: KR
+  market: KOSDAQ
+  primarySector: consumer
+  tags:
+  - game
+  - crypto
+  leader: false
+  enabled: true
+- symbol: 028260
+  name: 삼성물산
+  country: KR
+  market: KOSPI
+  primarySector: finance
+  tags:
+  - holding
+  leader: true
+  enabled: true
+- symbol: '034730'
+  name: SK
+  country: KR
+  market: KOSPI
+  primarySector: finance
+  tags:
+  - holding
+  leader: true
+  enabled: true
+- symbol: '003550'
+  name: LG
+  country: KR
+  market: KOSPI
+  primarySector: finance
+  tags:
+  - holding
+  leader: true
+  enabled: true
+- symbol: 000880
+  name: 한화
+  country: KR
+  market: KOSPI
+  primarySector: finance
+  tags:
+  - holding
+  leader: false
+  enabled: true
+- symbol: '267250'
+  name: HD현대
+  country: KR
+  market: KOSPI
+  primarySector: finance
+  tags:
+  - holding
+  leader: true
+  enabled: true
+- symbol: 086520
+  name: 에코프로
+  country: KR
+  market: KOSDAQ
+  primarySector: mobility
+  tags:
+  - battery
+  leader: false
+  enabled: true
+- symbol: '015760'
+  name: 한국전력
+  country: KR
+  market: KOSPI
+  primarySector: energy_power
+  tags:
+  - power_equipment
+  - nuclear
+  leader: true
+  enabled: true
+- symbol: 096770
+  name: SK이노베이션
+  country: KR
+  market: KOSPI
+  primarySector: industrial_material
+  tags:
+  - chemical
+  - battery
+  leader: true
+  enabled: true
+- symbol: 010950
+  name: S-Oil
+  country: KR
+  market: KOSPI
+  primarySector: industrial_material
+  tags:
+  - chemical
+  leader: true
+  enabled: true
+- symbol: 033780
+  name: KT&G
+  country: KR
+  market: KOSPI
+  primarySector: consumer
+  tags:
+  - food
+  leader: true
+  enabled: true
+- symbol: '011200'
+  name: HMM
+  country: KR
+  market: KOSPI
+  primarySector: industrial_material
+  tags:
+  - shipping
+  leader: true
+  enabled: true
+- symbol: '326030'
+  name: SK바이오팜
+  country: KR
+  market: KOSPI
+  primarySector: bio_healthcare
+  tags:
+  - immuno_oncology
+  leader: true
+  enabled: true
+- symbol: '302440'
+  name: SK바이오사이언스
+  country: KR
+  market: KOSPI
+  primarySector: bio_healthcare
+  tags:
+  - cdmo
+  leader: false
+  enabled: true
+- symbol: 069620
+  name: 대웅제약
+  country: KR
+  market: KOSPI
+  primarySector: bio_healthcare
+  tags:
+  - obesity_drug
+  - immuno_oncology
+  leader: false
+  enabled: true
+- symbol: 006280
+  name: 녹십자
+  country: KR
+  market: KOSPI
+  primarySector: bio_healthcare
+  tags:
+  - cdmo
+  leader: false
+  enabled: true
+- symbol: '307950'
+  name: 현대오토에버
+  country: KR
+  market: KOSPI
+  primarySector: mobility
+  tags:
+  - autonomous_driving
+  - auto_parts
+  leader: true
+  enabled: true
+- symbol: '180640'
+  name: 한진칼
+  country: KR
+  market: KOSPI
+  primarySector: finance
+  tags:
+  - holding
+  leader: false
+  enabled: true
+- symbol: '047050'
+  name: 포스코인터내셔널
+  country: KR
+  market: KOSPI
+  primarySector: energy_power
+  tags:
+  - power_equipment
+  leader: false
+  enabled: true
+- symbol: '000150'
+  name: 두산
+  country: KR
+  market: KOSPI
+  primarySector: finance
+  tags:
+  - holding
+  leader: false
+  enabled: true
+- symbol: 018260
+  name: 삼성에스디에스
+  country: KR
+  market: KOSPI
+  primarySector: future_tech
+  tags:
+  - cloud
+  leader: true
+  enabled: true
+- symbol: '225570'
+  name: 넥슨게임즈
+  country: KR
+  market: KOSDAQ
+  primarySector: consumer
+  tags:
+  - game
+  leader: false
+  enabled: true

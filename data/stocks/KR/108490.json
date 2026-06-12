@@ -1,0 +1,41 @@
+{
+  "symbol": "108490",
+  "name": "로보티즈",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "future_tech",
+  "tags": [
+    "robot"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 300000.0,
+      "high": 369500.0,
+      "low": 300000.0,
+      "close": 336500.0,
+      "volume": 1504091.0,
+      "changeRate": 14.65,
+      "tradingValue": 506126621500.0,
+      "marketCap": 4932089922000.0,
+      "ma5": 296700.0,
+      "ma20": 313950.0,
+      "ma60": 290825.0,
+      "ma200": 238105.02,
+      "rsi14": 54.7,
+      "volumeRatio20d": 1.76,
+      "tradingValueRatio20d": 1.72,
+      "high20": 492000.0,
+      "highLong": 492000.0,
+      "relativeStrength": 10.84,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma60",
+        "above_ma200"
+      ],
+      "score": 25
+    }
+  ]
+}

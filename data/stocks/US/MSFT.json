@@ -1,0 +1,39 @@
+{
+  "symbol": "MSFT",
+  "name": "마이크로소프트",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "future_tech",
+  "tags": [
+    "cloud",
+    "quantum"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 392.24,
+      "high": 403.375,
+      "low": 385.0,
+      "close": 392.61,
+      "volume": 233187.0,
+      "changeRate": 0.58,
+      "tradingValue": 91551548.0,
+      "marketCap": 2916477749137.0,
+      "ma5": 399.09,
+      "ma20": 419.84,
+      "ma60": 405.18,
+      "ma200": 453.74,
+      "rsi14": 39.8,
+      "volumeRatio20d": 0.01,
+      "tradingValueRatio20d": 0.01,
+      "high20": 466.32,
+      "highLong": 553.72,
+      "relativeStrength": 0.53,
+      "signals": [
+        "ma20_breakdown"
+      ],
+      "score": 0
+    }
+  ]
+}

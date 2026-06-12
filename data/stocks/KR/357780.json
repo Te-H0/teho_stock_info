@@ -1,0 +1,45 @@
+{
+  "symbol": "357780",
+  "name": "솔브레인",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "semiconductor_material"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 369000.0,
+      "high": 461500.0,
+      "low": 357500.0,
+      "close": 431000.0,
+      "volume": 593392.0,
+      "changeRate": 17.6,
+      "tradingValue": 255751952000.0,
+      "marketCap": 3352561946000.0,
+      "ma5": 362600.0,
+      "ma20": 396375.0,
+      "ma60": 418191.67,
+      "ma200": 336640.0,
+      "rsi14": 50.7,
+      "volumeRatio20d": 6.42,
+      "tradingValueRatio20d": 7.01,
+      "high20": 490000.0,
+      "highLong": 530000.0,
+      "relativeStrength": 13.79,
+      "signals": [
+        "trading_value_surge",
+        "trading_value_surge_strong",
+        "volume_surge",
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bearish_alignment"
+      ],
+      "score": 55
+    }
+  ]
+}

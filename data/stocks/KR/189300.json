@@ -1,0 +1,40 @@
+{
+  "symbol": "189300",
+  "name": "인텔리안테크",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "defense_space",
+  "tags": [
+    "satellite"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 107600.0,
+      "high": 114400.0,
+      "low": 102300.0,
+      "close": 106400.0,
+      "volume": 302372.0,
+      "changeRate": 1.33,
+      "tradingValue": 32172380800.0,
+      "marketCap": 1142469680800.0,
+      "ma5": 102180.0,
+      "ma20": 131995.0,
+      "ma60": 132020.0,
+      "ma200": 85522.0,
+      "rsi14": 34.0,
+      "volumeRatio20d": 0.9,
+      "tradingValueRatio20d": 0.7,
+      "high20": 177400.0,
+      "highLong": 180200.0,
+      "relativeStrength": -2.48,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 5
+    }
+  ]
+}

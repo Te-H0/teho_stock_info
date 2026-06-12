@@ -1,0 +1,39 @@
+{
+  "symbol": "011780",
+  "name": "금호석유화학",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "industrial_material",
+  "tags": [
+    "chemical"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 121300.0,
+      "high": 129500.0,
+      "low": 121300.0,
+      "close": 125500.0,
+      "volume": 82198.0,
+      "changeRate": 4.32,
+      "tradingValue": 10315849000.0,
+      "marketCap": 3157244287500.0,
+      "ma5": 121720.0,
+      "ma20": 133495.0,
+      "ma60": 133140.0,
+      "ma200": 125087.5,
+      "rsi14": 36.5,
+      "volumeRatio20d": 0.64,
+      "tradingValueRatio20d": 0.59,
+      "high20": 153800.0,
+      "highLong": 168700.0,
+      "relativeStrength": 0.51,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 5
+    }
+  ]
+}

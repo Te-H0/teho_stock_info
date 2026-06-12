@@ -1,0 +1,1216 @@
+[
+  {
+    "sectorId": "bank",
+    "sectorName": "은행",
+    "parentSectorId": "finance",
+    "parentSectorName": "금융",
+    "score": 82,
+    "avgChangeRate": 0.76,
+    "relativeStrength": 0.71,
+    "totalTradingValue": 8927944.0,
+    "tradingValueRatio20d": null,
+    "upCount": 2,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "GS",
+      "JPM"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "GS",
+        "name": "골드만삭스",
+        "changeRate": 1.19,
+        "score": 45
+      },
+      {
+        "symbol": "JPM",
+        "name": "제이피모건 체이스",
+        "changeRate": 0.6,
+        "score": 40
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "solar",
+    "sectorName": "태양광",
+    "parentSectorId": "energy_power",
+    "parentSectorName": "에너지/전력",
+    "score": 70,
+    "avgChangeRate": 1.78,
+    "relativeStrength": 1.73,
+    "totalTradingValue": 1641372.0,
+    "tradingValueRatio20d": null,
+    "upCount": 1,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "FSLR"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "FSLR",
+        "name": "퍼스트 솔라",
+        "changeRate": 1.78,
+        "score": 25
+      }
+    ],
+    "signals": [
+      "sector_relative_strength",
+      "sector_breadth_strong"
+    ]
+  },
+  {
+    "sectorId": "semiconductor_material",
+    "sectorName": "반도체소재",
+    "parentSectorId": "ai_semiconductor",
+    "parentSectorName": "AI/반도체",
+    "score": 55,
+    "avgChangeRate": -1.79,
+    "relativeStrength": -1.84,
+    "totalTradingValue": 20772893.0,
+    "tradingValueRatio20d": null,
+    "upCount": 0,
+    "downCount": 1,
+    "upRatio": 0.0,
+    "leaderStocks": [
+      "AMAT"
+    ],
+    "leaderUpCount": 0,
+    "topStocks": [
+      {
+        "symbol": "AMAT",
+        "name": "어플라이드 머티리얼즈",
+        "changeRate": -1.79,
+        "score": 55
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "packaging",
+    "sectorName": "패키징",
+    "parentSectorId": "ai_semiconductor",
+    "parentSectorName": "AI/반도체",
+    "score": 50,
+    "avgChangeRate": 0.11,
+    "relativeStrength": 0.06,
+    "totalTradingValue": 32926427.0,
+    "tradingValueRatio20d": 0.01,
+    "upCount": 1,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "TSM"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "TSM",
+        "name": "TSMC(ADR)",
+        "changeRate": 0.11,
+        "score": 30
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong"
+    ]
+  },
+  {
+    "sectorId": "cloud",
+    "sectorName": "클라우드",
+    "parentSectorId": "future_tech",
+    "parentSectorName": "미래기술",
+    "score": 44,
+    "avgChangeRate": 0.78,
+    "relativeStrength": 0.73,
+    "totalTradingValue": 808830381.0,
+    "tradingValueRatio20d": 0.02,
+    "upCount": 4,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "AMZN",
+      "MSFT"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "GOOGL",
+        "name": "알파벳 A",
+        "changeRate": 1.02,
+        "score": 10
+      },
+      {
+        "symbol": "AMZN",
+        "name": "아마존",
+        "changeRate": 0.72,
+        "score": 5
+      },
+      {
+        "symbol": "MSFT",
+        "name": "마이크로소프트",
+        "changeRate": 0.58,
+        "score": 0
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "power_equipment",
+    "sectorName": "전력기기",
+    "parentSectorId": "energy_power",
+    "parentSectorName": "에너지/전력",
+    "score": 43,
+    "avgChangeRate": 0.54,
+    "relativeStrength": 0.49,
+    "totalTradingValue": 23896746.0,
+    "tradingValueRatio20d": 0.02,
+    "upCount": 3,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "GEV",
+      "VRT"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "VRT",
+        "name": "버티브 홀딩스",
+        "changeRate": 0.7,
+        "score": 5
+      },
+      {
+        "symbol": "GEV",
+        "name": "GE 버노바",
+        "changeRate": 0.42,
+        "score": 5
+      },
+      {
+        "symbol": "VST",
+        "name": "비스트라 에너지",
+        "changeRate": 0.77,
+        "score": 0
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "nuclear",
+    "sectorName": "원전",
+    "parentSectorId": "energy_power",
+    "parentSectorName": "에너지/전력",
+    "score": 43,
+    "avgChangeRate": 0.5,
+    "relativeStrength": 0.45,
+    "totalTradingValue": 37643061.0,
+    "tradingValueRatio20d": 0.03,
+    "upCount": 4,
+    "downCount": 1,
+    "upRatio": 0.8,
+    "leaderStocks": [
+      "CEG",
+      "GEV"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "SMR",
+        "name": "뉴스케일파워",
+        "changeRate": 2.6,
+        "score": 10
+      },
+      {
+        "symbol": "GEV",
+        "name": "GE 버노바",
+        "changeRate": 0.42,
+        "score": 5
+      },
+      {
+        "symbol": "CEG",
+        "name": "컨스털레이션 에너지",
+        "changeRate": 0.52,
+        "score": 0
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "memory",
+    "sectorName": "메모리",
+    "parentSectorId": "ai_semiconductor",
+    "parentSectorName": "AI/반도체",
+    "score": 42,
+    "avgChangeRate": -2.34,
+    "relativeStrength": -2.39,
+    "totalTradingValue": 1771860554.0,
+    "tradingValueRatio20d": 0.03,
+    "upCount": 0,
+    "downCount": 2,
+    "upRatio": 0.0,
+    "leaderStocks": [
+      "MU",
+      "SNDK"
+    ],
+    "leaderUpCount": 0,
+    "topStocks": [
+      {
+        "symbol": "SNDK",
+        "name": "샌디스크",
+        "changeRate": -0.51,
+        "score": 55
+      },
+      {
+        "symbol": "MU",
+        "name": "마이크론 테크놀로지",
+        "changeRate": -2.81,
+        "score": 30
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "robot",
+    "sectorName": "로봇",
+    "parentSectorId": "future_tech",
+    "parentSectorName": "미래기술",
+    "score": 42,
+    "avgChangeRate": 0.14,
+    "relativeStrength": 0.09,
+    "totalTradingValue": 308862706.0,
+    "tradingValueRatio20d": 0.02,
+    "upCount": 2,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "ISRG",
+      "TSLA"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "changeRate": 0.12,
+        "score": 5
+      },
+      {
+        "symbol": "ISRG",
+        "name": "인튜이티브 서지컬",
+        "changeRate": 0.36,
+        "score": 0
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "semiconductor_equipment",
+    "sectorName": "반도체장비",
+    "parentSectorId": "ai_semiconductor",
+    "parentSectorName": "AI/반도체",
+    "score": 40,
+    "avgChangeRate": -1.33,
+    "relativeStrength": -1.38,
+    "totalTradingValue": 245784243.0,
+    "tradingValueRatio20d": 0.02,
+    "upCount": 0,
+    "downCount": 4,
+    "upRatio": 0.0,
+    "leaderStocks": [
+      "ASML",
+      "AVGO"
+    ],
+    "leaderUpCount": 0,
+    "topStocks": [
+      {
+        "symbol": "AMAT",
+        "name": "어플라이드 머티리얼즈",
+        "changeRate": -1.79,
+        "score": 55
+      },
+      {
+        "symbol": "LRCX",
+        "name": "램 리서치",
+        "changeRate": -1.55,
+        "score": 55
+      },
+      {
+        "symbol": "ASML",
+        "name": "ASML 홀딩(ADR)",
+        "changeRate": -3.36,
+        "score": 45
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "securities",
+    "sectorName": "증권",
+    "parentSectorId": "finance",
+    "parentSectorName": "금융",
+    "score": 40,
+    "avgChangeRate": 0.85,
+    "relativeStrength": 0.8,
+    "totalTradingValue": 37550039.0,
+    "tradingValueRatio20d": 0.01,
+    "upCount": 1,
+    "downCount": 1,
+    "upRatio": 0.5,
+    "leaderStocks": [
+      "GS",
+      "HOOD"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "GS",
+        "name": "골드만삭스",
+        "changeRate": 1.19,
+        "score": 45
+      },
+      {
+        "symbol": "HOOD",
+        "name": "로빈후드",
+        "changeRate": -0.44,
+        "score": 35
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "satellite",
+    "sectorName": "위성",
+    "parentSectorId": "defense_space",
+    "parentSectorName": "국방/우주",
+    "score": 39,
+    "avgChangeRate": 0.9,
+    "relativeStrength": 0.85,
+    "totalTradingValue": 338879710.0,
+    "tradingValueRatio20d": 0.06,
+    "upCount": 3,
+    "downCount": 1,
+    "upRatio": 0.75,
+    "leaderStocks": [
+      "LMT",
+      "NOC"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "LMT",
+        "name": "록히드 마틴",
+        "changeRate": 0.06,
+        "score": 20
+      },
+      {
+        "symbol": "RKLB",
+        "name": "로켓 랩",
+        "changeRate": 3.06,
+        "score": 20
+      },
+      {
+        "symbol": "ASTS",
+        "name": "AST 스페이스모바일",
+        "changeRate": 1.68,
+        "score": 20
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong"
+    ]
+  },
+  {
+    "sectorId": "insurance",
+    "sectorName": "보험",
+    "parentSectorId": "finance",
+    "parentSectorName": "금융",
+    "score": 35,
+    "avgChangeRate": -0.05,
+    "relativeStrength": -0.1,
+    "totalTradingValue": 3607236.0,
+    "tradingValueRatio20d": null,
+    "upCount": 0,
+    "downCount": 1,
+    "upRatio": 0.0,
+    "leaderStocks": [
+      "BRK.B"
+    ],
+    "leaderUpCount": 0,
+    "topStocks": [
+      {
+        "symbol": "BRK.B",
+        "name": "버크셔 해서웨이 B",
+        "changeRate": -0.05,
+        "score": 35
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "obesity_drug",
+    "sectorName": "비만치료제",
+    "parentSectorId": "bio_healthcare",
+    "parentSectorName": "바이오/헬스케어",
+    "score": 32,
+    "avgChangeRate": 0.17,
+    "relativeStrength": 0.12,
+    "totalTradingValue": 12399495.0,
+    "tradingValueRatio20d": 0.02,
+    "upCount": 1,
+    "downCount": 1,
+    "upRatio": 0.5,
+    "leaderStocks": [
+      "LLY",
+      "NVO"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "LLY",
+        "name": "일라이 릴리",
+        "changeRate": 0.2,
+        "score": 55
+      },
+      {
+        "symbol": "NVO",
+        "name": "노보노디스크(ADR)",
+        "changeRate": -0.07,
+        "score": 10
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "hbm",
+    "sectorName": "HBM",
+    "parentSectorId": "ai_semiconductor",
+    "parentSectorName": "AI/반도체",
+    "score": 30,
+    "avgChangeRate": -2.81,
+    "relativeStrength": -2.86,
+    "totalTradingValue": 1334467754.0,
+    "tradingValueRatio20d": 0.03,
+    "upCount": 0,
+    "downCount": 1,
+    "upRatio": 0.0,
+    "leaderStocks": [
+      "MU"
+    ],
+    "leaderUpCount": 0,
+    "topStocks": [
+      {
+        "symbol": "MU",
+        "name": "마이크론 테크놀로지",
+        "changeRate": -2.81,
+        "score": 30
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "autonomous_driving",
+    "sectorName": "자율주행",
+    "parentSectorId": "mobility",
+    "parentSectorName": "모빌리티",
+    "score": 27,
+    "avgChangeRate": 0.67,
+    "relativeStrength": 0.62,
+    "totalTradingValue": 858987293.0,
+    "tradingValueRatio20d": 0.03,
+    "upCount": 2,
+    "downCount": 1,
+    "upRatio": 0.67,
+    "leaderStocks": [
+      "GOOGL",
+      "TSLA"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "GOOGL",
+        "name": "알파벳 A",
+        "changeRate": 1.02,
+        "score": 10
+      },
+      {
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "changeRate": 0.12,
+        "score": 5
+      },
+      {
+        "symbol": "MBLY",
+        "name": "모빌아이 글로벌",
+        "changeRate": -0.73,
+        "score": 5
+      }
+    ],
+    "signals": [
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "quantum",
+    "sectorName": "양자",
+    "parentSectorId": "future_tech",
+    "parentSectorName": "미래기술",
+    "score": 26,
+    "avgChangeRate": 0.77,
+    "relativeStrength": 0.72,
+    "totalTradingValue": 681450327.0,
+    "tradingValueRatio20d": 0.03,
+    "upCount": 3,
+    "downCount": 2,
+    "upRatio": 0.6,
+    "leaderStocks": [
+      "GOOGL",
+      "MSFT"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "GOOGL",
+        "name": "알파벳 A",
+        "changeRate": 1.02,
+        "score": 10
+      },
+      {
+        "symbol": "IONQ",
+        "name": "아이온큐",
+        "changeRate": -0.1,
+        "score": 10
+      },
+      {
+        "symbol": "RGTI",
+        "name": "리게티 컴퓨팅",
+        "changeRate": 0.33,
+        "score": 5
+      }
+    ],
+    "signals": [
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "wind",
+    "sectorName": "풍력",
+    "parentSectorId": "energy_power",
+    "parentSectorName": "에너지/전력",
+    "score": 25,
+    "avgChangeRate": 0.42,
+    "relativeStrength": 0.37,
+    "totalTradingValue": 9913148.0,
+    "tradingValueRatio20d": null,
+    "upCount": 1,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "GEV"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "GEV",
+        "name": "GE 버노바",
+        "changeRate": 0.42,
+        "score": 5
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong"
+    ]
+  },
+  {
+    "sectorId": "retail",
+    "sectorName": "유통",
+    "parentSectorId": "consumer",
+    "parentSectorName": "소비",
+    "score": 25,
+    "avgChangeRate": 0.72,
+    "relativeStrength": 0.67,
+    "totalTradingValue": 94822018.0,
+    "tradingValueRatio20d": 0.01,
+    "upCount": 1,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "AMZN"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "AMZN",
+        "name": "아마존",
+        "changeRate": 0.72,
+        "score": 5
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong"
+    ]
+  },
+  {
+    "sectorId": "foundry",
+    "sectorName": "파운드리",
+    "parentSectorId": "ai_semiconductor",
+    "parentSectorName": "AI/반도체",
+    "score": 22,
+    "avgChangeRate": -0.12,
+    "relativeStrength": -0.17,
+    "totalTradingValue": 191396106.0,
+    "tradingValueRatio20d": 0.01,
+    "upCount": 1,
+    "downCount": 1,
+    "upRatio": 0.5,
+    "leaderStocks": [
+      "INTC",
+      "TSM"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "TSM",
+        "name": "TSMC(ADR)",
+        "changeRate": 0.11,
+        "score": 30
+      },
+      {
+        "symbol": "INTC",
+        "name": "인텔",
+        "changeRate": -0.99,
+        "score": 15
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "sto",
+    "sectorName": "STO",
+    "parentSectorId": "finance",
+    "parentSectorName": "금융",
+    "score": 20,
+    "avgChangeRate": 0.02,
+    "relativeStrength": -0.03,
+    "totalTradingValue": 12607100.0,
+    "tradingValueRatio20d": 0.01,
+    "upCount": 1,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "CRCL"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "CRCL",
+        "name": "써클 인터넷 그룹",
+        "changeRate": 0.02,
+        "score": 0
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong"
+    ]
+  },
+  {
+    "sectorId": "medical_device",
+    "sectorName": "의료기기",
+    "parentSectorId": "bio_healthcare",
+    "parentSectorName": "바이오/헬스케어",
+    "score": 20,
+    "avgChangeRate": 0.36,
+    "relativeStrength": 0.31,
+    "totalTradingValue": 722282.0,
+    "tradingValueRatio20d": null,
+    "upCount": 1,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "ISRG"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "ISRG",
+        "name": "인튜이티브 서지컬",
+        "changeRate": 0.36,
+        "score": 0
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong"
+    ]
+  },
+  {
+    "sectorId": "xr",
+    "sectorName": "XR",
+    "parentSectorId": "future_tech",
+    "parentSectorName": "미래기술",
+    "score": 20,
+    "avgChangeRate": 0.88,
+    "relativeStrength": 0.83,
+    "totalTradingValue": 71680206.0,
+    "tradingValueRatio20d": 0.01,
+    "upCount": 1,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "META"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "META",
+        "name": "메타",
+        "changeRate": 0.88,
+        "score": 0
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong"
+    ]
+  },
+  {
+    "sectorId": "aerospace",
+    "sectorName": "우주항공",
+    "parentSectorId": "defense_space",
+    "parentSectorName": "국방/우주",
+    "score": 19,
+    "avgChangeRate": 0.31,
+    "relativeStrength": 0.26,
+    "totalTradingValue": 229795248.0,
+    "tradingValueRatio20d": 0.07,
+    "upCount": 2,
+    "downCount": 2,
+    "upRatio": 0.5,
+    "leaderStocks": [
+      "LMT",
+      "RTX"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "LMT",
+        "name": "록히드 마틴",
+        "changeRate": 0.06,
+        "score": 20
+      },
+      {
+        "symbol": "RTX",
+        "name": "RTX",
+        "changeRate": -0.22,
+        "score": 20
+      },
+      {
+        "symbol": "RKLB",
+        "name": "로켓 랩",
+        "changeRate": 3.06,
+        "score": 20
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "gpu",
+    "sectorName": "GPU",
+    "parentSectorId": "ai_semiconductor",
+    "parentSectorName": "AI/반도체",
+    "score": 12,
+    "avgChangeRate": 0.07,
+    "relativeStrength": 0.02,
+    "totalTradingValue": 551195406.0,
+    "tradingValueRatio20d": 0.01,
+    "upCount": 1,
+    "downCount": 1,
+    "upRatio": 0.5,
+    "leaderStocks": [
+      "AMD",
+      "NVDA"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "AMD",
+        "name": "AMD",
+        "changeRate": 1.34,
+        "score": 15
+      },
+      {
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "changeRate": -0.14,
+        "score": 10
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "defense",
+    "sectorName": "방산",
+    "parentSectorId": "defense_space",
+    "parentSectorName": "국방/우주",
+    "score": 12,
+    "avgChangeRate": -0.03,
+    "relativeStrength": -0.08,
+    "totalTradingValue": 36487019.0,
+    "tradingValueRatio20d": 0.01,
+    "upCount": 2,
+    "downCount": 3,
+    "upRatio": 0.4,
+    "leaderStocks": [
+      "PLTR",
+      "RTX"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "LMT",
+        "name": "록히드 마틴",
+        "changeRate": 0.06,
+        "score": 20
+      },
+      {
+        "symbol": "RTX",
+        "name": "RTX",
+        "changeRate": -0.22,
+        "score": 20
+      },
+      {
+        "symbol": "NOC",
+        "name": "노스롭 그루먼",
+        "changeRate": 0.0,
+        "score": 15
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "crypto",
+    "sectorName": "가상자산",
+    "parentSectorId": "finance",
+    "parentSectorName": "금융",
+    "score": 11,
+    "avgChangeRate": -0.26,
+    "relativeStrength": -0.31,
+    "totalTradingValue": 54362168.0,
+    "tradingValueRatio20d": 0.01,
+    "upCount": 2,
+    "downCount": 2,
+    "upRatio": 0.5,
+    "leaderStocks": [
+      "COIN",
+      "HOOD"
+    ],
+    "leaderUpCount": 0,
+    "topStocks": [
+      {
+        "symbol": "HOOD",
+        "name": "로빈후드",
+        "changeRate": -0.44,
+        "score": 35
+      },
+      {
+        "symbol": "XYZ",
+        "name": "블록",
+        "changeRate": 0.33,
+        "score": 10
+      },
+      {
+        "symbol": "COIN",
+        "name": "코인베이스",
+        "changeRate": -0.62,
+        "score": 0
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "fintech",
+    "sectorName": "핀테크",
+    "parentSectorId": "finance",
+    "parentSectorName": "금융",
+    "score": 11,
+    "avgChangeRate": -0.26,
+    "relativeStrength": -0.31,
+    "totalTradingValue": 54362168.0,
+    "tradingValueRatio20d": 0.01,
+    "upCount": 2,
+    "downCount": 2,
+    "upRatio": 0.5,
+    "leaderStocks": [
+      "COIN",
+      "HOOD"
+    ],
+    "leaderUpCount": 0,
+    "topStocks": [
+      {
+        "symbol": "HOOD",
+        "name": "로빈후드",
+        "changeRate": -0.44,
+        "score": 35
+      },
+      {
+        "symbol": "XYZ",
+        "name": "블록",
+        "changeRate": 0.33,
+        "score": 10
+      },
+      {
+        "symbol": "COIN",
+        "name": "코인베이스",
+        "changeRate": -0.62,
+        "score": 0
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "datacenter",
+    "sectorName": "데이터센터",
+    "parentSectorId": "ai_semiconductor",
+    "parentSectorName": "AI/반도체",
+    "score": 8,
+    "avgChangeRate": -0.01,
+    "relativeStrength": -0.06,
+    "totalTradingValue": 658213514.0,
+    "tradingValueRatio20d": 0.01,
+    "upCount": 4,
+    "downCount": 2,
+    "upRatio": 0.67,
+    "leaderStocks": [
+      "AVGO",
+      "NVDA"
+    ],
+    "leaderUpCount": 0,
+    "topStocks": [
+      {
+        "symbol": "AMD",
+        "name": "AMD",
+        "changeRate": 1.34,
+        "score": 15
+      },
+      {
+        "symbol": "NVDA",
+        "name": "엔비디아",
+        "changeRate": -0.14,
+        "score": 10
+      },
+      {
+        "symbol": "COHR",
+        "name": "코히런트",
+        "changeRate": 1.15,
+        "score": 10
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "optical_communication",
+    "sectorName": "광통신",
+    "parentSectorId": "ai_semiconductor",
+    "parentSectorName": "AI/반도체",
+    "score": 8,
+    "avgChangeRate": -0.32,
+    "relativeStrength": -0.37,
+    "totalTradingValue": 91624731.0,
+    "tradingValueRatio20d": 0.01,
+    "upCount": 1,
+    "downCount": 1,
+    "upRatio": 0.5,
+    "leaderStocks": [
+      "AVGO",
+      "COHR"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "COHR",
+        "name": "코히런트",
+        "changeRate": 1.15,
+        "score": 10
+      },
+      {
+        "symbol": "AVGO",
+        "name": "브로드컴",
+        "changeRate": -0.38,
+        "score": 5
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "ev",
+    "sectorName": "전기차",
+    "parentSectorId": "mobility",
+    "parentSectorName": "모빌리티",
+    "score": 8,
+    "avgChangeRate": 0.12,
+    "relativeStrength": 0.07,
+    "totalTradingValue": 310453117.0,
+    "tradingValueRatio20d": 0.02,
+    "upCount": 1,
+    "downCount": 1,
+    "upRatio": 0.5,
+    "leaderStocks": [
+      "RIVN",
+      "TSLA"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "RIVN",
+        "name": "리비안",
+        "changeRate": -0.26,
+        "score": 10
+      },
+      {
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "changeRate": 0.12,
+        "score": 5
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "drone",
+    "sectorName": "드론",
+    "parentSectorId": "defense_space",
+    "parentSectorName": "국방/우주",
+    "score": 5,
+    "avgChangeRate": -0.38,
+    "relativeStrength": -0.43,
+    "totalTradingValue": 940620.0,
+    "tradingValueRatio20d": null,
+    "upCount": 0,
+    "downCount": 1,
+    "upRatio": 0.0,
+    "leaderStocks": [
+      "AVAV"
+    ],
+    "leaderUpCount": 0,
+    "topStocks": [
+      {
+        "symbol": "AVAV",
+        "name": "에어로바이런먼트",
+        "changeRate": -0.38,
+        "score": 5
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "battery",
+    "sectorName": "2차전지",
+    "parentSectorId": "mobility",
+    "parentSectorName": "모빌리티",
+    "score": 2,
+    "avgChangeRate": 0.12,
+    "relativeStrength": 0.07,
+    "totalTradingValue": 311554693.0,
+    "tradingValueRatio20d": 0.02,
+    "upCount": 1,
+    "downCount": 1,
+    "upRatio": 0.5,
+    "leaderStocks": [
+      "QS",
+      "TSLA"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "TSLA",
+        "name": "테슬라",
+        "changeRate": 0.12,
+        "score": 5
+      },
+      {
+        "symbol": "QS",
+        "name": "퀀텀스케이프",
+        "changeRate": -0.69,
+        "score": 0
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "immuno_oncology",
+    "sectorName": "면역항암",
+    "parentSectorId": "bio_healthcare",
+    "parentSectorName": "바이오/헬스케어",
+    "score": 0,
+    "avgChangeRate": -1.01,
+    "relativeStrength": -1.06,
+    "totalTradingValue": 351255.0,
+    "tradingValueRatio20d": null,
+    "upCount": 1,
+    "downCount": 1,
+    "upRatio": 0.5,
+    "leaderStocks": [
+      "BNTX",
+      "CRSP"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "BNTX",
+        "name": "바이오엔테크(ADR)",
+        "changeRate": -1.38,
+        "score": 0
+      },
+      {
+        "symbol": "CRSP",
+        "name": "크리스퍼 테라퓨틱스",
+        "changeRate": 0.66,
+        "score": 0
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "adc",
+    "sectorName": "ADC",
+    "parentSectorId": "bio_healthcare",
+    "parentSectorName": "바이오/헬스케어",
+    "score": 0,
+    "avgChangeRate": -1.38,
+    "relativeStrength": -1.43,
+    "totalTradingValue": 160088.0,
+    "tradingValueRatio20d": null,
+    "upCount": 0,
+    "downCount": 1,
+    "upRatio": 0.0,
+    "leaderStocks": [
+      "BNTX"
+    ],
+    "leaderUpCount": 0,
+    "topStocks": [
+      {
+        "symbol": "BNTX",
+        "name": "바이오엔테크(ADR)",
+        "changeRate": -1.38,
+        "score": 0
+      }
+    ],
+    "signals": []
+  }
+]

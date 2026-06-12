@@ -1,0 +1,40 @@
+{
+  "symbol": "AMZN",
+  "name": "아마존",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "future_tech",
+  "tags": [
+    "cloud",
+    "retail"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 241.516,
+      "high": 245.28,
+      "low": 240.772,
+      "close": 243.26,
+      "volume": 389797.0,
+      "changeRate": 0.72,
+      "tradingValue": 94822018.0,
+      "marketCap": 2616774441401.0,
+      "ma5": 242.44,
+      "ma20": 257.49,
+      "ma60": 246.89,
+      "ma200": 232.53,
+      "rsi14": 30.3,
+      "volumeRatio20d": 0.01,
+      "tradingValueRatio20d": 0.01,
+      "high20": 274.75,
+      "highLong": 278.56,
+      "relativeStrength": 0.67,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 5
+    }
+  ]
+}

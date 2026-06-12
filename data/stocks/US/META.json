@@ -1,0 +1,40 @@
+{
+  "symbol": "META",
+  "name": "메타",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "future_tech",
+  "tags": [
+    "xr",
+    "cloud"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 568.05,
+      "high": 578.0,
+      "low": 560.82,
+      "close": 573.46,
+      "volume": 124996.0,
+      "changeRate": 0.88,
+      "tradingValue": 71680206.0,
+      "marketCap": 1455684227912.0,
+      "ma5": 576.57,
+      "ma20": 604.53,
+      "ma60": 614.18,
+      "ma200": 658.12,
+      "rsi14": 38.3,
+      "volumeRatio20d": 0.01,
+      "tradingValueRatio20d": 0.01,
+      "high20": 643.0,
+      "highLong": 790.8,
+      "relativeStrength": 0.83,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

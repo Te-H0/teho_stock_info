@@ -1,0 +1,41 @@
+{
+  "symbol": "055550",
+  "name": "신한지주",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "finance",
+  "tags": [
+    "bank"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 97500.0,
+      "high": 105000.0,
+      "low": 97200.0,
+      "close": 101300.0,
+      "volume": 2466824.0,
+      "changeRate": 4.54,
+      "tradingValue": 249889271200.0,
+      "marketCap": 48082486769300.0,
+      "ma5": 98560.0,
+      "ma20": 96800.0,
+      "ma60": 96356.67,
+      "ma200": 83907.5,
+      "rsi14": 56.8,
+      "volumeRatio20d": 1.34,
+      "tradingValueRatio20d": 1.39,
+      "high20": 115800.0,
+      "highLong": 115800.0,
+      "relativeStrength": 0.73,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment"
+      ],
+      "score": 30
+    }
+  ]
+}

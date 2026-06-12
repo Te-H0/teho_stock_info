@@ -1,0 +1,11 @@
+# 헤드라인 지수. 토스는 지수를 안 줘서 yfinance(야후, 무료)로 전일대비 등락 조회.
+# 세션별: close(한국마감)=한국지수, morning(미국리뷰)=미국지수. always=공통(환율).
+headline:
+  close:
+    - { key: kospi,  name: 코스피,  symbol: "^KS11" }
+    - { key: kosdaq, name: 코스닥,  symbol: "^KQ11" }
+  morning:
+    - { key: sp500,  name: S&P500, symbol: "^GSPC" }
+    - { key: nasdaq, name: 나스닥,  symbol: "^IXIC" }
+  always:
+    - { key: usdkrw, name: 환율,    symbol: "KRW=X", unit: 원 }

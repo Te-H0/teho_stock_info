@@ -1,0 +1,40 @@
+{
+  "symbol": "VRT",
+  "name": "버티브 홀딩스",
+  "country": "US",
+  "market": "NYSE",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "datacenter",
+    "power_equipment"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 299.8925,
+      "high": 304.45,
+      "low": 294.24,
+      "close": 299.9614,
+      "volume": 36450.0,
+      "changeRate": 0.7,
+      "tradingValue": 10933593.0,
+      "marketCap": 115217818200.0,
+      "ma5": 293.78,
+      "ma20": 317.8,
+      "ma60": 307.51,
+      "ma200": 220.19,
+      "rsi14": 37.1,
+      "volumeRatio20d": 0.01,
+      "tradingValueRatio20d": 0.01,
+      "high20": 373.91,
+      "highLong": 379.935,
+      "relativeStrength": 0.65,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 5
+    }
+  ]
+}

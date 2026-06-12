@@ -1,0 +1,42 @@
+{
+  "symbol": "010120",
+  "name": "LS ELECTRIC",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "energy_power",
+  "tags": [
+    "power_equipment",
+    "transformer",
+    "ess"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 238000.0,
+      "high": 248000.0,
+      "low": 221500.0,
+      "close": 229500.0,
+      "volume": 3207450.0,
+      "changeRate": -1.92,
+      "tradingValue": 736109775000.0,
+      "marketCap": 34425000000000.0,
+      "ma5": 225600.0,
+      "ma20": 249225.0,
+      "ma60": 219925.0,
+      "ma200": 130551.5,
+      "rsi14": 39.1,
+      "volumeRatio20d": 1.25,
+      "tradingValueRatio20d": 1.12,
+      "high20": 302500.0,
+      "highLong": 347500.0,
+      "relativeStrength": -5.73,
+      "signals": [
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 10
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "symbol": "010820",
+  "name": "퍼스텍",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "defense_space",
+  "tags": [
+    "drone",
+    "defense"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 7680.0,
+      "high": 8000.0,
+      "low": 7500.0,
+      "close": 7800.0,
+      "volume": 865113.0,
+      "changeRate": 1.83,
+      "tradingValue": 6747881400.0,
+      "marketCap": 380421116400.0,
+      "ma5": 7768.0,
+      "ma20": 9650.5,
+      "ma60": 10419.17,
+      "ma200": 6411.65,
+      "rsi14": 21.6,
+      "volumeRatio20d": 0.64,
+      "tradingValueRatio20d": 0.5,
+      "high20": 12590.0,
+      "highLong": 18730.0,
+      "relativeStrength": -1.98,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 5
+    }
+  ]
+}

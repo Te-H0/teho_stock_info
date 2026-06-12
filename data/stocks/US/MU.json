@@ -1,0 +1,42 @@
+{
+  "symbol": "MU",
+  "name": "마이크론 테크놀로지",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "memory",
+    "hbm"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 996.0,
+      "high": 999.2677,
+      "low": 916.765,
+      "close": 967.8739,
+      "volume": 1378762.0,
+      "changeRate": -2.81,
+      "tradingValue": 1334467754.0,
+      "marketCap": 1091504354104.0,
+      "ma5": 948.16,
+      "ma20": 892.44,
+      "ma60": 627.63,
+      "ma200": 381.64,
+      "rsi14": 63.1,
+      "volumeRatio20d": 0.02,
+      "tradingValueRatio20d": 0.03,
+      "high20": 1089.29,
+      "highLong": 1089.29,
+      "relativeStrength": -2.86,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment"
+      ],
+      "score": 30
+    }
+  ]
+}

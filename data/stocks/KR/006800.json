@@ -1,0 +1,41 @@
+{
+  "symbol": "006800",
+  "name": "미래에셋증권",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "finance",
+  "tags": [
+    "securities",
+    "sto"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 54300.0,
+      "high": 56500.0,
+      "low": 51600.0,
+      "close": 54000.0,
+      "volume": 8659036.0,
+      "changeRate": 3.25,
+      "tradingValue": 467587944000.0,
+      "marketCap": 30216611520000.0,
+      "ma5": 52000.0,
+      "ma20": 61155.0,
+      "ma60": 66045.0,
+      "ma200": 41476.53,
+      "rsi14": 32.0,
+      "volumeRatio20d": 1.2,
+      "tradingValueRatio20d": 1.05,
+      "high20": 77500.0,
+      "highLong": 88000.0,
+      "relativeStrength": -0.56,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 5
+    }
+  ]
+}

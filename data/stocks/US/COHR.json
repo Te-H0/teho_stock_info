@@ -1,0 +1,41 @@
+{
+  "symbol": "COHR",
+  "name": "코히런트",
+  "country": "US",
+  "market": "NYSE",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "optical_communication",
+    "datacenter"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 359.2,
+      "high": 375.0,
+      "low": 358.11,
+      "close": 367.762,
+      "volume": 66935.0,
+      "changeRate": 1.15,
+      "tradingValue": 24616149.0,
+      "marketCap": 71948707970.0,
+      "ma5": 368.8,
+      "ma20": 378.15,
+      "ma60": 330.81,
+      "ma200": 217.81,
+      "rsi14": 47.9,
+      "volumeRatio20d": 0.01,
+      "tradingValueRatio20d": 0.01,
+      "high20": 440.0,
+      "highLong": 440.0,
+      "relativeStrength": 1.1,
+      "signals": [
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 10
+    }
+  ]
+}

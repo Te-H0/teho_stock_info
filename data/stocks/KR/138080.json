@@ -1,0 +1,41 @@
+{
+  "symbol": "138080",
+  "name": "오이솔루션",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "optical_communication"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 31950.0,
+      "high": 34950.0,
+      "low": 30500.0,
+      "close": 32600.0,
+      "volume": 500460.0,
+      "changeRate": 6.54,
+      "tradingValue": 16314996000.0,
+      "marketCap": 403514910800.0,
+      "ma5": 31240.0,
+      "ma20": 36257.5,
+      "ma60": 39847.5,
+      "ma200": 21889.0,
+      "rsi14": 41.3,
+      "volumeRatio20d": 0.79,
+      "tradingValueRatio20d": 0.67,
+      "high20": 51800.0,
+      "highLong": 57900.0,
+      "relativeStrength": 2.73,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 15
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "symbol": "267260",
+  "name": "HD현대일렉트릭",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "energy_power",
+  "tags": [
+    "transformer",
+    "power_equipment"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 1080000.0,
+      "high": 1165000.0,
+      "low": 1046000.0,
+      "close": 1074000.0,
+      "volume": 647282.0,
+      "changeRate": 4.27,
+      "tradingValue": 695180868000.0,
+      "marketCap": 38714622990000.0,
+      "ma5": 983600.0,
+      "ma20": 1069250.0,
+      "ma60": 1075533.33,
+      "ma200": 865955.0,
+      "rsi14": 44.7,
+      "volumeRatio20d": 2.38,
+      "tradingValueRatio20d": 2.39,
+      "high20": 1355000.0,
+      "highLong": 1449000.0,
+      "relativeStrength": 0.46,
+      "signals": [
+        "trading_value_surge",
+        "volume_surge",
+        "above_ma20",
+        "above_ma200",
+        "ma_bearish_alignment"
+      ],
+      "score": 35
+    }
+  ]
+}

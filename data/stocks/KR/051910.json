@@ -1,0 +1,42 @@
+{
+  "symbol": "051910",
+  "name": "LG화학",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "industrial_material",
+  "tags": [
+    "chemical",
+    "battery"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 321000.0,
+      "high": 348000.0,
+      "low": 321000.0,
+      "close": 346000.0,
+      "volume": 456194.0,
+      "changeRate": 8.12,
+      "tradingValue": 157843124000.0,
+      "marketCap": 24424950678000.0,
+      "ma5": 327400.0,
+      "ma20": 348200.0,
+      "ma60": 352416.67,
+      "ma200": 340155.0,
+      "rsi14": 49.6,
+      "volumeRatio20d": 0.83,
+      "tradingValueRatio20d": 0.81,
+      "high20": 409500.0,
+      "highLong": 437500.0,
+      "relativeStrength": 4.31,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 15
+    }
+  ]
+}

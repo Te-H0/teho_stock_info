@@ -1,0 +1,140 @@
+# 시장 관찰용 섹터 트리. "돈의 흐름을 관찰하기 좋은 단위"로 나눈다.
+# 대분류(id) > 소분류(children.id). 종목은 primarySector=대분류 1개 + tags=소분류 여러 개.
+sectors:
+  - id: ai_semiconductor
+    name: AI/반도체
+    children:
+      - id: gpu
+        name: GPU
+      - id: hbm
+        name: HBM
+      - id: memory
+        name: 메모리
+      - id: foundry
+        name: 파운드리
+      - id: semiconductor_equipment
+        name: 반도체장비
+      - id: semiconductor_material
+        name: 반도체소재
+      - id: packaging
+        name: 패키징
+      - id: optical_communication
+        name: 광통신
+      - id: datacenter
+        name: 데이터센터
+  - id: energy_power
+    name: 에너지/전력
+    children:
+      - id: nuclear
+        name: 원전
+      - id: transformer
+        name: 변압기
+      - id: cable
+        name: 전선
+      - id: power_equipment
+        name: 전력기기
+      - id: ess
+        name: ESS
+      - id: solar
+        name: 태양광
+      - id: wind
+        name: 풍력
+  - id: defense_space
+    name: 국방/우주
+    children:
+      - id: defense
+        name: 방산
+      - id: shipbuilding
+        name: 조선
+      - id: drone
+        name: 드론
+      - id: satellite
+        name: 위성
+      - id: aerospace
+        name: 우주항공
+  - id: finance
+    name: 금융
+    children:
+      - id: bank
+        name: 은행
+      - id: securities
+        name: 증권
+      - id: insurance
+        name: 보험
+      - id: fintech
+        name: 핀테크
+      - id: sto
+        name: STO
+      - id: crypto
+        name: 가상자산
+      - id: holding
+        name: 지주
+      - id: payment
+        name: 결제
+  - id: bio_healthcare
+    name: 바이오/헬스케어
+    children:
+      - id: cdmo
+        name: CDMO
+      - id: adc
+        name: ADC
+      - id: obesity_drug
+        name: 비만치료제
+      - id: medical_device
+        name: 의료기기
+      - id: immuno_oncology
+        name: 면역항암
+  - id: mobility
+    name: 모빌리티
+    children:
+      - id: ev
+        name: 전기차
+      - id: battery
+        name: 2차전지
+      - id: autonomous_driving
+        name: 자율주행
+      - id: auto_parts
+        name: 자동차부품
+  - id: consumer
+    name: 소비
+    children:
+      - id: food
+        name: 음식료
+      - id: cosmetics
+        name: 화장품
+      - id: retail
+        name: 유통
+      - id: travel
+        name: 여행
+      - id: entertainment
+        name: 엔터
+      - id: game
+        name: 게임
+      - id: consumer_electronics
+        name: 소비자가전
+  - id: industrial_material
+    name: 산업재/소재
+    children:
+      - id: steel
+        name: 철강
+      - id: chemical
+        name: 화학
+      - id: construction
+        name: 건설
+      - id: machinery
+        name: 기계
+      - id: shipping
+        name: 해운
+  - id: future_tech
+    name: 미래기술
+    children:
+      - id: robot
+        name: 로봇
+      - id: quantum
+        name: 양자
+      - id: xr
+        name: XR
+      - id: cloud
+        name: 클라우드
+      - id: telecom
+        name: 통신

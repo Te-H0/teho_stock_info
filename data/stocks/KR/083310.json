@@ -1,0 +1,40 @@
+{
+  "symbol": "083310",
+  "name": "엘오티베큠",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "semiconductor_equipment"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 11200.0,
+      "high": 12660.0,
+      "low": 11060.0,
+      "close": 11930.0,
+      "volume": 274004.0,
+      "changeRate": 10.57,
+      "tradingValue": 3268867720.0,
+      "marketCap": 212473693690.0,
+      "ma5": 10604.0,
+      "ma20": 12339.0,
+      "ma60": 13704.17,
+      "ma200": 13099.65,
+      "rsi14": 40.1,
+      "volumeRatio20d": 1.5,
+      "tradingValueRatio20d": 1.4,
+      "high20": 15860.0,
+      "highLong": 17940.0,
+      "relativeStrength": 6.76,
+      "signals": [
+        "relative_strength_strong",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 10
+    }
+  ]
+}

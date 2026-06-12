@@ -1,0 +1,39 @@
+{
+  "symbol": "004370",
+  "name": "농심",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "consumer",
+  "tags": [
+    "food"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 375000.0,
+      "high": 385000.0,
+      "low": 370500.0,
+      "close": 379500.0,
+      "volume": 33513.0,
+      "changeRate": 2.02,
+      "tradingValue": 12718183500.0,
+      "marketCap": 2308362639000.0,
+      "ma5": 371200.0,
+      "ma20": 384200.0,
+      "ma60": 378050.0,
+      "ma200": 413425.0,
+      "rsi14": 42.0,
+      "volumeRatio20d": 0.66,
+      "tradingValueRatio20d": 0.65,
+      "high20": 410000.0,
+      "highLong": 629000.0,
+      "relativeStrength": -1.79,
+      "signals": [
+        "above_ma60",
+        "ma20_breakdown"
+      ],
+      "score": 5
+    }
+  ]
+}

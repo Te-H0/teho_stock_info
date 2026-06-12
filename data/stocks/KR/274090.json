@@ -1,0 +1,39 @@
+{
+  "symbol": "274090",
+  "name": "켄코아에어로스페이스",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "defense_space",
+  "tags": [
+    "aerospace"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 22000.0,
+      "high": 24200.0,
+      "low": 20300.0,
+      "close": 20700.0,
+      "volume": 1470027.0,
+      "changeRate": -1.9,
+      "tradingValue": 30429558900.0,
+      "marketCap": 285126084900.0,
+      "ma5": 21380.0,
+      "ma20": 24864.5,
+      "ma60": 22793.33,
+      "ma200": 17530.95,
+      "rsi14": 40.9,
+      "volumeRatio20d": 0.62,
+      "tradingValueRatio20d": 0.46,
+      "high20": 39600.0,
+      "highLong": 39600.0,
+      "relativeStrength": -5.71,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 5
+    }
+  ]
+}

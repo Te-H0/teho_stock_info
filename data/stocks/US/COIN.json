@@ -1,0 +1,40 @@
+{
+  "symbol": "COIN",
+  "name": "코인베이스",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "finance",
+  "tags": [
+    "crypto",
+    "fintech"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 158.93,
+      "high": 162.2127,
+      "low": 157.61,
+      "close": 159.4322,
+      "volume": 67645.0,
+      "changeRate": -0.62,
+      "tradingValue": 10784791.0,
+      "marketCap": 42004129537.0,
+      "ma5": 158.29,
+      "ma20": 175.05,
+      "ma60": 184.92,
+      "ma200": 240.91,
+      "rsi14": 35.8,
+      "volumeRatio20d": 0.01,
+      "tradingValueRatio20d": 0.01,
+      "high20": 206.0,
+      "highLong": 402.16,
+      "relativeStrength": -0.67,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

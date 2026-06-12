@@ -1,0 +1,39 @@
+{
+  "symbol": "297090",
+  "name": "씨에스베어링",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "energy_power",
+  "tags": [
+    "wind"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 4450.0,
+      "high": 4590.0,
+      "low": 4355.0,
+      "close": 4380.0,
+      "volume": 254926.0,
+      "changeRate": 1.27,
+      "tradingValue": 1116575880.0,
+      "marketCap": 119442600000.0,
+      "ma5": 4267.0,
+      "ma20": 5242.25,
+      "ma60": 7113.75,
+      "ma200": 6682.23,
+      "rsi14": 21.7,
+      "volumeRatio20d": 1.18,
+      "tradingValueRatio20d": 0.96,
+      "high20": 7130.0,
+      "highLong": 9600.0,
+      "relativeStrength": -2.54,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

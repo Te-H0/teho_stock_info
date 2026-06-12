@@ -1,0 +1,39 @@
+{
+  "symbol": "MBLY",
+  "name": "모빌아이 글로벌",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "mobility",
+  "tags": [
+    "autonomous_driving"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 9.62,
+      "high": 9.72,
+      "low": 9.51,
+      "close": 9.51,
+      "volume": 7388.0,
+      "changeRate": -0.73,
+      "tradingValue": 70260.0,
+      "marketCap": 8009190201.0,
+      "ma5": 9.45,
+      "ma20": 9.96,
+      "ma60": 8.72,
+      "ma200": 10.75,
+      "rsi14": 41.0,
+      "volumeRatio20d": 0.0,
+      "tradingValueRatio20d": 0.0,
+      "high20": 11.255,
+      "highLong": 15.81,
+      "relativeStrength": -0.78,
+      "signals": [
+        "above_ma60",
+        "ma20_breakdown"
+      ],
+      "score": 5
+    }
+  ]
+}

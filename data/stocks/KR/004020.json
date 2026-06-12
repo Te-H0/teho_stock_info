@@ -1,0 +1,41 @@
+{
+  "symbol": "004020",
+  "name": "현대제철",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "industrial_material",
+  "tags": [
+    "steel"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 34700.0,
+      "high": 36100.0,
+      "low": 33100.0,
+      "close": 34950.0,
+      "volume": 2134285.0,
+      "changeRate": 6.88,
+      "tradingValue": 74593260750.0,
+      "marketCap": 4663930185750.0,
+      "ma5": 33510.0,
+      "ma20": 38602.5,
+      "ma60": 38830.0,
+      "ma200": 34823.75,
+      "rsi14": 39.7,
+      "volumeRatio20d": 0.95,
+      "tradingValueRatio20d": 0.82,
+      "high20": 50200.0,
+      "highLong": 50400.0,
+      "relativeStrength": 3.07,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 15
+    }
+  ]
+}

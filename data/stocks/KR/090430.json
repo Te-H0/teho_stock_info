@@ -1,0 +1,39 @@
+{
+  "symbol": "090430",
+  "name": "아모레퍼시픽",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "consumer",
+  "tags": [
+    "cosmetics"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 112400.0,
+      "high": 114900.0,
+      "low": 110300.0,
+      "close": 111800.0,
+      "volume": 309432.0,
+      "changeRate": -0.36,
+      "tradingValue": 34594497600.0,
+      "marketCap": 6539490456200.0,
+      "ma5": 110660.0,
+      "ma20": 115210.0,
+      "ma60": 127858.33,
+      "ma200": 127481.0,
+      "rsi14": 41.5,
+      "volumeRatio20d": 0.77,
+      "tradingValueRatio20d": 0.74,
+      "high20": 130200.0,
+      "highLong": 169000.0,
+      "relativeStrength": -4.17,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

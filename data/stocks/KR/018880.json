@@ -1,0 +1,42 @@
+{
+  "symbol": "018880",
+  "name": "한온시스템",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "mobility",
+  "tags": [
+    "auto_parts",
+    "ev"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 4450.0,
+      "high": 4850.0,
+      "low": 4450.0,
+      "close": 4700.0,
+      "volume": 22653366.0,
+      "changeRate": 11.11,
+      "tradingValue": 106470820200.0,
+      "marketCap": 4823433994400.0,
+      "ma5": 4390.0,
+      "ma20": 4834.25,
+      "ma60": 4430.0,
+      "ma200": 3796.83,
+      "rsi14": 47.9,
+      "volumeRatio20d": 0.86,
+      "tradingValueRatio20d": 0.79,
+      "high20": 5940.0,
+      "highLong": 5940.0,
+      "relativeStrength": 7.3,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 20
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "symbol": "402340",
+  "name": "SK스퀘어",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "memory",
+    "datacenter"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 1310000.0,
+      "high": 1422000.0,
+      "low": 1300000.0,
+      "close": 1337000.0,
+      "volume": 1834291.0,
+      "changeRate": 8.17,
+      "tradingValue": 2452447067000.0,
+      "marketCap": 176428362082000.0,
+      "ma5": 1227200.0,
+      "ma20": 1197100.0,
+      "ma60": 872166.67,
+      "ma200": 498291.5,
+      "rsi14": 59.6,
+      "volumeRatio20d": 1.47,
+      "tradingValueRatio20d": 1.64,
+      "high20": 1422000.0,
+      "highLong": 1422000.0,
+      "relativeStrength": 4.36,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment"
+      ],
+      "score": 40
+    }
+  ]
+}

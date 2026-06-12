@@ -1,0 +1,42 @@
+{
+  "symbol": "006400",
+  "name": "삼성SDI",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "mobility",
+  "tags": [
+    "battery",
+    "ev",
+    "ess"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 512000.0,
+      "high": 570000.0,
+      "low": 510000.0,
+      "close": 547000.0,
+      "volume": 1250658.0,
+      "changeRate": 7.89,
+      "tradingValue": 684109926000.0,
+      "marketCap": 44080284910000.0,
+      "ma5": 513400.0,
+      "ma20": 594050.0,
+      "ma60": 548441.67,
+      "ma200": 371573.5,
+      "rsi14": 42.4,
+      "volumeRatio20d": 0.85,
+      "tradingValueRatio20d": 0.75,
+      "high20": 707000.0,
+      "highLong": 820000.0,
+      "relativeStrength": 4.08,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 15
+    }
+  ]
+}

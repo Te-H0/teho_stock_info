@@ -1,0 +1,44 @@
+{
+  "symbol": "000720",
+  "name": "현대건설",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "industrial_material",
+  "tags": [
+    "construction",
+    "nuclear"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 130700.0,
+      "high": 157500.0,
+      "low": 128500.0,
+      "close": 142700.0,
+      "volume": 3558734.0,
+      "changeRate": 14.34,
+      "tradingValue": 507831341800.0,
+      "marketCap": 15890467665500.0,
+      "ma5": 127260.0,
+      "ma20": 139620.0,
+      "ma60": 156638.33,
+      "ma200": 104202.0,
+      "rsi14": 47.6,
+      "volumeRatio20d": 2.4,
+      "tradingValueRatio20d": 2.4,
+      "high20": 170500.0,
+      "highLong": 198400.0,
+      "relativeStrength": 10.53,
+      "signals": [
+        "trading_value_surge",
+        "volume_surge",
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma200",
+        "ma_bearish_alignment"
+      ],
+      "score": 45
+    }
+  ]
+}

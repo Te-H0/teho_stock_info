@@ -1,0 +1,40 @@
+{
+  "symbol": "128940",
+  "name": "한미약품",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "bio_healthcare",
+  "tags": [
+    "obesity_drug",
+    "immuno_oncology"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 425000.0,
+      "high": 434500.0,
+      "low": 408000.0,
+      "close": 413500.0,
+      "volume": 192333.0,
+      "changeRate": 0.49,
+      "tradingValue": 79529695500.0,
+      "marketCap": 5297344778500.0,
+      "ma5": 412000.0,
+      "ma20": 455975.0,
+      "ma60": 484600.0,
+      "ma200": 444852.5,
+      "rsi14": 46.5,
+      "volumeRatio20d": 0.46,
+      "tradingValueRatio20d": 0.39,
+      "high20": 638000.0,
+      "highLong": 648000.0,
+      "relativeStrength": -3.32,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "symbol": "099320",
+  "name": "쎄트렉아이",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "defense_space",
+  "tags": [
+    "satellite",
+    "aerospace"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 118000.0,
+      "high": 126800.0,
+      "low": 114200.0,
+      "close": 118700.0,
+      "volume": 322439.0,
+      "changeRate": 1.45,
+      "tradingValue": 38273509300.0,
+      "marketCap": 1299916698600.0,
+      "ma5": 113560.0,
+      "ma20": 136430.0,
+      "ma60": 161798.33,
+      "ma200": 113951.5,
+      "rsi14": 31.7,
+      "volumeRatio20d": 1.4,
+      "tradingValueRatio20d": 1.18,
+      "high20": 175000.0,
+      "highLong": 231000.0,
+      "relativeStrength": -2.36,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 5
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "symbol": "000270",
+  "name": "기아",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "mobility",
+  "tags": [
+    "ev",
+    "auto_parts"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 159000.0,
+      "high": 168900.0,
+      "low": 159000.0,
+      "close": 165500.0,
+      "volume": 2884734.0,
+      "changeRate": 5.08,
+      "tradingValue": 477423477000.0,
+      "marketCap": 64613351169000.0,
+      "ma5": 159520.0,
+      "ma20": 163610.0,
+      "ma60": 159950.0,
+      "ma200": 137198.5,
+      "rsi14": 49.3,
+      "volumeRatio20d": 1.17,
+      "tradingValueRatio20d": 1.17,
+      "high20": 186400.0,
+      "highLong": 212500.0,
+      "relativeStrength": 1.27,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200"
+      ],
+      "score": 15
+    }
+  ]
+}

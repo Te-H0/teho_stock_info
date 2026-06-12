@@ -1,0 +1,40 @@
+{
+  "symbol": "068270",
+  "name": "셀트리온",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "bio_healthcare",
+  "tags": [
+    "cdmo",
+    "immuno_oncology"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 168000.0,
+      "high": 176900.0,
+      "low": 168000.0,
+      "close": 172800.0,
+      "volume": 1097075.0,
+      "changeRate": 3.54,
+      "tradingValue": 189574560000.0,
+      "marketCap": 38298245299200.0,
+      "ma5": 166680.0,
+      "ma20": 176594.9,
+      "ma60": 186496.8,
+      "ma200": 183718.33,
+      "rsi14": 43.8,
+      "volumeRatio20d": 0.96,
+      "tradingValueRatio20d": 0.93,
+      "high20": 192546.0,
+      "highLong": 246402.0,
+      "relativeStrength": -0.27,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "symbol": "028050",
+  "name": "삼성E&A",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "industrial_material",
+  "tags": [
+    "construction"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 49850.0,
+      "high": 53700.0,
+      "low": 47300.0,
+      "close": 51100.0,
+      "volume": 7995443.0,
+      "changeRate": 10.73,
+      "tradingValue": 408567137300.0,
+      "marketCap": 10015600000000.0,
+      "ma5": 47120.0,
+      "ma20": 50015.0,
+      "ma60": 47793.33,
+      "ma200": 34059.75,
+      "rsi14": 49.4,
+      "volumeRatio20d": 2.11,
+      "tradingValueRatio20d": 2.12,
+      "high20": 58200.0,
+      "highLong": 67300.0,
+      "relativeStrength": 6.92,
+      "signals": [
+        "trading_value_surge",
+        "volume_surge",
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma60",
+        "above_ma200"
+      ],
+      "score": 50
+    }
+  ]
+}

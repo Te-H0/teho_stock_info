@@ -1,0 +1,40 @@
+{
+  "symbol": "071050",
+  "name": "한국금융지주",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "finance",
+  "tags": [
+    "securities",
+    "crypto"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 237500.0,
+      "high": 250500.0,
+      "low": 236000.0,
+      "close": 241000.0,
+      "volume": 464562.0,
+      "changeRate": 2.55,
+      "tradingValue": 111959442000.0,
+      "marketCap": 13429964072000.0,
+      "ma5": 231100.0,
+      "ma20": 242475.0,
+      "ma60": 242258.33,
+      "ma200": 195695.5,
+      "rsi14": 47.9,
+      "volumeRatio20d": 1.04,
+      "tradingValueRatio20d": 1.02,
+      "high20": 283000.0,
+      "highLong": 304000.0,
+      "relativeStrength": -1.26,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 5
+    }
+  ]
+}

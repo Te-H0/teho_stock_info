@@ -1,0 +1,43 @@
+{
+  "symbol": "005290",
+  "name": "동진쎄미켐",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "semiconductor_material"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 58400.0,
+      "high": 62800.0,
+      "low": 56800.0,
+      "close": 59900.0,
+      "volume": 3852551.0,
+      "changeRate": 5.46,
+      "tradingValue": 230767804900.0,
+      "marketCap": 3053110547400.0,
+      "ma5": 54360.0,
+      "ma20": 56680.0,
+      "ma60": 54110.83,
+      "ma200": 44804.5,
+      "rsi14": 48.2,
+      "volumeRatio20d": 2.3,
+      "tradingValueRatio20d": 2.38,
+      "high20": 72200.0,
+      "highLong": 72200.0,
+      "relativeStrength": 1.65,
+      "signals": [
+        "trading_value_surge",
+        "volume_surge",
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma60",
+        "above_ma200"
+      ],
+      "score": 50
+    }
+  ]
+}

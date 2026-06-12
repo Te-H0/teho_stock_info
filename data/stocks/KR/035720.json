@@ -1,0 +1,41 @@
+{
+  "symbol": "035720",
+  "name": "카카오",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "future_tech",
+  "tags": [
+    "cloud",
+    "fintech",
+    "crypto"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 40800.0,
+      "high": 43000.0,
+      "low": 40300.0,
+      "close": 40900.0,
+      "volume": 7331748.0,
+      "changeRate": 0.25,
+      "tradingValue": 299868493200.0,
+      "marketCap": 18068170422200.0,
+      "ma5": 39600.0,
+      "ma20": 41355.0,
+      "ma60": 45598.33,
+      "ma200": 55700.75,
+      "rsi14": 47.6,
+      "volumeRatio20d": 1.39,
+      "tradingValueRatio20d": 1.35,
+      "high20": 48600.0,
+      "highLong": 69700.0,
+      "relativeStrength": -3.56,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

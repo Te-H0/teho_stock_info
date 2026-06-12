@@ -1,0 +1,41 @@
+{
+  "symbol": "006260",
+  "name": "LS",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "energy_power",
+  "tags": [
+    "cable",
+    "power_equipment"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 390000.0,
+      "high": 414000.0,
+      "low": 382500.0,
+      "close": 392000.0,
+      "volume": 265542.0,
+      "changeRate": 2.62,
+      "tradingValue": 104092464000.0,
+      "marketCap": 12230400000000.0,
+      "ma5": 385600.0,
+      "ma20": 462975.0,
+      "ma60": 388725.0,
+      "ma200": 258516.5,
+      "rsi14": 29.9,
+      "volumeRatio20d": 0.57,
+      "tradingValueRatio20d": 0.46,
+      "high20": 604000.0,
+      "highLong": 604000.0,
+      "relativeStrength": -1.19,
+      "signals": [
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 10
+    }
+  ]
+}

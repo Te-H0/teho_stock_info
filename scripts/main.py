@@ -1,0 +1,110 @@
+"""Market Radar 전체 실행.
+
+사용법:
+    python scripts/main.py                # 시각으로 세션 자동판별
+    python scripts/main.py close          # 세션 강제 (close=한국마감 / morning=미국리뷰)
+    python scripts/main.py close --force  # 휴장이어도 강제 실행(테스트용)
+    python scripts/main.py close --no-store  # data 저장 생략
+"""
+
+import os
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # scripts/ 를 import 루트로
+
+import collect
+import aggregate
+import report
+from lib import flow, indices, sessions, store
+from lib.config import (load_benchmarks, load_env, load_indicators, load_sectors,
+                        load_signals, load_stocks, sector_names)
+from lib.toss import TossClient
+from notify import Notifier
+from signals import evaluate_stock
+
+
+def run() -> None:
+    args = sys.argv[1:]
+    force = "--force" in args
+    do_store = "--no-store" not in args
+    session = next((a for a in args if a in ("morning", "close")), None) or sessions.detect_session()
+    country = sessions.SESSION_COUNTRY[session]
+    date = sessions.today_str()
+
+    env = load_env()
+    if not env.get("TOSS_CLIENT_ID") or not env.get("TOSS_CLIENT_SECRET"):
+        print("[!] .env 에 TOSS_CLIENT_ID / TOSS_CLIENT_SECRET 필요")
+        return
+
+    toss = TossClient(env["TOSS_CLIENT_ID"], env["TOSS_CLIENT_SECRET"])
+
+    # 발송 기준은 항상 '한국 영업일' (한국 사용자가 한국장 보기 전 받는 브리핑이므로).
+    # 미국 데이터는 collect가 '가장 최근 미국 거래일 종가'를 자동으로 가져옴
+    # (예: 한국 월요일 아침 → 미국 금요일 종가). 별도 날짜 계산 불필요.
+    if not force and not sessions.is_market_open("KR", toss):
+        print(f"[휴장] {date} 한국 영업일 아님 → 수집/발송 생략")
+        return
+
+    sectors_cfg = load_sectors()
+    signals_cfg = load_signals()
+    indicators_cfg = load_indicators()
+    stocks = load_stocks(country)
+    print(f"[{date} {session}/{country}] 종목 {len(stocks)}개 수집 시작...")
+
+    enriched, prices, candles_raw = collect.collect(toss, stocks, indicators_cfg, throttle=0.03)
+    print(f"수집/지표 완료: {len(enriched)}개")
+    if not enriched:
+        print("[!] 유효 종목 없음")
+        return
+
+    # 시장 벤치마크 → 상대강도 주입 → 종목 시그널/점수
+    mkt_change = aggregate.market_change(enriched)
+    for s in enriched:
+        s["metrics"]["relativeStrength"] = round(s["metrics"]["changeRate"] - mkt_change, 2)
+        ids, score = evaluate_stock(s["metrics"], signals_cfg, country)
+        s["signals"] = ids
+        s["score"] = score
+
+    strong_score = indicators_cfg.get("scoring", {}).get("sector_strong_score", 40)
+    sectors = aggregate.build_sectors(enriched, sectors_cfg, signals_cfg, indicators_cfg, mkt_change, country)
+    market = aggregate.build_market(enriched, sectors, mkt_change, date, session, strong_score)
+
+    # 헤드라인 지수 (yfinance). 실패해도 본문 진행.
+    headline = indices.fetch_headline(session, load_benchmarks())
+    market["headline"] = headline
+
+    # 투자자별 수급 (한국 close 전용, pykrx). 실패해도 본문 진행.
+    if session == "close" and env.get("KRX_ID"):
+        os.environ["KRX_ID"] = env["KRX_ID"]
+        os.environ["KRX_PW"] = env.get("KRX_PW", "")
+        sub_name, _ = sector_names(sectors_cfg)
+        market["flow"] = flow.fetch_flows(stocks, sub_name, indicators_cfg.get("pinned_stocks", []))
+
+    if do_store:
+        store.save_raw("prices", date, session, prices)
+        store.save_raw("candles", date, session,
+                       {sym: c for sym, c in candles_raw.items()})
+        store.save_sectors(date, session, sectors)
+        store.save_market(date, session, market)
+        for h in headline:
+            store.update_index_history(h, h["date"])
+        for s in enriched:
+            meta = {k: s[k] for k in ("symbol", "name", "country", "market",
+                                      "primarySector", "tags")}
+            m = dict(s["metrics"])
+            trade_date = m.pop("tradeDate", date)   # 종목 시계열은 실제 거래일 기준 (KST 발송일 아님)
+            entry = {"date": trade_date, "session": session, **m,
+                     "signals": s["signals"], "score": s["score"]}
+            store.update_stock_history(country, s["symbol"], meta, entry)
+
+    md = report.render(market, sectors, enriched, signals_cfg, sectors_cfg, date, session, strong_score)
+    if do_store:
+        path = store.save_report(date, session, md)
+        print(f"리포트 저장: {path}")
+
+    Notifier(env).send(md)
+
+
+if __name__ == "__main__":
+    run()

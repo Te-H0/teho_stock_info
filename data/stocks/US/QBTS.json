@@ -1,0 +1,39 @@
+{
+  "symbol": "QBTS",
+  "name": "디 웨이브 퀀텀",
+  "country": "US",
+  "market": "NYSE",
+  "primarySector": "future_tech",
+  "tags": [
+    "quantum"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 23.53,
+      "high": 24.35,
+      "low": 23.47,
+      "close": 23.67,
+      "volume": 269323.0,
+      "changeRate": -0.63,
+      "tradingValue": 6374875.0,
+      "marketCap": 8768437174.0,
+      "ma5": 24.02,
+      "ma20": 25.26,
+      "ma60": 20.56,
+      "ma200": 23.69,
+      "rsi14": 33.9,
+      "volumeRatio20d": 0.01,
+      "tradingValueRatio20d": 0.01,
+      "high20": 31.55,
+      "highLong": 46.75,
+      "relativeStrength": -0.68,
+      "signals": [
+        "above_ma60",
+        "ma20_breakdown"
+      ],
+      "score": 5
+    }
+  ]
+}

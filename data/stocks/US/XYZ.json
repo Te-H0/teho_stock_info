@@ -1,0 +1,41 @@
+{
+  "symbol": "XYZ",
+  "name": "블록",
+  "country": "US",
+  "market": "NYSE",
+  "primarySector": "finance",
+  "tags": [
+    "fintech",
+    "crypto"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 69.09,
+      "high": 71.243,
+      "low": 68.84,
+      "close": 69.32,
+      "volume": 4726.0,
+      "changeRate": 0.33,
+      "tradingValue": 327606.0,
+      "marketCap": 41257946920.0,
+      "ma5": 68.65,
+      "ma20": 70.54,
+      "ma60": 67.78,
+      "ma200": 67.4,
+      "rsi14": 52.4,
+      "volumeRatio20d": 0.0,
+      "tradingValueRatio20d": 0.0,
+      "high20": 77.6238,
+      "highLong": 82.25,
+      "relativeStrength": 0.28,
+      "signals": [
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 10
+    }
+  ]
+}

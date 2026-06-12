@@ -1,0 +1,41 @@
+{
+  "symbol": "003490",
+  "name": "대한항공",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "consumer",
+  "tags": [
+    "travel"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 25500.0,
+      "high": 27125.0,
+      "low": 25500.0,
+      "close": 27000.0,
+      "volume": 6122663.0,
+      "changeRate": 8.0,
+      "tradingValue": 165311901000.0,
+      "marketCap": 9941957847000.0,
+      "ma5": 25250.0,
+      "ma20": 25950.0,
+      "ma60": 25224.17,
+      "ma200": 23870.75,
+      "rsi14": 53.7,
+      "volumeRatio20d": 1.55,
+      "tradingValueRatio20d": 1.6,
+      "high20": 28400.0,
+      "highLong": 29850.0,
+      "relativeStrength": 4.19,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma60",
+        "above_ma200"
+      ],
+      "score": 25
+    }
+  ]
+}

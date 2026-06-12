@@ -1,0 +1,39 @@
+{
+  "symbol": "001440",
+  "name": "대한전선",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "energy_power",
+  "tags": [
+    "cable"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 39000.0,
+      "high": 39550.0,
+      "low": 37400.0,
+      "close": 37850.0,
+      "volume": 3884471.0,
+      "changeRate": 2.44,
+      "tradingValue": 147027227350.0,
+      "marketCap": 7418319758600.0,
+      "ma5": 37640.0,
+      "ma20": 47815.0,
+      "ma60": 42915.83,
+      "ma200": 28976.65,
+      "rsi14": 16.6,
+      "volumeRatio20d": 0.75,
+      "tradingValueRatio20d": 0.56,
+      "high20": 70300.0,
+      "highLong": 75900.0,
+      "relativeStrength": -1.37,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 5
+    }
+  ]
+}

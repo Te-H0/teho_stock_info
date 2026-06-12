@@ -1,0 +1,40 @@
+{
+  "symbol": "241560",
+  "name": "두산밥캣",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "industrial_material",
+  "tags": [
+    "machinery"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 65000.0,
+      "high": 69400.0,
+      "low": 64000.0,
+      "close": 66000.0,
+      "volume": 497065.0,
+      "changeRate": 2.64,
+      "tradingValue": 32806290000.0,
+      "marketCap": 6326500290000.0,
+      "ma5": 63320.0,
+      "ma20": 66185.0,
+      "ma60": 67118.33,
+      "ma200": 61146.0,
+      "rsi14": 46.7,
+      "volumeRatio20d": 1.26,
+      "tradingValueRatio20d": 1.25,
+      "high20": 72400.0,
+      "highLong": 81600.0,
+      "relativeStrength": -1.17,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 5
+    }
+  ]
+}

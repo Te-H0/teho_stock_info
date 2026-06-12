@@ -1,0 +1,45 @@
+{
+  "symbol": "240810",
+  "name": "원익IPS",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "semiconductor_equipment"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 154300.0,
+      "high": 183300.0,
+      "low": 150100.0,
+      "close": 175700.0,
+      "volume": 8788725.0,
+      "changeRate": 16.43,
+      "tradingValue": 1544178982500.0,
+      "marketCap": 8624041405700.0,
+      "ma5": 134480.0,
+      "ma20": 120450.0,
+      "ma60": 121108.33,
+      "ma200": 86196.5,
+      "rsi14": 66.2,
+      "volumeRatio20d": 4.8,
+      "tradingValueRatio20d": 6.72,
+      "high20": 183300.0,
+      "highLong": 183300.0,
+      "relativeStrength": 12.62,
+      "signals": [
+        "trading_value_surge",
+        "trading_value_surge_strong",
+        "volume_surge",
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "near_52w_high"
+      ],
+      "score": 70
+    }
+  ]
+}

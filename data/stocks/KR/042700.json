@@ -1,0 +1,47 @@
+{
+  "symbol": "042700",
+  "name": "한미반도체",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "hbm",
+    "semiconductor_equipment",
+    "packaging"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 320000.0,
+      "high": 372500.0,
+      "low": 298000.0,
+      "close": 341000.0,
+      "volume": 10490743.0,
+      "changeRate": 14.62,
+      "tradingValue": 3577343363000.0,
+      "marketCap": 32501460200000.0,
+      "ma5": 289200.0,
+      "ma20": 305425.0,
+      "ma60": 308591.67,
+      "ma200": 197159.0,
+      "rsi14": 53.6,
+      "volumeRatio20d": 4.16,
+      "tradingValueRatio20d": 4.59,
+      "high20": 417000.0,
+      "highLong": 426000.0,
+      "relativeStrength": 10.81,
+      "signals": [
+        "trading_value_surge",
+        "trading_value_surge_strong",
+        "volume_surge",
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bearish_alignment"
+      ],
+      "score": 55
+    }
+  ]
+}

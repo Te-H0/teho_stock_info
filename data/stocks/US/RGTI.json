@@ -1,0 +1,39 @@
+{
+  "symbol": "RGTI",
+  "name": "리게티 컴퓨팅",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "future_tech",
+  "tags": [
+    "quantum"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 20.75,
+      "high": 21.3,
+      "low": 20.3816,
+      "close": 20.699,
+      "volume": 452337.0,
+      "changeRate": 0.33,
+      "tradingValue": 9362924.0,
+      "marketCap": 6880322906.0,
+      "ma5": 20.45,
+      "ma20": 22.08,
+      "ma60": 18.46,
+      "ma200": 23.64,
+      "rsi14": 34.1,
+      "volumeRatio20d": 0.01,
+      "tradingValueRatio20d": 0.01,
+      "high20": 28.06,
+      "highLong": 58.1501,
+      "relativeStrength": 0.28,
+      "signals": [
+        "above_ma60",
+        "ma20_breakdown"
+      ],
+      "score": 5
+    }
+  ]
+}

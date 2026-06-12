@@ -1,0 +1,40 @@
+{
+  "symbol": "006340",
+  "name": "대원전선",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "energy_power",
+  "tags": [
+    "cable"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 10450.0,
+      "high": 10800.0,
+      "low": 10150.0,
+      "close": 10470.0,
+      "volume": 3919332.0,
+      "changeRate": 4.7,
+      "tradingValue": 41035406040.0,
+      "marketCap": 820998935520.0,
+      "ma5": 10102.0,
+      "ma20": 12437.0,
+      "ma60": 9800.5,
+      "ma200": 5542.15,
+      "rsi14": 14.1,
+      "volumeRatio20d": 0.68,
+      "tradingValueRatio20d": 0.52,
+      "high20": 17120.0,
+      "highLong": 20300.0,
+      "relativeStrength": 0.89,
+      "signals": [
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 10
+    }
+  ]
+}

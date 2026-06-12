@@ -1,0 +1,41 @@
+{
+  "symbol": "036930",
+  "name": "주성엔지니어링",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "semiconductor_equipment"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 267500.0,
+      "high": 283000.0,
+      "low": 229500.0,
+      "close": 231000.0,
+      "volume": 6079858.0,
+      "changeRate": -5.91,
+      "tradingValue": 1404447198000.0,
+      "marketCap": 10737138951000.0,
+      "ma5": 210000.0,
+      "ma20": 200970.0,
+      "ma60": 128436.67,
+      "ma200": 62963.75,
+      "rsi14": 57.4,
+      "volumeRatio20d": 1.65,
+      "tradingValueRatio20d": 1.86,
+      "high20": 283000.0,
+      "highLong": 283000.0,
+      "relativeStrength": -9.72,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment"
+      ],
+      "score": 30
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# os
+.DS_Store
+
+# 일회성 리서치 산출물 / API 응답 샘플 (정본은 config/stocks.*.yaml, docs/toss-api.md)
+scripts/_research_*.json
+docs/api-samples/
+
+# raw 원본은 용량이 커서 커밋 안 함 (가공 데이터 stocks/sectors/market/indices만 커밋).
+# 종목 history에 OHLCV가 들어있어 raw 캔들 없어도 시계열 보존됨.
+data/raw/

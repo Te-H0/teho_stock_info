@@ -1,0 +1,563 @@
+# 토스 stocks API로 심볼·상장상태·종목명 검증 완료. 종목명은 토스 공식명.
+# 한 종목은 primarySector(대분류) 1개 + tags(소분류) 여러 개.
+stocks:
+- symbol: NVDA
+  name: 엔비디아
+  country: US
+  market: NASDAQ
+  primarySector: ai_semiconductor
+  tags:
+  - gpu
+  - datacenter
+  leader: true
+  enabled: true
+- symbol: AMD
+  name: AMD
+  country: US
+  market: NASDAQ
+  primarySector: ai_semiconductor
+  tags:
+  - gpu
+  - datacenter
+  leader: true
+  enabled: true
+- symbol: AVGO
+  name: 브로드컴
+  country: US
+  market: NASDAQ
+  primarySector: ai_semiconductor
+  tags:
+  - datacenter
+  - optical_communication
+  - semiconductor_equipment
+  leader: true
+  enabled: true
+- symbol: TSM
+  name: TSMC(ADR)
+  country: US
+  market: NYSE
+  primarySector: ai_semiconductor
+  tags:
+  - foundry
+  - packaging
+  leader: true
+  enabled: true
+- symbol: MU
+  name: 마이크론 테크놀로지
+  country: US
+  market: NASDAQ
+  primarySector: ai_semiconductor
+  tags:
+  - memory
+  - hbm
+  leader: true
+  enabled: true
+- symbol: SNDK
+  name: 샌디스크
+  country: US
+  market: NASDAQ
+  primarySector: ai_semiconductor
+  tags:
+  - memory
+  leader: false
+  enabled: true
+- symbol: INTC
+  name: 인텔
+  country: US
+  market: NASDAQ
+  primarySector: ai_semiconductor
+  tags:
+  - foundry
+  leader: false
+  enabled: true
+- symbol: ASML
+  name: ASML 홀딩(ADR)
+  country: US
+  market: NASDAQ
+  primarySector: ai_semiconductor
+  tags:
+  - semiconductor_equipment
+  leader: true
+  enabled: true
+- symbol: AMAT
+  name: 어플라이드 머티리얼즈
+  country: US
+  market: NASDAQ
+  primarySector: ai_semiconductor
+  tags:
+  - semiconductor_equipment
+  - semiconductor_material
+  leader: true
+  enabled: true
+- symbol: LRCX
+  name: 램 리서치
+  country: US
+  market: NASDAQ
+  primarySector: ai_semiconductor
+  tags:
+  - semiconductor_equipment
+  leader: false
+  enabled: true
+- symbol: COHR
+  name: 코히런트
+  country: US
+  market: NYSE
+  primarySector: ai_semiconductor
+  tags:
+  - optical_communication
+  - datacenter
+  leader: true
+  enabled: true
+- symbol: VRT
+  name: 버티브 홀딩스
+  country: US
+  market: NYSE
+  primarySector: ai_semiconductor
+  tags:
+  - datacenter
+  - power_equipment
+  leader: true
+  enabled: true
+- symbol: CEG
+  name: 컨스털레이션 에너지
+  country: US
+  market: NASDAQ
+  primarySector: energy_power
+  tags:
+  - nuclear
+  - datacenter
+  leader: true
+  enabled: true
+- symbol: VST
+  name: 비스트라 에너지
+  country: US
+  market: NYSE
+  primarySector: energy_power
+  tags:
+  - nuclear
+  - power_equipment
+  leader: true
+  enabled: true
+- symbol: GEV
+  name: GE 버노바
+  country: US
+  market: NYSE
+  primarySector: energy_power
+  tags:
+  - power_equipment
+  - nuclear
+  - wind
+  leader: true
+  enabled: true
+- symbol: OKLO
+  name: 오클로
+  country: US
+  market: NYSE
+  primarySector: energy_power
+  tags:
+  - nuclear
+  leader: false
+  enabled: true
+- symbol: SMR
+  name: 뉴스케일파워
+  country: US
+  market: NYSE
+  primarySector: energy_power
+  tags:
+  - nuclear
+  leader: false
+  enabled: true
+- symbol: FSLR
+  name: 퍼스트 솔라
+  country: US
+  market: NASDAQ
+  primarySector: energy_power
+  tags:
+  - solar
+  leader: true
+  enabled: true
+- symbol: LMT
+  name: 록히드 마틴
+  country: US
+  market: NYSE
+  primarySector: defense_space
+  tags:
+  - defense
+  - aerospace
+  - satellite
+  leader: true
+  enabled: true
+- symbol: RTX
+  name: RTX
+  country: US
+  market: NYSE
+  primarySector: defense_space
+  tags:
+  - defense
+  - aerospace
+  leader: true
+  enabled: true
+- symbol: PLTR
+  name: 팔란티어
+  country: US
+  market: NASDAQ
+  primarySector: defense_space
+  tags:
+  - defense
+  leader: true
+  enabled: true
+- symbol: NOC
+  name: 노스롭 그루먼
+  country: US
+  market: NYSE
+  primarySector: defense_space
+  tags:
+  - defense
+  - aerospace
+  - satellite
+  leader: false
+  enabled: true
+- symbol: RKLB
+  name: 로켓 랩
+  country: US
+  market: NASDAQ
+  primarySector: defense_space
+  tags:
+  - aerospace
+  - satellite
+  leader: true
+  enabled: true
+- symbol: ASTS
+  name: AST 스페이스모바일
+  country: US
+  market: NASDAQ
+  primarySector: defense_space
+  tags:
+  - satellite
+  leader: false
+  enabled: true
+- symbol: AVAV
+  name: 에어로바이런먼트
+  country: US
+  market: NASDAQ
+  primarySector: defense_space
+  tags:
+  - drone
+  - defense
+  leader: true
+  enabled: true
+- symbol: JPM
+  name: 제이피모건 체이스
+  country: US
+  market: NYSE
+  primarySector: finance
+  tags:
+  - bank
+  leader: true
+  enabled: true
+- symbol: GS
+  name: 골드만삭스
+  country: US
+  market: NYSE
+  primarySector: finance
+  tags:
+  - securities
+  - bank
+  leader: true
+  enabled: true
+- symbol: BRK.B
+  name: 버크셔 해서웨이 B
+  country: US
+  market: NYSE
+  primarySector: finance
+  tags:
+  - insurance
+  leader: true
+  enabled: true
+- symbol: COIN
+  name: 코인베이스
+  country: US
+  market: NASDAQ
+  primarySector: finance
+  tags:
+  - crypto
+  - fintech
+  leader: true
+  enabled: true
+- symbol: CRCL
+  name: 써클 인터넷 그룹
+  country: US
+  market: NYSE
+  primarySector: finance
+  tags:
+  - crypto
+  - fintech
+  - sto
+  leader: true
+  enabled: true
+- symbol: XYZ
+  name: 블록
+  country: US
+  market: NYSE
+  primarySector: finance
+  tags:
+  - fintech
+  - crypto
+  leader: false
+  enabled: true
+- symbol: HOOD
+  name: 로빈후드
+  country: US
+  market: NASDAQ
+  primarySector: finance
+  tags:
+  - fintech
+  - securities
+  - crypto
+  leader: false
+  enabled: true
+- symbol: LLY
+  name: 일라이 릴리
+  country: US
+  market: NYSE
+  primarySector: bio_healthcare
+  tags:
+  - obesity_drug
+  leader: true
+  enabled: true
+- symbol: NVO
+  name: 노보노디스크(ADR)
+  country: US
+  market: NYSE
+  primarySector: bio_healthcare
+  tags:
+  - obesity_drug
+  leader: true
+  enabled: true
+- symbol: ISRG
+  name: 인튜이티브 서지컬
+  country: US
+  market: NASDAQ
+  primarySector: bio_healthcare
+  tags:
+  - medical_device
+  - robot
+  leader: true
+  enabled: true
+- symbol: BNTX
+  name: 바이오엔테크(ADR)
+  country: US
+  market: NASDAQ
+  primarySector: bio_healthcare
+  tags:
+  - immuno_oncology
+  - adc
+  leader: false
+  enabled: true
+- symbol: CRSP
+  name: 크리스퍼 테라퓨틱스
+  country: US
+  market: NASDAQ
+  primarySector: bio_healthcare
+  tags:
+  - immuno_oncology
+  leader: false
+  enabled: true
+- symbol: TSLA
+  name: 테슬라
+  country: US
+  market: NASDAQ
+  primarySector: mobility
+  tags:
+  - ev
+  - autonomous_driving
+  - battery
+  - robot
+  leader: true
+  enabled: true
+- symbol: RIVN
+  name: 리비안
+  country: US
+  market: NASDAQ
+  primarySector: mobility
+  tags:
+  - ev
+  leader: false
+  enabled: true
+- symbol: QS
+  name: 퀀텀스케이프
+  country: US
+  market: NASDAQ
+  primarySector: mobility
+  tags:
+  - battery
+  leader: false
+  enabled: true
+- symbol: MBLY
+  name: 모빌아이 글로벌
+  country: US
+  market: NASDAQ
+  primarySector: mobility
+  tags:
+  - autonomous_driving
+  leader: false
+  enabled: true
+- symbol: MSFT
+  name: 마이크로소프트
+  country: US
+  market: NASDAQ
+  primarySector: future_tech
+  tags:
+  - cloud
+  - quantum
+  leader: true
+  enabled: true
+- symbol: AMZN
+  name: 아마존
+  country: US
+  market: NASDAQ
+  primarySector: future_tech
+  tags:
+  - cloud
+  - retail
+  leader: true
+  enabled: true
+- symbol: GOOGL
+  name: 알파벳 A
+  country: US
+  market: NASDAQ
+  primarySector: future_tech
+  tags:
+  - cloud
+  - quantum
+  - autonomous_driving
+  leader: true
+  enabled: true
+- symbol: IONQ
+  name: 아이온큐
+  country: US
+  market: NYSE
+  primarySector: future_tech
+  tags:
+  - quantum
+  leader: true
+  enabled: true
+- symbol: RGTI
+  name: 리게티 컴퓨팅
+  country: US
+  market: NASDAQ
+  primarySector: future_tech
+  tags:
+  - quantum
+  leader: false
+  enabled: true
+- symbol: QBTS
+  name: 디 웨이브 퀀텀
+  country: US
+  market: NYSE
+  primarySector: future_tech
+  tags:
+  - quantum
+  leader: false
+  enabled: true
+- symbol: META
+  name: 메타
+  country: US
+  market: NASDAQ
+  primarySector: future_tech
+  tags:
+  - xr
+  - cloud
+  leader: true
+  enabled: true
+- symbol: AAPL
+  name: 애플
+  country: US
+  market: NASDAQ
+  primarySector: consumer
+  tags:
+  - consumer_electronics
+  leader: true
+  enabled: true
+- symbol: ORCL
+  name: 오라클
+  country: US
+  market: NYSE
+  primarySector: future_tech
+  tags:
+  - cloud
+  - datacenter
+  leader: true
+  enabled: true
+- symbol: CRM
+  name: 세일즈포스
+  country: US
+  market: NYSE
+  primarySector: future_tech
+  tags:
+  - cloud
+  leader: true
+  enabled: true
+- symbol: NOW
+  name: 서비스나우
+  country: US
+  market: NYSE
+  primarySector: future_tech
+  tags:
+  - cloud
+  leader: true
+  enabled: true
+- symbol: NFLX
+  name: 넷플릭스
+  country: US
+  market: NASDAQ
+  primarySector: consumer
+  tags:
+  - entertainment
+  leader: true
+  enabled: true
+- symbol: COST
+  name: 코스트코
+  country: US
+  market: NASDAQ
+  primarySector: consumer
+  tags:
+  - retail
+  leader: true
+  enabled: true
+- symbol: WMT
+  name: 월마트
+  country: US
+  market: NASDAQ
+  primarySector: consumer
+  tags:
+  - retail
+  leader: true
+  enabled: true
+- symbol: V
+  name: 비자
+  country: US
+  market: NYSE
+  primarySector: finance
+  tags:
+  - payment
+  leader: true
+  enabled: true
+- symbol: MA
+  name: 마스터카드
+  country: US
+  market: NYSE
+  primarySector: finance
+  tags:
+  - payment
+  leader: true
+  enabled: true
+- symbol: BAC
+  name: 뱅크오브아메리카
+  country: US
+  market: NYSE
+  primarySector: finance
+  tags:
+  - bank
+  leader: true
+  enabled: true

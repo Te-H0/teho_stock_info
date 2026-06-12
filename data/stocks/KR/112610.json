@@ -1,0 +1,39 @@
+{
+  "symbol": "112610",
+  "name": "씨에스윈드",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "energy_power",
+  "tags": [
+    "wind"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 40850.0,
+      "high": 43700.0,
+      "low": 40800.0,
+      "close": 42100.0,
+      "volume": 528407.0,
+      "changeRate": 2.68,
+      "tradingValue": 22245934700.0,
+      "marketCap": 1775416066300.0,
+      "ma5": 41340.0,
+      "ma20": 47507.5,
+      "ma60": 59332.5,
+      "ma200": 48493.75,
+      "rsi14": 25.3,
+      "volumeRatio20d": 0.88,
+      "tradingValueRatio20d": 0.78,
+      "high20": 57100.0,
+      "highLong": 79400.0,
+      "relativeStrength": -1.13,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

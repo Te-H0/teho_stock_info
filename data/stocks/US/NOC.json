@@ -1,0 +1,42 @@
+{
+  "symbol": "NOC",
+  "name": "노스롭 그루먼",
+  "country": "US",
+  "market": "NYSE",
+  "primarySector": "defense_space",
+  "tags": [
+    "defense",
+    "aerospace",
+    "satellite"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 545.3237,
+      "high": 557.0,
+      "low": 540.5,
+      "close": 552.52,
+      "volume": 316.0,
+      "changeRate": 0.0,
+      "tradingValue": 174596.0,
+      "marketCap": 78476336160.0,
+      "ma5": 547.33,
+      "ma20": 548.28,
+      "ma60": 604.47,
+      "ma200": 616.88,
+      "rsi14": 48.5,
+      "volumeRatio20d": 0.0,
+      "tradingValueRatio20d": 0.0,
+      "high20": 563.93,
+      "highLong": 774.0,
+      "relativeStrength": -0.05,
+      "signals": [
+        "above_ma20",
+        "near_20d_high",
+        "ma_bearish_alignment"
+      ],
+      "score": 15
+    }
+  ]
+}

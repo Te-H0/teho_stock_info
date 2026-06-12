@@ -1,0 +1,45 @@
+{
+  "symbol": "005930",
+  "name": "삼성전자",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "memory",
+    "foundry",
+    "hbm",
+    "gpu"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 313000.0,
+      "high": 339000.0,
+      "low": 313000.0,
+      "close": 324500.0,
+      "volume": 60357743.0,
+      "changeRate": 6.05,
+      "tradingValue": 19586087603500.0,
+      "marketCap": 1897117408296000.0,
+      "ma5": 311600.0,
+      "ma20": 308325.0,
+      "ma60": 245695.0,
+      "ma200": 156490.5,
+      "rsi14": 56.0,
+      "volumeRatio20d": 0.96,
+      "tradingValueRatio20d": 1.01,
+      "high20": 377000.0,
+      "highLong": 377000.0,
+      "relativeStrength": 2.24,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment"
+      ],
+      "score": 40
+    }
+  ]
+}

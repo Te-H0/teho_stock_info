@@ -1,0 +1,43 @@
+{
+  "symbol": "LRCX",
+  "name": "램 리서치",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "semiconductor_equipment"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 359.8555,
+      "high": 366.5116,
+      "low": 346.4294,
+      "close": 356.9,
+      "volume": 51208.0,
+      "changeRate": -1.55,
+      "tradingValue": 18276135.0,
+      "marketCap": 446328789900.0,
+      "ma5": 338.57,
+      "ma20": 317.06,
+      "ma60": 275.22,
+      "ma200": 204.43,
+      "rsi14": 65.5,
+      "volumeRatio20d": 0.01,
+      "tradingValueRatio20d": 0.01,
+      "high20": 366.5116,
+      "highLong": 366.5116,
+      "relativeStrength": -1.6,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment",
+        "near_20d_high",
+        "near_52w_high"
+      ],
+      "score": 55
+    }
+  ]
+}

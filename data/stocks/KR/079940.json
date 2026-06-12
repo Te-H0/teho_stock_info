@@ -1,0 +1,40 @@
+{
+  "symbol": "079940",
+  "name": "가비아",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "future_tech",
+  "tags": [
+    "cloud"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 31050.0,
+      "high": 32000.0,
+      "low": 31000.0,
+      "close": 32000.0,
+      "volume": 19149.0,
+      "changeRate": 3.23,
+      "tradingValue": 612768000.0,
+      "marketCap": 429461888000.0,
+      "ma5": 30800.0,
+      "ma20": 31412.5,
+      "ma60": 29634.17,
+      "ma200": 29488.25,
+      "rsi14": 53.1,
+      "volumeRatio20d": 0.46,
+      "tradingValueRatio20d": 0.47,
+      "high20": 38000.0,
+      "highLong": 38000.0,
+      "relativeStrength": -0.58,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200"
+      ],
+      "score": 15
+    }
+  ]
+}

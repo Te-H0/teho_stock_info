@@ -1,0 +1,40 @@
+{
+  "symbol": "IONQ",
+  "name": "아이온큐",
+  "country": "US",
+  "market": "NYSE",
+  "primarySector": "future_tech",
+  "tags": [
+    "quantum"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 58.7782,
+      "high": 59.3853,
+      "low": 56.93,
+      "close": 57.93,
+      "volume": 403666.0,
+      "changeRate": -0.1,
+      "tradingValue": 23384371.0,
+      "marketCap": 21623528088.0,
+      "ma5": 58.41,
+      "ma20": 60.97,
+      "ma60": 46.84,
+      "ma200": 48.99,
+      "rsi14": 43.1,
+      "volumeRatio20d": 0.01,
+      "tradingValueRatio20d": 0.01,
+      "high20": 73.65,
+      "highLong": 84.64,
+      "relativeStrength": -0.15,
+      "signals": [
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 10
+    }
+  ]
+}

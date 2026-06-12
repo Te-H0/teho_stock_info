@@ -1,0 +1,42 @@
+{
+  "symbol": "TSM",
+  "name": "TSMC(ADR)",
+  "country": "US",
+  "market": "NYSE",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "foundry",
+    "packaging"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 417.4,
+      "high": 425.65,
+      "low": 415.3706,
+      "close": 421.55,
+      "volume": 78108.0,
+      "changeRate": 0.11,
+      "tradingValue": 32926427.0,
+      "marketCap": 2186358120180.0,
+      "ma5": 421.22,
+      "ma20": 418.49,
+      "ma60": 387.58,
+      "ma200": 331.01,
+      "rsi14": 55.8,
+      "volumeRatio20d": 0.01,
+      "tradingValueRatio20d": 0.01,
+      "high20": 450.1636,
+      "highLong": 450.1636,
+      "relativeStrength": 0.06,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment"
+      ],
+      "score": 30
+    }
+  ]
+}

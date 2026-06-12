@@ -1,0 +1,41 @@
+{
+  "symbol": "RTX",
+  "name": "RTX",
+  "country": "US",
+  "market": "NYSE",
+  "primarySector": "defense_space",
+  "tags": [
+    "defense",
+    "aerospace"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 183.1005,
+      "high": 184.87,
+      "low": 177.71,
+      "close": 183.8,
+      "volume": 5135.0,
+      "changeRate": -0.22,
+      "tradingValue": 943813.0,
+      "marketCap": 247520414066.0,
+      "ma5": 181.13,
+      "ma20": 177.55,
+      "ma60": 184.38,
+      "ma200": 181.89,
+      "rsi14": 58.6,
+      "volumeRatio20d": 0.0,
+      "tradingValueRatio20d": 0.0,
+      "high20": 184.87,
+      "highLong": 214.5,
+      "relativeStrength": -0.27,
+      "signals": [
+        "above_ma20",
+        "above_ma200",
+        "near_20d_high"
+      ],
+      "score": 20
+    }
+  ]
+}

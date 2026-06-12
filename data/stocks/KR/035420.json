@@ -1,0 +1,44 @@
+{
+  "symbol": "035420",
+  "name": "NAVER",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "future_tech",
+  "tags": [
+    "cloud",
+    "datacenter",
+    "crypto"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 231000.0,
+      "high": 263000.0,
+      "low": 230500.0,
+      "close": 242500.0,
+      "volume": 11011914.0,
+      "changeRate": 7.06,
+      "tradingValue": 2670389145000.0,
+      "marketCap": 38041890680000.0,
+      "ma5": 246400.0,
+      "ma20": 227615.0,
+      "ma60": 216310.0,
+      "ma200": 237610.5,
+      "rsi14": 58.7,
+      "volumeRatio20d": 1.31,
+      "tradingValueRatio20d": 1.24,
+      "high20": 308500.0,
+      "highLong": 308500.0,
+      "relativeStrength": 3.25,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment"
+      ],
+      "score": 40
+    }
+  ]
+}

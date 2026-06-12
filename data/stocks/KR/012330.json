@@ -1,0 +1,41 @@
+{
+  "symbol": "012330",
+  "name": "현대모비스",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "mobility",
+  "tags": [
+    "auto_parts",
+    "autonomous_driving"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 610000.0,
+      "high": 648000.0,
+      "low": 593000.0,
+      "close": 615000.0,
+      "volume": 1509218.0,
+      "changeRate": 4.06,
+      "tradingValue": 928169070000.0,
+      "marketCap": 55800538545000.0,
+      "ma5": 595800.0,
+      "ma20": 648950.0,
+      "ma60": 502266.67,
+      "ma200": 401000.0,
+      "rsi14": 45.9,
+      "volumeRatio20d": 0.67,
+      "tradingValueRatio20d": 0.62,
+      "high20": 822000.0,
+      "highLong": 822000.0,
+      "relativeStrength": 0.25,
+      "signals": [
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 10
+    }
+  ]
+}

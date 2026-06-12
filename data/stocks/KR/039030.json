@@ -1,0 +1,45 @@
+{
+  "symbol": "039030",
+  "name": "이오테크닉스",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "semiconductor_equipment",
+    "packaging"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 540000.0,
+      "high": 625000.0,
+      "low": 480500.0,
+      "close": 580000.0,
+      "volume": 988067.0,
+      "changeRate": 13.73,
+      "tradingValue": 573078860000.0,
+      "marketCap": 7145339000000.0,
+      "ma5": 475300.0,
+      "ma20": 482300.0,
+      "ma60": 460433.33,
+      "ma200": 337150.0,
+      "rsi14": 53.6,
+      "volumeRatio20d": 4.99,
+      "tradingValueRatio20d": 6.05,
+      "high20": 625000.0,
+      "highLong": 625000.0,
+      "relativeStrength": 9.92,
+      "signals": [
+        "trading_value_surge",
+        "trading_value_surge_strong",
+        "volume_surge",
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma60",
+        "above_ma200"
+      ],
+      "score": 55
+    }
+  ]
+}

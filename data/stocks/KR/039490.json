@@ -1,0 +1,41 @@
+{
+  "symbol": "039490",
+  "name": "키움증권",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "finance",
+  "tags": [
+    "securities",
+    "fintech"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 356000.0,
+      "high": 375000.0,
+      "low": 356000.0,
+      "close": 362000.0,
+      "volume": 197358.0,
+      "changeRate": 3.72,
+      "tradingValue": 71443596000.0,
+      "marketCap": 9494650392000.0,
+      "ma5": 346600.0,
+      "ma20": 375400.0,
+      "ma60": 418766.67,
+      "ma200": 342146.5,
+      "rsi14": 38.0,
+      "volumeRatio20d": 0.97,
+      "tradingValueRatio20d": 0.92,
+      "high20": 435500.0,
+      "highLong": 517000.0,
+      "relativeStrength": -0.09,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 5
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "symbol": "LLY",
+  "name": "일라이 릴리",
+  "country": "US",
+  "market": "NYSE",
+  "primarySector": "bio_healthcare",
+  "tags": [
+    "obesity_drug"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 1161.067,
+      "high": 1168.39,
+      "low": 1141.165,
+      "close": 1163.23,
+      "volume": 4597.0,
+      "changeRate": 0.2,
+      "tradingValue": 5347368.0,
+      "marketCap": 1095461855701.0,
+      "ma5": 1150.88,
+      "ma20": 1087.78,
+      "ma60": 982.66,
+      "ma200": 958.6,
+      "rsi14": 69.7,
+      "volumeRatio20d": 0.0,
+      "tradingValueRatio20d": 0.0,
+      "high20": 1182.73,
+      "highLong": 1182.73,
+      "relativeStrength": 0.15,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment",
+        "near_20d_high",
+        "near_52w_high"
+      ],
+      "score": 55
+    }
+  ]
+}

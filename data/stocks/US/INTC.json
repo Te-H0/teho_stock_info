@@ -1,0 +1,40 @@
+{
+  "symbol": "INTC",
+  "name": "인텔",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "foundry"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 119.29,
+      "high": 119.29,
+      "low": 112.51,
+      "close": 115.798,
+      "volume": 1368501.0,
+      "changeRate": -0.99,
+      "tradingValue": 158469679.0,
+      "marketCap": 582000748000.0,
+      "ma5": 111.6,
+      "ma20": 113.24,
+      "ma60": 87.02,
+      "ma200": 53.46,
+      "rsi14": 46.8,
+      "volumeRatio20d": 0.01,
+      "tradingValueRatio20d": 0.01,
+      "high20": 126.64,
+      "highLong": 132.75,
+      "relativeStrength": -1.04,
+      "signals": [
+        "above_ma20",
+        "above_ma60",
+        "above_ma200"
+      ],
+      "score": 15
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "symbol": "TSLA",
+  "name": "테슬라",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "mobility",
+  "tags": [
+    "ev",
+    "autonomous_driving",
+    "battery",
+    "robot"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 398.45,
+      "high": 404.38,
+      "low": 395.58,
+      "close": 399.64,
+      "volume": 771045.0,
+      "changeRate": 0.12,
+      "tradingValue": 308140424.0,
+      "marketCap": 1500937487806.0,
+      "ma5": 397.2,
+      "ma20": 415.4,
+      "ma60": 394.14,
+      "ma200": 415.66,
+      "rsi14": 41.0,
+      "volumeRatio20d": 0.02,
+      "tradingValueRatio20d": 0.02,
+      "high20": 445.6,
+      "highLong": 498.83,
+      "relativeStrength": 0.07,
+      "signals": [
+        "above_ma60",
+        "ma20_breakdown"
+      ],
+      "score": 5
+    }
+  ]
+}

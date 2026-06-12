@@ -1,0 +1,40 @@
+{
+  "symbol": "196170",
+  "name": "알테오젠",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "bio_healthcare",
+  "tags": [
+    "adc",
+    "cdmo"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 352000.0,
+      "high": 361500.0,
+      "low": 333000.0,
+      "close": 340000.0,
+      "volume": 814525.0,
+      "changeRate": -2.02,
+      "tradingValue": 276938500000.0,
+      "marketCap": 18219356620000.0,
+      "ma5": 322700.0,
+      "ma20": 353125.0,
+      "ma60": 358958.33,
+      "ma200": 425207.5,
+      "rsi14": 47.6,
+      "volumeRatio20d": 0.71,
+      "tradingValueRatio20d": 0.67,
+      "high20": 405000.0,
+      "highLong": 569000.0,
+      "relativeStrength": -5.83,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "symbol": "298040",
+  "name": "효성중공업",
+  "country": "KR",
+  "market": "KOSPI",
+  "primarySector": "energy_power",
+  "tags": [
+    "transformer",
+    "power_equipment",
+    "ess"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 3450000.0,
+      "high": 3565000.0,
+      "low": 3298000.0,
+      "close": 3387000.0,
+      "volume": 103279.0,
+      "changeRate": 2.51,
+      "tradingValue": 349805973000.0,
+      "marketCap": 31582244076000.0,
+      "ma5": 3350800.0,
+      "ma20": 3630750.0,
+      "ma60": 3357633.33,
+      "ma200": 2353020.0,
+      "rsi14": 36.1,
+      "volumeRatio20d": 1.22,
+      "tradingValueRatio20d": 1.12,
+      "high20": 4316000.0,
+      "highLong": 4865000.0,
+      "relativeStrength": -1.3,
+      "signals": [
+        "above_ma60",
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 10
+    }
+  ]
+}

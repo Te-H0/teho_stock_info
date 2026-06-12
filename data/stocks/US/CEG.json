@@ -1,0 +1,40 @@
+{
+  "symbol": "CEG",
+  "name": "컨스털레이션 에너지",
+  "country": "US",
+  "market": "NASDAQ",
+  "primarySector": "energy_power",
+  "tags": [
+    "nuclear",
+    "datacenter"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "morning",
+      "open": 248.515,
+      "high": 249.75,
+      "low": 243.855,
+      "close": 248.0,
+      "volume": 17983.0,
+      "changeRate": 0.52,
+      "tradingValue": 4459784.0,
+      "marketCap": 89057300216.0,
+      "ma5": 247.87,
+      "ma20": 268.98,
+      "ma60": 286.5,
+      "ma200": 320.15,
+      "rsi14": 24.7,
+      "volumeRatio20d": 0.0,
+      "tradingValueRatio20d": 0.0,
+      "high20": 310.45,
+      "highLong": 412.7,
+      "relativeStrength": 0.47,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+# 지표 파라미터. "돈·추세·상대강도·폭" 4축 중심. 임계값은 전부 여기서 관리(코드 하드코딩 금지).
+moving_averages: [5, 20, 60, 200]   # 이동평균 기간 (200=장기 추세 필터)
+
+rsi:
+  period: 14
+  overheated: 75               # 과열 경고 임계
+
+volume:
+  avg_period: 20               # 거래량 20일 평균 기준
+
+trading_value:
+  avg_period: 20               # 거래대금 20일 평균 기준
+
+high:
+  short: 20                    # 20일 신고가
+  long: 200                    # 52주 신고가 근사(토스 일봉 최대 200봉)
+
+relative_strength:
+  # 종목/섹터 등락률에서 '시장 벤치마크 등락률'을 뺀 값. 시장과 무관한 자금 쏠림 포착.
+  benchmark: market_cap_weighted   # 관측 종목 시총가중 평균 등락률을 시장으로 간주
+  strong_threshold: 1.5            # 종목이 시장 대비 +1.5%p 이상이면 강세
+  sector_strong_threshold: 1.0     # 섹터가 시장 대비 +1.0%p 이상이면 강세
+
+sector_aggregation:
+  weighting: market_cap         # 섹터 집계는 시총가중 (큰 종목이 자금흐름을 더 대표)
+
+leader:
+  auto: true                    # leader를 yaml 수동값이 아니라 자동 산정
+  by: market_cap                # 시총 기준
+  top_n: 2                      # 각 소섹터에서 시총 상위 2개를 leader로
+
+scoring:
+  sector_strong_score: 40       # 이 점수 이상이면 '강세 섹터'로 판정 (헤드라인/리포트 공통)
+
+# 한국 마감 브리핑에 항상 고정 표시할 대장주 (주가 + 투자자별 수급)
+pinned_stocks: ["005930", "000660"]   # 삼성전자, SK하이닉스

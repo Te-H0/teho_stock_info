@@ -1,0 +1,39 @@
+{
+  "symbol": "389470",
+  "name": "인벤티지랩",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "bio_healthcare",
+  "tags": [
+    "obesity_drug"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 45050.0,
+      "high": 47000.0,
+      "low": 44450.0,
+      "close": 45050.0,
+      "volume": 91118.0,
+      "changeRate": 1.46,
+      "tradingValue": 4104865900.0,
+      "marketCap": 599512245400.0,
+      "ma5": 43980.0,
+      "ma20": 49385.0,
+      "ma60": 60178.33,
+      "ma200": 63527.75,
+      "rsi14": 45.4,
+      "volumeRatio20d": 0.54,
+      "tradingValueRatio20d": 0.48,
+      "high20": 57900.0,
+      "highLong": 103600.0,
+      "relativeStrength": -2.35,
+      "signals": [
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 0
+    }
+  ]
+}

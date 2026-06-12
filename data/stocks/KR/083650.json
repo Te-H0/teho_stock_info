@@ -1,0 +1,45 @@
+{
+  "symbol": "083650",
+  "name": "비에이치아이",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "energy_power",
+  "tags": [
+    "nuclear",
+    "power_equipment"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 63700.0,
+      "high": 80600.0,
+      "low": 60300.0,
+      "close": 69100.0,
+      "volume": 2053197.0,
+      "changeRate": 10.91,
+      "tradingValue": 141875912700.0,
+      "marketCap": 2138256312500.0,
+      "ma5": 62780.0,
+      "ma20": 72520.0,
+      "ma60": 88713.33,
+      "ma200": 67612.75,
+      "rsi14": 40.0,
+      "volumeRatio20d": 3.33,
+      "tradingValueRatio20d": 3.07,
+      "high20": 87100.0,
+      "highLong": 114200.0,
+      "relativeStrength": 7.1,
+      "signals": [
+        "trading_value_surge",
+        "trading_value_surge_strong",
+        "volume_surge",
+        "relative_strength_strong",
+        "above_ma200",
+        "ma20_breakdown",
+        "ma_bearish_alignment"
+      ],
+      "score": 45
+    }
+  ]
+}

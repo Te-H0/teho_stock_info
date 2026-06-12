@@ -1,0 +1,39 @@
+{
+  "symbol": "069540",
+  "name": "빛과전자",
+  "country": "KR",
+  "market": "KOSDAQ",
+  "primarySector": "ai_semiconductor",
+  "tags": [
+    "optical_communication"
+  ],
+  "history": [
+    {
+      "date": "2026-06-12",
+      "session": "close",
+      "open": 3600.0,
+      "high": 3760.0,
+      "low": 3295.0,
+      "close": 3305.0,
+      "volume": 8749904.0,
+      "changeRate": -0.6,
+      "tradingValue": 28918432720.0,
+      "marketCap": 359102173965.0,
+      "ma5": 3465.0,
+      "ma20": 4729.0,
+      "ma60": 4433.0,
+      "ma200": 2005.46,
+      "rsi14": 37.2,
+      "volumeRatio20d": 0.57,
+      "tradingValueRatio20d": 0.35,
+      "high20": 7870.0,
+      "highLong": 8100.0,
+      "relativeStrength": -4.41,
+      "signals": [
+        "above_ma200",
+        "ma20_breakdown"
+      ],
+      "score": 5
+    }
+  ]
+}
