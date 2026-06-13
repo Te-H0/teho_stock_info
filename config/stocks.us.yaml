@@ -176,6 +176,16 @@ stocks:
   - solar
   leader: true
   enabled: true
+- symbol: SPCX
+  name: 스페이스X
+  country: US
+  market: NASDAQ
+  primarySector: defense_space
+  tags:
+  - aerospace
+  - satellite
+  leader: true
+  enabled: true
 - symbol: LMT
   name: 록히드 마틴
   country: US

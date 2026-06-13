@@ -11,31 +11,30 @@
     {
       "date": "2026-06-12",
       "session": "morning",
-      "open": 277.498,
-      "high": 278.3,
-      "low": 273.0,
-      "close": 275.7,
-      "volume": 113189.0,
-      "changeRate": 1.67,
-      "tradingValue": 31206207.0,
-      "marketCap": 29624892179.0,
-      "ma5": 266.74,
-      "ma20": 272.35,
-      "ma60": 225.04,
-      "ma200": 231.99,
-      "rsi14": 55.5,
-      "volumeRatio20d": 0.04,
-      "tradingValueRatio20d": 0.04,
+      "open": 276.735,
+      "high": 279.18,
+      "low": 266.325,
+      "close": 267.31,
+      "volume": 1799249.0,
+      "changeRate": -1.42,
+      "tradingValue": 480957250.0,
+      "marketCap": 28723358464.0,
+      "ma5": 265.07,
+      "ma20": 271.93,
+      "ma60": 224.9,
+      "ma200": 231.94,
+      "rsi14": 52.9,
+      "volumeRatio20d": 0.59,
+      "tradingValueRatio20d": 0.57,
       "high20": 320.95,
       "highLong": 320.95,
-      "relativeStrength": 2.42,
+      "relativeStrength": -1.57,
       "signals": [
-        "relative_strength_strong",
-        "above_ma20",
         "above_ma60",
-        "above_ma200"
+        "above_ma200",
+        "ma20_breakdown"
       ],
-      "score": 25
+      "score": 10
     }
   ]
 }

@@ -1,0 +1,51 @@
+{
+  "date": "2026-06-13",
+  "session": "morning",
+  "marketChange": 0.15,
+  "upCount": 30,
+  "downCount": 28,
+  "totalCount": 58,
+  "upRatio": 0.52,
+  "strongSectors": [
+    "bank",
+    "securities",
+    "semiconductor_material",
+    "foundry",
+    "ev"
+  ],
+  "weakSectors": [
+    "drone",
+    "sto",
+    "satellite"
+  ],
+  "summary": "시장 혼조(+0.15%). 은행, 증권, 반도체소재 섹터로 자금 유입 감지.",
+  "headline": [
+    {
+      "key": "sp500",
+      "name": "S&P500",
+      "symbol": "^GSPC",
+      "unit": "",
+      "value": 7431.46,
+      "changeRate": 0.5,
+      "date": "2026-06-12"
+    },
+    {
+      "key": "nasdaq",
+      "name": "나스닥",
+      "symbol": "^IXIC",
+      "unit": "",
+      "value": 25888.84,
+      "changeRate": 0.31,
+      "date": "2026-06-12"
+    },
+    {
+      "key": "usdkrw",
+      "name": "환율",
+      "symbol": "KRW=X",
+      "unit": "원",
+      "value": 1517.89,
+      "changeRate": -0.47,
+      "date": "2026-06-12"
+    }
+  ]
+}
