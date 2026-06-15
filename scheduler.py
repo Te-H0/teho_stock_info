@@ -1,7 +1,7 @@
 """도커 컨테이너 안에서 항상 떠서, 매일 정해진 시각에 브리핑을 실행하는 스케줄러.
 
 - 07:30 KST: morning (미국 마감 리뷰)
-- 16:00 KST: close   (한국 마감 정리)
+- 18:00 KST: close   (한국 마감 정리) — 시간외 종료 후라 KRX 투자자 수급이 확정값
 컨테이너 TZ=Asia/Seoul. 실행 실패(특히 토스 IP 차단) 시 현재 공인 IP를 텔레그램으로 알림.
 """
 
@@ -53,9 +53,9 @@ def run(session: str, max_tries: int = 3, gap: int = 10) -> None:
 
 
 schedule.every().day.at("07:30").do(run, "morning")
-schedule.every().day.at("16:00").do(run, "close")
+schedule.every().day.at("18:00").do(run, "close")
 
-print(f"스케줄러 시작 — 매일 07:30 morning(US) / 16:00 close(KR) · KST · IP={public_ip()}", flush=True)
+print(f"스케줄러 시작 — 매일 07:30 morning(US) / 18:00 close(KR) · KST · IP={public_ip()}", flush=True)
 while True:
     schedule.run_pending()
     time.sleep(30)

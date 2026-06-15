@@ -23,6 +23,7 @@ def fetch_flows(stocks: list[dict], sub_name: dict, pinned: list[str] | None = N
         d = stock.get_nearest_business_day_in_a_week()
         sym2tags = {s["symbol"]: s["tags"] for s in stocks}
         total = defaultdict(float)
+        by_market = {"KOSPI": {}, "KOSDAQ": {}}   # 시장별 주체 순매수 (합치지 않음)
         netsec = {key: defaultdict(float) for key, _, _ in INVESTORS}
         pinned_flow = {sym: {} for sym in pinned}   # 고정 종목별 투자자 순매수
 
@@ -30,7 +31,9 @@ def fetch_flows(stocks: list[dict], sub_name: dict, pinned: list[str] | None = N
             inv_df = stock.get_market_trading_value_by_investor(d, d, mkt)
             col = "순매수" if "순매수" in inv_df.columns else inv_df.columns[-1]
             for key, krx, _ in INVESTORS:
-                total[key] += float(inv_df.loc[krx, col])
+                v = float(inv_df.loc[krx, col])
+                total[key] += v
+                by_market[mkt][key] = v
                 df = stock.get_market_net_purchases_of_equities(d, d, mkt, krx)
                 for tk, row in df.iterrows():
                     val = float(row["순매수거래대금"])
@@ -55,6 +58,8 @@ def fetch_flows(stocks: list[dict], sub_name: dict, pinned: list[str] | None = N
         return {
             "date": d,
             "market": {k: round(v) for k, v in total.items()},
+            "byMarket": {mkt: {k: round(v) for k, v in vals.items()}
+                         for mkt, vals in by_market.items() if vals},
             "byInvestor": by_investor,
             "pinnedStocks": {s: {k: round(v) for k, v in fl.items()}
                              for s, fl in pinned_flow.items() if fl},

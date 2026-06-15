@@ -16,7 +16,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))  # scripts/ 를 import 
 import collect
 import aggregate
 import report
-from lib import flow, indices, sessions, store
+from lib import flow, flow_history, indices, sessions, store
 from lib.config import (load_benchmarks, load_env, load_indicators, load_sectors,
                         load_signals, load_stocks, sector_names)
 from lib.toss import TossClient
@@ -30,7 +30,9 @@ def run() -> None:
     do_store = "--no-store" not in args
     session = next((a for a in args if a in ("morning", "close")), None) or sessions.detect_session()
     country = sessions.SESSION_COUNTRY[session]
-    date = sessions.today_str()
+    now = sessions.now_kst()
+    date = sessions.today_str(now)
+    time_str = now.strftime("%H:%M")   # 발송(실행) 시각 — KST
 
     env = load_env()
     if not env.get("TOSS_CLIENT_ID") or not env.get("TOSS_CLIENT_SECRET"):
@@ -84,6 +86,13 @@ def run() -> None:
         os.environ["KRX_PW"] = env.get("KRX_PW", "")
         sub_name, _ = sector_names(sectors_cfg)
         market["flow"] = flow.fetch_flows(stocks, sub_name, indicators_cfg.get("pinned_stocks", []))
+        # 평소대비 위치·연속일수 (시장별 수급 이력 기준)
+        fl = market["flow"]
+        if fl and fl.get("byMarket"):
+            fcfg = indicators_cfg.get("flow", {})
+            fl["context"] = flow_history.context(
+                fl["byMarket"], fl["date"],
+                fcfg.get("baseline_window", 20), fcfg.get("baseline_min_days", 8))
 
     if do_store:
         store.save_raw("prices", date, session, prices)
@@ -91,6 +100,9 @@ def run() -> None:
                        {sym: c for sym, c in candles_raw.items()})
         store.save_sectors(date, session, sectors)
         store.save_market(date, session, market)
+        _fl = market.get("flow")
+        if _fl and _fl.get("byMarket"):
+            flow_history.append(_fl["byMarket"], _fl["date"])
         for h in headline:
             store.update_index_history(h, h["date"])
         for s in enriched:
@@ -102,7 +114,8 @@ def run() -> None:
                      "signals": s["signals"], "score": s["score"]}
             store.update_stock_history(country, s["symbol"], meta, entry)
 
-    md = report.render(market, sectors, enriched, signals_cfg, sectors_cfg, date, session, strong_score)
+    md = report.render(market, sectors, enriched, signals_cfg, sectors_cfg, date, session,
+                       strong_score, time_str=time_str, flow_cfg=indicators_cfg.get("flow", {}))
     if do_store:
         path = store.save_report(date, session, md)
         print(f"리포트 저장: {path}")

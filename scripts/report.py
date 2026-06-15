@@ -62,36 +62,51 @@ def _headline(market: dict) -> list[str]:
     if fx:
         h = fx[0]
         lines.append(f"💵 환율 *{h['value']:,.0f}{h['unit']}* _{h['changeRate']:+.1f}%_")
-    flow = market.get("flow")
-    if flow and flow.get("market"):
-        m = flow["market"]
-        lines.append(f"🌍외국인 {_won_flow(m['외국인'])} · 🏦기관 {_won_flow(m['기관'])}")
-        lines.append(f"👤개인 {_won_flow(m['개인'])}")
     lines.append(f"📈 오른 종목 *{market['upCount']}/{market['totalCount']}* "
                  f"_({int(market['upRatio'] * 100)}%)_")
     return lines
 
 
 def _stock_lines(s: dict, icons: list[str], sub_name: dict) -> list[str]:
-    """종목 2줄: '이름 등락률 · 💰거래대금 · 섹터' / '  아이콘'. US는 거래대금 생략."""
+    """종목 줄: '이름 등락률 · 💰거래대금 · 섹터' (+시그널 있으면 아이콘 줄). US는 거래대금 생략."""
     m = s["metrics"]
     tag0 = s["tags"][0]
     sector = _esc(sub_name.get(tag0, ""))
     tv = "" if s["country"] == "US" else f" · 💰{_won(m['tradingValue'])}"
-    icon_txt = " · ".join(icons) or "—"
-    return [f"*{_esc(s['name'])}* {m['changeRate']:+.1f}%{tv} · _{sector}_",
-            f"  {icon_txt}"]
+    lines = [f"*{_esc(s['name'])}* {m['changeRate']:+.1f}%{tv} · _{sector}_"]
+    if icons:
+        lines.append(f"  {' · '.join(icons)}")   # 표시할 시그널 없으면 줄 생략(빈 '—' 제거)
+    return lines
+
+
+def _flow_ann(v: float, ctx: dict | None, emphasize_z: float, streak_min: int) -> str:
+    """수급 한 칸 옆 주석: ' · 4일연속 · 🔥한달최고' 형태(없으면 '')."""
+    if not ctx:
+        return ""
+    parts = []
+    z, rank, n = ctx.get("z"), ctx.get("rank"), ctx.get("n")
+    if z is not None and abs(z) >= emphasize_z and rank:
+        if v >= 0:
+            parts.append("🔥20일최고" if rank == 1 else f"🔥상위{rank}위" if rank <= 3 else "🔥상위권")
+        else:
+            rb = n - rank + 1   # 아래에서 센 순위(1=가장 많이 판)
+            parts.append("🧊20일최저" if rb == 1 else f"🧊하위{rb}위" if rb <= 3 else "🧊하위권")
+    streak = ctx.get("streak", 1)
+    if streak >= streak_min:
+        parts.append(f"{streak}일연속")
+    return ("  " + " · ".join(f"_{p}_" for p in parts)) if parts else ""
 
 
 def render(market: dict, sectors: list[dict], stocks: list[dict],
            signals_cfg: dict, sectors_cfg: dict, date: str, session: str,
-           strong_score: int = 40) -> str:
+           strong_score: int = 40, time_str: str = "", flow_cfg: dict | None = None) -> str:
     sub_name, _ = sector_names(sectors_cfg)
     is_morning = session == "morning"
     title = "🇺🇸 🌅 아침 시장 레이더 · 미국 마감" if is_morning else "🇰🇷 🌆 오늘 시장 정리 · 한국 마감"
     market_label = "미국" if is_morning else "한국"
 
-    L = [title, f"_{date} · {market_label} · 정규장 종가_", ""]
+    when = f"{date} {time_str}".strip()
+    L = [title, f"_{when} · {market_label} · 정규장 종가_", ""]
     L += _headline(market)
     L.append("")
     L.append(f"💬 {market['summary']}")
@@ -115,10 +130,35 @@ def render(market: dict, sectors: list[dict], stocks: list[dict],
                 L.append(f"  {' · '.join(parts)}")
         L.append("")
 
-    # 투자자별 수급 — 각 주체가 산(🟢) / 판(🔴) 섹터
+    # 투자자별 수급 — 코스피/코스닥 각각 외국인·기관·개인 순매수 (+평소대비·연속)
+    if flow and flow.get("byMarket"):
+        fc = flow_cfg or {}
+        emph = fc.get("emphasize_z", 1.3)
+        smin = fc.get("streak_min", 2)
+        ctx = flow.get("context") or {}
+        L.append(DIVIDER)
+        L.append("💰 *투자자별 수급* _(순매수 · 20일대비/연속)_")
+        rendered = False
+        for mkt, mlabel in (("KOSPI", "🇰🇷 코스피"), ("KOSDAQ", "💹 코스닥")):
+            mvals = flow["byMarket"].get(mkt)
+            if not mvals:
+                continue
+            if rendered:
+                L.append("")          # 코스피 ↔ 코스닥 사이 빈 줄
+            L.append(f"*{mlabel}*")
+            mctx = ctx.get(mkt, {})
+            for key, e in (("외국인", "🌍"), ("기관", "🏦"), ("개인", "👤")):
+                if key not in mvals:
+                    continue
+                v = mvals[key]
+                L.append(f"{e} {key} {_won_flow(v)}{_flow_ann(v, mctx.get(key), emph, smin)}")
+            rendered = True
+        L.append("")
+
+    # 주체별 담은(🟢) / 판(🔴) 섹터 — 우리 관측 종목 기준
     if flow and flow.get("byInvestor"):
         L.append(DIVIDER)
-        L.append("💰 *투자자별 수급* _(🟢산 / 🔴판)_")
+        L.append("🧭 *주체별 담은·판 섹터* _(🟢산 / 🔴판)_")
         for key in ("외국인", "기관", "개인"):
             bi = flow["byInvestor"].get(key)
             if not bi:

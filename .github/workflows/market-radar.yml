@@ -4,7 +4,7 @@ on:
   schedule:
     # 한국시간 기준 (UTC). 평일만.
     - cron: "30 22 * * 0-4"   # KST 07:30 아침(미국 마감 리뷰) — UTC 전날 22:30
-    - cron: "0 7 * * 1-5"     # KST 16:00 마감(한국 정리) — UTC 07:00
+    - cron: "0 9 * * 1-5"     # KST 18:00 마감(한국 정리·수급 확정) — UTC 09:00
   workflow_dispatch:          # 수동 실행 (세션 선택)
     inputs:
       session:
