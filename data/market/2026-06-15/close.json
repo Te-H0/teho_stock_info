@@ -1,0 +1,106 @@
+{
+  "date": "2026-06-15",
+  "session": "close",
+  "marketChange": 5.14,
+  "upCount": 118,
+  "downCount": 38,
+  "totalCount": 156,
+  "upRatio": 0.76,
+  "strongSectors": [
+    "travel",
+    "shipping",
+    "construction",
+    "insurance",
+    "packaging"
+  ],
+  "weakSectors": [
+    "sto",
+    "entertainment",
+    "medical_device"
+  ],
+  "summary": "시장 강세(+5.14%). 여행, 해운, 건설 섹터로 자금 유입 감지.",
+  "headline": [
+    {
+      "key": "kospi",
+      "name": "코스피",
+      "symbol": "^KS11",
+      "unit": "",
+      "value": 8545.98,
+      "changeRate": 5.2,
+      "date": "2026-06-15"
+    },
+    {
+      "key": "kosdaq",
+      "name": "코스닥",
+      "symbol": "^KQ11",
+      "unit": "",
+      "value": 1034.03,
+      "changeRate": 0.48,
+      "date": "2026-06-15"
+    },
+    {
+      "key": "usdkrw",
+      "name": "환율",
+      "symbol": "KRW=X",
+      "unit": "원",
+      "value": 1512.63,
+      "changeRate": -0.31,
+      "date": "2026-06-15"
+    }
+  ],
+  "flow": {
+    "date": "20260615",
+    "market": {
+      "외국인": 221030289401,
+      "기관": 731321956513,
+      "개인": -862799317249
+    },
+    "byInvestor": {
+      "외국인": {
+        "emoji": "🌍",
+        "buy": {
+          "sector": "패키징",
+          "value": 939780366550
+        },
+        "sell": {
+          "sector": "파운드리",
+          "value": -713973623850
+        }
+      },
+      "기관": {
+        "emoji": "🏦",
+        "buy": {
+          "sector": "HBM",
+          "value": 601002589750
+        },
+        "sell": {
+          "sector": "전기차",
+          "value": -142311207730
+        }
+      },
+      "개인": {
+        "emoji": "👤",
+        "buy": {
+          "sector": "파운드리",
+          "value": 475006735750
+        },
+        "sell": {
+          "sector": "패키징",
+          "value": -780994290725
+        }
+      }
+    },
+    "pinnedStocks": {
+      "005930": {
+        "외국인": -703372741250,
+        "기관": 274187292500,
+        "개인": 440643598500
+      },
+      "000660": {
+        "외국인": 425772946500,
+        "기관": 381200869500,
+        "개인": -781433189500
+      }
+    }
+  }
+}

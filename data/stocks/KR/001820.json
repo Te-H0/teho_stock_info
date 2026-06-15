@@ -37,6 +37,36 @@
         "ma_bullish_alignment"
       ],
       "score": 30
+    },
+    {
+      "date": "2026-06-15",
+      "session": "close",
+      "open": 132000.0,
+      "high": 152500.0,
+      "low": 130500.0,
+      "close": 139000.0,
+      "volume": 2474039.0,
+      "changeRate": 8.42,
+      "tradingValue": 343891421000.0,
+      "marketCap": 1444905000000.0,
+      "ma5": 125720.0,
+      "ma20": 109660.0,
+      "ma60": 77571.67,
+      "ma200": 46926.75,
+      "rsi14": 60.4,
+      "volumeRatio20d": 0.75,
+      "tradingValueRatio20d": 0.85,
+      "high20": 172800.0,
+      "highLong": 172800.0,
+      "relativeStrength": 3.28,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma60",
+        "above_ma200",
+        "ma_bullish_alignment"
+      ],
+      "score": 40
     }
   ]
 }

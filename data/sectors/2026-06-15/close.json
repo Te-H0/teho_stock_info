@@ -1,0 +1,2194 @@
+[
+  {
+    "sectorId": "travel",
+    "sectorName": "여행",
+    "parentSectorId": "consumer",
+    "parentSectorName": "소비",
+    "score": 118,
+    "avgChangeRate": 8.75,
+    "relativeStrength": 3.61,
+    "totalTradingValue": 702028360750.0,
+    "tradingValueRatio20d": 5.01,
+    "upCount": 3,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "003490",
+      "008770"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "003490",
+        "name": "대한항공",
+        "changeRate": 10.56,
+        "score": 85
+      },
+      {
+        "symbol": "008770",
+        "name": "호텔신라",
+        "changeRate": 0.91,
+        "score": 10
+      },
+      {
+        "symbol": "039130",
+        "name": "하나투어",
+        "changeRate": 4.01,
+        "score": 5
+      }
+    ],
+    "signals": [
+      "sector_relative_strength",
+      "sector_trading_value_surge",
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "shipping",
+    "sectorName": "해운",
+    "parentSectorId": "industrial_material",
+    "parentSectorName": "산업재/소재",
+    "score": 105,
+    "avgChangeRate": 6.47,
+    "relativeStrength": 1.33,
+    "totalTradingValue": 137006502200.0,
+    "tradingValueRatio20d": 2.6,
+    "upCount": 1,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "011200"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "011200",
+        "name": "HMM",
+        "changeRate": 6.47,
+        "score": 40
+      }
+    ],
+    "signals": [
+      "sector_relative_strength",
+      "sector_trading_value_surge",
+      "sector_breadth_strong"
+    ]
+  },
+  {
+    "sectorId": "construction",
+    "sectorName": "건설",
+    "parentSectorId": "industrial_material",
+    "parentSectorName": "산업재/소재",
+    "score": 97,
+    "avgChangeRate": 2.14,
+    "relativeStrength": -3.0,
+    "totalTradingValue": 1138839200300.0,
+    "tradingValueRatio20d": 2.25,
+    "upCount": 3,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "000720",
+      "028050"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "028050",
+        "name": "삼성E&A",
+        "changeRate": 3.33,
+        "score": 40
+      },
+      {
+        "symbol": "000720",
+        "name": "현대건설",
+        "changeRate": 1.54,
+        "score": 35
+      },
+      {
+        "symbol": "006360",
+        "name": "GS건설",
+        "changeRate": 1.17,
+        "score": 35
+      }
+    ],
+    "signals": [
+      "sector_trading_value_surge",
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "insurance",
+    "sectorName": "보험",
+    "parentSectorId": "finance",
+    "parentSectorName": "금융",
+    "score": 95,
+    "avgChangeRate": 6.49,
+    "relativeStrength": 1.35,
+    "totalTradingValue": 347577258600.0,
+    "tradingValueRatio20d": 0.76,
+    "upCount": 3,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "000810",
+      "032830"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "032830",
+        "name": "삼성생명",
+        "changeRate": 8.49,
+        "score": 40
+      },
+      {
+        "symbol": "000810",
+        "name": "삼성화재",
+        "changeRate": 3.21,
+        "score": 30
+      },
+      {
+        "symbol": "138040",
+        "name": "메리츠금융지주",
+        "changeRate": 2.77,
+        "score": 20
+      }
+    ],
+    "signals": [
+      "sector_relative_strength",
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "packaging",
+    "sectorName": "패키징",
+    "parentSectorId": "ai_semiconductor",
+    "parentSectorName": "AI/반도체",
+    "score": 92,
+    "avgChangeRate": 10.13,
+    "relativeStrength": 4.99,
+    "totalTradingValue": 6945907548500.0,
+    "tradingValueRatio20d": 1.08,
+    "upCount": 5,
+    "downCount": 1,
+    "upRatio": 0.83,
+    "leaderStocks": [
+      "009150",
+      "042700"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "009150",
+        "name": "삼성전기",
+        "changeRate": 13.57,
+        "score": 40
+      },
+      {
+        "symbol": "039030",
+        "name": "이오테크닉스",
+        "changeRate": -7.76,
+        "score": 30
+      },
+      {
+        "symbol": "353200",
+        "name": "대덕전자",
+        "changeRate": 1.51,
+        "score": 30
+      }
+    ],
+    "signals": [
+      "sector_relative_strength",
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "transformer",
+    "sectorName": "변압기",
+    "parentSectorId": "energy_power",
+    "parentSectorName": "에너지/전력",
+    "score": 90,
+    "avgChangeRate": 11.42,
+    "relativeStrength": 6.28,
+    "totalTradingValue": 1812161778000.0,
+    "tradingValueRatio20d": 1.4,
+    "upCount": 3,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "010120",
+      "267260"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "010120",
+        "name": "LS ELECTRIC",
+        "changeRate": 13.51,
+        "score": 25
+      },
+      {
+        "symbol": "267260",
+        "name": "HD현대일렉트릭",
+        "changeRate": 9.78,
+        "score": 25
+      },
+      {
+        "symbol": "298040",
+        "name": "효성중공업",
+        "changeRate": 11.07,
+        "score": 25
+      }
+    ],
+    "signals": [
+      "sector_relative_strength",
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "ess",
+    "sectorName": "ESS",
+    "parentSectorId": "energy_power",
+    "parentSectorName": "에너지/전력",
+    "score": 87,
+    "avgChangeRate": 6.72,
+    "relativeStrength": 1.58,
+    "totalTradingValue": 2324724833000.0,
+    "tradingValueRatio20d": 0.86,
+    "upCount": 5,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "006400",
+      "373220"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "001820",
+        "name": "삼화콘덴서",
+        "changeRate": 8.42,
+        "score": 40
+      },
+      {
+        "symbol": "010120",
+        "name": "LS ELECTRIC",
+        "changeRate": 13.51,
+        "score": 25
+      },
+      {
+        "symbol": "298040",
+        "name": "효성중공업",
+        "changeRate": 11.07,
+        "score": 25
+      }
+    ],
+    "signals": [
+      "sector_relative_strength",
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "power_equipment",
+    "sectorName": "전력기기",
+    "parentSectorId": "energy_power",
+    "parentSectorName": "에너지/전력",
+    "score": 86,
+    "avgChangeRate": 8.51,
+    "relativeStrength": 3.37,
+    "totalTradingValue": 3376391240550.0,
+    "tradingValueRatio20d": 1.14,
+    "upCount": 8,
+    "downCount": 1,
+    "upRatio": 0.89,
+    "leaderStocks": [
+      "034020",
+      "267260"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "001820",
+        "name": "삼화콘덴서",
+        "changeRate": 8.42,
+        "score": 40
+      },
+      {
+        "symbol": "083650",
+        "name": "비에이치아이",
+        "changeRate": -1.01,
+        "score": 30
+      },
+      {
+        "symbol": "010120",
+        "name": "LS ELECTRIC",
+        "changeRate": 13.51,
+        "score": 25
+      }
+    ],
+    "signals": [
+      "sector_relative_strength",
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "holding",
+    "sectorName": "지주",
+    "parentSectorId": "finance",
+    "parentSectorName": "금융",
+    "score": 86,
+    "avgChangeRate": 9.13,
+    "relativeStrength": 3.99,
+    "totalTradingValue": 1198456101700.0,
+    "tradingValueRatio20d": 0.78,
+    "upCount": 6,
+    "downCount": 1,
+    "upRatio": 0.86,
+    "leaderStocks": [
+      "028260",
+      "034730"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "028260",
+        "name": "삼성물산",
+        "changeRate": 13.75,
+        "score": 40
+      },
+      {
+        "symbol": "034730",
+        "name": "SK",
+        "changeRate": 8.75,
+        "score": 25
+      },
+      {
+        "symbol": "267250",
+        "name": "HD현대",
+        "changeRate": 8.7,
+        "score": 25
+      }
+    ],
+    "signals": [
+      "sector_relative_strength",
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "shipbuilding",
+    "sectorName": "조선",
+    "parentSectorId": "defense_space",
+    "parentSectorName": "국방/우주",
+    "score": 83,
+    "avgChangeRate": 8.19,
+    "relativeStrength": 3.05,
+    "totalTradingValue": 1218347201750.0,
+    "tradingValueRatio20d": 0.8,
+    "upCount": 5,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "042660",
+      "329180"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "329180",
+        "name": "HD현대중공업",
+        "changeRate": 9.23,
+        "score": 25
+      },
+      {
+        "symbol": "009540",
+        "name": "HD한국조선해양",
+        "changeRate": 7.12,
+        "score": 25
+      },
+      {
+        "symbol": "042660",
+        "name": "한화오션",
+        "changeRate": 8.66,
+        "score": 15
+      }
+    ],
+    "signals": [
+      "sector_relative_strength",
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "memory",
+    "sectorName": "메모리",
+    "parentSectorId": "ai_semiconductor",
+    "parentSectorName": "AI/반도체",
+    "score": 78,
+    "avgChangeRate": 5.04,
+    "relativeStrength": -0.1,
+    "totalTradingValue": 26078328526000.0,
+    "tradingValueRatio20d": 0.63,
+    "upCount": 3,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "000660",
+      "005930"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "402340",
+        "name": "SK스퀘어",
+        "changeRate": 5.39,
+        "score": 55
+      },
+      {
+        "symbol": "005930",
+        "name": "삼성전자",
+        "changeRate": 4.16,
+        "score": 30
+      },
+      {
+        "symbol": "000660",
+        "name": "SK하이닉스",
+        "changeRate": 6.06,
+        "score": 30
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "bank",
+    "sectorName": "은행",
+    "parentSectorId": "finance",
+    "parentSectorName": "금융",
+    "score": 75,
+    "avgChangeRate": 4.45,
+    "relativeStrength": -0.69,
+    "totalTradingValue": 698320284600.0,
+    "tradingValueRatio20d": 1.07,
+    "upCount": 3,
+    "downCount": 1,
+    "upRatio": 0.75,
+    "leaderStocks": [
+      "055550",
+      "105560"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "086790",
+        "name": "하나금융지주",
+        "changeRate": 5.9,
+        "score": 55
+      },
+      {
+        "symbol": "105560",
+        "name": "KB금융",
+        "changeRate": 4.57,
+        "score": 45
+      },
+      {
+        "symbol": "055550",
+        "name": "신한지주",
+        "changeRate": 4.34,
+        "score": 30
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "drone",
+    "sectorName": "드론",
+    "parentSectorId": "defense_space",
+    "parentSectorName": "국방/우주",
+    "score": 74,
+    "avgChangeRate": 6.78,
+    "relativeStrength": 1.64,
+    "totalTradingValue": 371434083400.0,
+    "tradingValueRatio20d": 0.83,
+    "upCount": 4,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "079550",
+      "272210"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "079550",
+        "name": "LIG디펜스앤에어로스페이스",
+        "changeRate": 9.69,
+        "score": 25
+      },
+      {
+        "symbol": "272210",
+        "name": "한화시스템",
+        "changeRate": 3.98,
+        "score": 5
+      },
+      {
+        "symbol": "010820",
+        "name": "퍼스텍",
+        "changeRate": 3.21,
+        "score": 5
+      }
+    ],
+    "signals": [
+      "sector_relative_strength",
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "auto_parts",
+    "sectorName": "자동차부품",
+    "parentSectorId": "mobility",
+    "parentSectorName": "모빌리티",
+    "score": 70,
+    "avgChangeRate": 4.62,
+    "relativeStrength": -0.52,
+    "totalTradingValue": 3986794286320.0,
+    "tradingValueRatio20d": 0.69,
+    "upCount": 7,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "000270",
+      "005380"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "018880",
+        "name": "한온시스템",
+        "changeRate": 20.85,
+        "score": 70
+      },
+      {
+        "symbol": "204320",
+        "name": "HL만도",
+        "changeRate": 8.62,
+        "score": 55
+      },
+      {
+        "symbol": "005850",
+        "name": "에스엘",
+        "changeRate": 11.46,
+        "score": 25
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "semiconductor_material",
+    "sectorName": "반도체소재",
+    "parentSectorId": "ai_semiconductor",
+    "parentSectorName": "AI/반도체",
+    "score": 69,
+    "avgChangeRate": 11.33,
+    "relativeStrength": 6.19,
+    "totalTradingValue": 6309596533300.0,
+    "tradingValueRatio20d": 1.13,
+    "upCount": 4,
+    "downCount": 2,
+    "upRatio": 0.67,
+    "leaderStocks": [
+      "009150",
+      "353200"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "009150",
+        "name": "삼성전기",
+        "changeRate": 13.57,
+        "score": 40
+      },
+      {
+        "symbol": "058470",
+        "name": "리노공업",
+        "changeRate": -4.09,
+        "score": 30
+      },
+      {
+        "symbol": "353200",
+        "name": "대덕전자",
+        "changeRate": 1.51,
+        "score": 30
+      }
+    ],
+    "signals": [
+      "sector_relative_strength",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "hbm",
+    "sectorName": "HBM",
+    "parentSectorId": "ai_semiconductor",
+    "parentSectorName": "AI/반도체",
+    "score": 65,
+    "avgChangeRate": 5.0,
+    "relativeStrength": -0.14,
+    "totalTradingValue": 25377770108500.0,
+    "tradingValueRatio20d": 0.63,
+    "upCount": 3,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "000660",
+      "005930"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "005930",
+        "name": "삼성전자",
+        "changeRate": 4.16,
+        "score": 30
+      },
+      {
+        "symbol": "000660",
+        "name": "SK하이닉스",
+        "changeRate": 6.06,
+        "score": 30
+      },
+      {
+        "symbol": "042700",
+        "name": "한미반도체",
+        "changeRate": 2.79,
+        "score": 15
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "autonomous_driving",
+    "sectorName": "자율주행",
+    "parentSectorId": "mobility",
+    "parentSectorName": "모빌리티",
+    "score": 65,
+    "avgChangeRate": 5.01,
+    "relativeStrength": -0.13,
+    "totalTradingValue": 3188309033400.0,
+    "tradingValueRatio20d": 0.61,
+    "upCount": 4,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "005380",
+      "012330"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "204320",
+        "name": "HL만도",
+        "changeRate": 8.62,
+        "score": 55
+      },
+      {
+        "symbol": "307950",
+        "name": "현대오토에버",
+        "changeRate": 7.36,
+        "score": 25
+      },
+      {
+        "symbol": "005380",
+        "name": "현대차",
+        "changeRate": 5.04,
+        "score": 10
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "ev",
+    "sectorName": "전기차",
+    "parentSectorId": "mobility",
+    "parentSectorName": "모빌리티",
+    "score": 63,
+    "avgChangeRate": 4.13,
+    "relativeStrength": -1.01,
+    "totalTradingValue": 2720882028120.0,
+    "tradingValueRatio20d": 0.55,
+    "upCount": 5,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "005380",
+      "373220"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "018880",
+        "name": "한온시스템",
+        "changeRate": 20.85,
+        "score": 70
+      },
+      {
+        "symbol": "000270",
+        "name": "기아",
+        "changeRate": 1.57,
+        "score": 15
+      },
+      {
+        "symbol": "373220",
+        "name": "LG에너지솔루션",
+        "changeRate": 4.99,
+        "score": 10
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "nuclear",
+    "sectorName": "원전",
+    "parentSectorId": "energy_power",
+    "parentSectorName": "에너지/전력",
+    "score": 60,
+    "avgChangeRate": 5.01,
+    "relativeStrength": -0.13,
+    "totalTradingValue": 1612821758950.0,
+    "tradingValueRatio20d": 1.28,
+    "upCount": 5,
+    "downCount": 1,
+    "upRatio": 0.83,
+    "leaderStocks": [
+      "015760",
+      "034020"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "052690",
+        "name": "한전기술",
+        "changeRate": 1.5,
+        "score": 35
+      },
+      {
+        "symbol": "000720",
+        "name": "현대건설",
+        "changeRate": 1.54,
+        "score": 35
+      },
+      {
+        "symbol": "083650",
+        "name": "비에이치아이",
+        "changeRate": -1.01,
+        "score": 30
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "robot",
+    "sectorName": "로봇",
+    "parentSectorId": "future_tech",
+    "parentSectorName": "미래기술",
+    "score": 54,
+    "avgChangeRate": 5.36,
+    "relativeStrength": 0.22,
+    "totalTradingValue": 1932163909400.0,
+    "tradingValueRatio20d": 0.38,
+    "upCount": 3,
+    "downCount": 1,
+    "upRatio": 0.75,
+    "leaderStocks": [
+      "066570",
+      "277810"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "066570",
+        "name": "LG전자",
+        "changeRate": 7.02,
+        "score": 20
+      },
+      {
+        "symbol": "108490",
+        "name": "로보티즈",
+        "changeRate": -0.45,
+        "score": 15
+      },
+      {
+        "symbol": "277810",
+        "name": "레인보우로보틱스",
+        "changeRate": 4.75,
+        "score": 10
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "chemical",
+    "sectorName": "화학",
+    "parentSectorId": "industrial_material",
+    "parentSectorName": "산업재/소재",
+    "score": 53,
+    "avgChangeRate": 4.98,
+    "relativeStrength": -0.16,
+    "totalTradingValue": 451469470700.0,
+    "tradingValueRatio20d": 0.79,
+    "upCount": 6,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "051910",
+      "096770"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "011780",
+        "name": "금호석유화학",
+        "changeRate": 7.17,
+        "score": 25
+      },
+      {
+        "symbol": "009830",
+        "name": "한화솔루션",
+        "changeRate": 11.02,
+        "score": 20
+      },
+      {
+        "symbol": "051910",
+        "name": "LG화학",
+        "changeRate": 4.05,
+        "score": 15
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "defense",
+    "sectorName": "방산",
+    "parentSectorId": "defense_space",
+    "parentSectorName": "국방/우주",
+    "score": 52,
+    "avgChangeRate": 5.74,
+    "relativeStrength": 0.6,
+    "totalTradingValue": 1605190322200.0,
+    "tradingValueRatio20d": 0.77,
+    "upCount": 8,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "012450",
+      "329180"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "079550",
+        "name": "LIG디펜스앤에어로스페이스",
+        "changeRate": 9.69,
+        "score": 25
+      },
+      {
+        "symbol": "329180",
+        "name": "HD현대중공업",
+        "changeRate": 9.23,
+        "score": 25
+      },
+      {
+        "symbol": "064350",
+        "name": "현대로템",
+        "changeRate": 2.9,
+        "score": 15
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "crypto",
+    "sectorName": "가상자산",
+    "parentSectorId": "finance",
+    "parentSectorName": "금융",
+    "score": 52,
+    "avgChangeRate": 2.79,
+    "relativeStrength": -2.35,
+    "totalTradingValue": 1494198816230.0,
+    "tradingValueRatio20d": 0.52,
+    "upCount": 7,
+    "downCount": 2,
+    "upRatio": 0.78,
+    "leaderStocks": [
+      "035420",
+      "086790"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "086790",
+        "name": "하나금융지주",
+        "changeRate": 5.9,
+        "score": 55
+      },
+      {
+        "symbol": "035420",
+        "name": "NAVER",
+        "changeRate": 2.27,
+        "score": 30
+      },
+      {
+        "symbol": "071050",
+        "name": "한국금융지주",
+        "changeRate": 3.73,
+        "score": 15
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "telecom",
+    "sectorName": "통신",
+    "parentSectorId": "future_tech",
+    "parentSectorName": "미래기술",
+    "score": 52,
+    "avgChangeRate": 1.23,
+    "relativeStrength": -3.91,
+    "totalTradingValue": 222270577440.0,
+    "tradingValueRatio20d": 0.37,
+    "upCount": 3,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "017670",
+      "030200"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "017670",
+        "name": "SK텔레콤",
+        "changeRate": 1.94,
+        "score": 15
+      },
+      {
+        "symbol": "030200",
+        "name": "KT",
+        "changeRate": 0.54,
+        "score": 10
+      },
+      {
+        "symbol": "032640",
+        "name": "LG유플러스",
+        "changeRate": 0.25,
+        "score": 10
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "cable",
+    "sectorName": "전선",
+    "parentSectorId": "energy_power",
+    "parentSectorName": "에너지/전력",
+    "score": 51,
+    "avgChangeRate": 5.33,
+    "relativeStrength": 0.19,
+    "totalTradingValue": 515539229280.0,
+    "tradingValueRatio20d": 0.8,
+    "upCount": 3,
+    "downCount": 1,
+    "upRatio": 0.75,
+    "leaderStocks": [
+      "001440",
+      "006260"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "006260",
+        "name": "LS",
+        "changeRate": 8.04,
+        "score": 20
+      },
+      {
+        "symbol": "000500",
+        "name": "가온전선",
+        "changeRate": -2.83,
+        "score": 10
+      },
+      {
+        "symbol": "006340",
+        "name": "대원전선",
+        "changeRate": 2.1,
+        "score": 10
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "gpu",
+    "sectorName": "GPU",
+    "parentSectorId": "ai_semiconductor",
+    "parentSectorName": "AI/반도체",
+    "score": 50,
+    "avgChangeRate": 4.16,
+    "relativeStrength": -0.98,
+    "totalTradingValue": 11511822686000.0,
+    "tradingValueRatio20d": 0.6,
+    "upCount": 1,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "005930"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "005930",
+        "name": "삼성전자",
+        "changeRate": 4.16,
+        "score": 30
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong"
+    ]
+  },
+  {
+    "sectorId": "machinery",
+    "sectorName": "기계",
+    "parentSectorId": "industrial_material",
+    "parentSectorName": "산업재/소재",
+    "score": 50,
+    "avgChangeRate": 3.17,
+    "relativeStrength": -1.97,
+    "totalTradingValue": 59964411200.0,
+    "tradingValueRatio20d": 0.98,
+    "upCount": 2,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "017800",
+      "241560"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "241560",
+        "name": "두산밥캣",
+        "changeRate": 3.33,
+        "score": 15
+      },
+      {
+        "symbol": "017800",
+        "name": "현대엘리베이터",
+        "changeRate": 2.84,
+        "score": 5
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "semiconductor_equipment",
+    "sectorName": "반도체장비",
+    "parentSectorId": "ai_semiconductor",
+    "parentSectorName": "AI/반도체",
+    "score": 49,
+    "avgChangeRate": 1.31,
+    "relativeStrength": -3.83,
+    "totalTradingValue": 5487395269100.0,
+    "tradingValueRatio20d": 2.09,
+    "upCount": 2,
+    "downCount": 5,
+    "upRatio": 0.29,
+    "leaderStocks": [
+      "036930",
+      "042700"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "403870",
+        "name": "HPSP",
+        "changeRate": 16.78,
+        "score": 70
+      },
+      {
+        "symbol": "039030",
+        "name": "이오테크닉스",
+        "changeRate": -7.76,
+        "score": 30
+      },
+      {
+        "symbol": "036930",
+        "name": "주성엔지니어링",
+        "changeRate": -2.6,
+        "score": 30
+      }
+    ],
+    "signals": [
+      "sector_trading_value_surge"
+    ]
+  },
+  {
+    "sectorId": "battery",
+    "sectorName": "2차전지",
+    "parentSectorId": "mobility",
+    "parentSectorName": "모빌리티",
+    "score": 48,
+    "avgChangeRate": 4.52,
+    "relativeStrength": -0.62,
+    "totalTradingValue": 1542225513900.0,
+    "tradingValueRatio20d": 0.52,
+    "upCount": 9,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "006400",
+      "373220"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "247540",
+        "name": "에코프로비엠",
+        "changeRate": 8.44,
+        "score": 15
+      },
+      {
+        "symbol": "051910",
+        "name": "LG화학",
+        "changeRate": 4.05,
+        "score": 15
+      },
+      {
+        "symbol": "373220",
+        "name": "LG에너지솔루션",
+        "changeRate": 4.99,
+        "score": 10
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "retail",
+    "sectorName": "유통",
+    "parentSectorId": "consumer",
+    "parentSectorName": "소비",
+    "score": 46,
+    "avgChangeRate": 1.45,
+    "relativeStrength": -3.69,
+    "totalTradingValue": 66201160750.0,
+    "tradingValueRatio20d": 0.54,
+    "upCount": 4,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "139480",
+      "257720"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "282330",
+        "name": "BGF리테일",
+        "changeRate": 0.7,
+        "score": 10
+      },
+      {
+        "symbol": "008770",
+        "name": "호텔신라",
+        "changeRate": 0.91,
+        "score": 10
+      },
+      {
+        "symbol": "139480",
+        "name": "이마트",
+        "changeRate": 1.12,
+        "score": 5
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "datacenter",
+    "sectorName": "데이터센터",
+    "parentSectorId": "ai_semiconductor",
+    "parentSectorName": "AI/반도체",
+    "score": 45,
+    "avgChangeRate": 5.89,
+    "relativeStrength": 0.75,
+    "totalTradingValue": 15740814256530.0,
+    "tradingValueRatio20d": 0.65,
+    "upCount": 3,
+    "downCount": 2,
+    "upRatio": 0.6,
+    "leaderStocks": [
+      "000660",
+      "402340"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "402340",
+        "name": "SK스퀘어",
+        "changeRate": 5.39,
+        "score": 55
+      },
+      {
+        "symbol": "000660",
+        "name": "SK하이닉스",
+        "changeRate": 6.06,
+        "score": 30
+      },
+      {
+        "symbol": "035420",
+        "name": "NAVER",
+        "changeRate": 2.27,
+        "score": 30
+      }
+    ],
+    "signals": [
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "steel",
+    "sectorName": "철강",
+    "parentSectorId": "industrial_material",
+    "parentSectorName": "산업재/소재",
+    "score": 45,
+    "avgChangeRate": 3.94,
+    "relativeStrength": -1.2,
+    "totalTradingValue": 230934762400.0,
+    "tradingValueRatio20d": 0.48,
+    "upCount": 2,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "004020",
+      "005490"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "005490",
+        "name": "POSCO홀딩스",
+        "changeRate": 3.8,
+        "score": 5
+      },
+      {
+        "symbol": "004020",
+        "name": "현대제철",
+        "changeRate": 4.86,
+        "score": 5
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "cosmetics",
+    "sectorName": "화장품",
+    "parentSectorId": "consumer",
+    "parentSectorName": "소비",
+    "score": 44,
+    "avgChangeRate": 0.81,
+    "relativeStrength": -4.33,
+    "totalTradingValue": 76813928650.0,
+    "tradingValueRatio20d": 0.6,
+    "upCount": 3,
+    "downCount": 1,
+    "upRatio": 0.75,
+    "leaderStocks": [
+      "090430",
+      "257720"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "161890",
+        "name": "한국콜마",
+        "changeRate": 0.23,
+        "score": 15
+      },
+      {
+        "symbol": "090430",
+        "name": "아모레퍼시픽",
+        "changeRate": 0.45,
+        "score": 0
+      },
+      {
+        "symbol": "192820",
+        "name": "코스맥스",
+        "changeRate": -0.06,
+        "score": 0
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "wind",
+    "sectorName": "풍력",
+    "parentSectorId": "energy_power",
+    "parentSectorName": "에너지/전력",
+    "score": 42,
+    "avgChangeRate": 5.55,
+    "relativeStrength": 0.41,
+    "totalTradingValue": 654282882460.0,
+    "tradingValueRatio20d": 0.8,
+    "upCount": 3,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "034020",
+      "112610"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "034020",
+        "name": "두산에너빌리티",
+        "changeRate": 5.6,
+        "score": 5
+      },
+      {
+        "symbol": "112610",
+        "name": "씨에스윈드",
+        "changeRate": 4.04,
+        "score": 0
+      },
+      {
+        "symbol": "297090",
+        "name": "씨에스베어링",
+        "changeRate": 3.08,
+        "score": 0
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "cdmo",
+    "sectorName": "CDMO",
+    "parentSectorId": "bio_healthcare",
+    "parentSectorName": "바이오/헬스케어",
+    "score": 40,
+    "avgChangeRate": 2.11,
+    "relativeStrength": -3.03,
+    "totalTradingValue": 462262545250.0,
+    "tradingValueRatio20d": 0.61,
+    "upCount": 6,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "068270",
+      "207940"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "207940",
+        "name": "삼성바이오로직스",
+        "changeRate": 2.93,
+        "score": 0
+      },
+      {
+        "symbol": "237690",
+        "name": "에스티팜",
+        "changeRate": 0.08,
+        "score": 0
+      },
+      {
+        "symbol": "196170",
+        "name": "알테오젠",
+        "changeRate": 2.35,
+        "score": 0
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "adc",
+    "sectorName": "ADC",
+    "parentSectorId": "bio_healthcare",
+    "parentSectorName": "바이오/헬스케어",
+    "score": 40,
+    "avgChangeRate": 2.07,
+    "relativeStrength": -3.07,
+    "totalTradingValue": 298709832000.0,
+    "tradingValueRatio20d": 0.6,
+    "upCount": 2,
+    "downCount": 0,
+    "upRatio": 1.0,
+    "leaderStocks": [
+      "141080",
+      "196170"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "141080",
+        "name": "리가켐바이오",
+        "changeRate": 0.99,
+        "score": 0
+      },
+      {
+        "symbol": "196170",
+        "name": "알테오젠",
+        "changeRate": 2.35,
+        "score": 0
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "immuno_oncology",
+    "sectorName": "면역항암",
+    "parentSectorId": "bio_healthcare",
+    "parentSectorName": "바이오/헬스케어",
+    "score": 40,
+    "avgChangeRate": 0.96,
+    "relativeStrength": -4.18,
+    "totalTradingValue": 241118801730.0,
+    "tradingValueRatio20d": 0.38,
+    "upCount": 5,
+    "downCount": 2,
+    "upRatio": 0.71,
+    "leaderStocks": [
+      "068270",
+      "326030"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "141080",
+        "name": "리가켐바이오",
+        "changeRate": 0.99,
+        "score": 0
+      },
+      {
+        "symbol": "128940",
+        "name": "한미약품",
+        "changeRate": 1.81,
+        "score": 0
+      },
+      {
+        "symbol": "000100",
+        "name": "유한양행",
+        "changeRate": 1.68,
+        "score": 0
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong",
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "xr",
+    "sectorName": "XR",
+    "parentSectorId": "future_tech",
+    "parentSectorName": "미래기술",
+    "score": 38,
+    "avgChangeRate": 6.81,
+    "relativeStrength": 1.67,
+    "totalTradingValue": 1547899009800.0,
+    "tradingValueRatio20d": 0.44,
+    "upCount": 1,
+    "downCount": 1,
+    "upRatio": 0.5,
+    "leaderStocks": [
+      "066570",
+      "171090"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "066570",
+        "name": "LG전자",
+        "changeRate": 7.02,
+        "score": 20
+      },
+      {
+        "symbol": "171090",
+        "name": "선익시스템",
+        "changeRate": -4.22,
+        "score": 5
+      }
+    ],
+    "signals": [
+      "sector_relative_strength"
+    ]
+  },
+  {
+    "sectorId": "cloud",
+    "sectorName": "클라우드",
+    "parentSectorId": "future_tech",
+    "parentSectorName": "미래기술",
+    "score": 36,
+    "avgChangeRate": 1.66,
+    "relativeStrength": -3.48,
+    "totalTradingValue": 1364171563900.0,
+    "tradingValueRatio20d": 0.43,
+    "upCount": 2,
+    "downCount": 3,
+    "upRatio": 0.4,
+    "leaderStocks": [
+      "018260",
+      "035420"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "035420",
+        "name": "NAVER",
+        "changeRate": 2.27,
+        "score": 30
+      },
+      {
+        "symbol": "012510",
+        "name": "더존비즈온",
+        "changeRate": -0.66,
+        "score": 25
+      },
+      {
+        "symbol": "018260",
+        "name": "삼성에스디에스",
+        "changeRate": 2.77,
+        "score": 15
+      }
+    ],
+    "signals": [
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "securities",
+    "sectorName": "증권",
+    "parentSectorId": "finance",
+    "parentSectorName": "금융",
+    "score": 29,
+    "avgChangeRate": -0.23,
+    "relativeStrength": -5.37,
+    "totalTradingValue": 758304543600.0,
+    "tradingValueRatio20d": 1.1,
+    "upCount": 4,
+    "downCount": 1,
+    "upRatio": 0.8,
+    "leaderStocks": [
+      "006800",
+      "138040"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "138040",
+        "name": "메리츠금융지주",
+        "changeRate": 2.77,
+        "score": 20
+      },
+      {
+        "symbol": "071050",
+        "name": "한국금융지주",
+        "changeRate": 3.73,
+        "score": 15
+      },
+      {
+        "symbol": "006800",
+        "name": "미래에셋증권",
+        "changeRate": -4.81,
+        "score": 5
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong"
+    ]
+  },
+  {
+    "sectorId": "quantum",
+    "sectorName": "양자",
+    "parentSectorId": "future_tech",
+    "parentSectorName": "미래기술",
+    "score": 27,
+    "avgChangeRate": 1.79,
+    "relativeStrength": -3.35,
+    "totalTradingValue": 16040222170.0,
+    "tradingValueRatio20d": 0.16,
+    "upCount": 2,
+    "downCount": 1,
+    "upRatio": 0.67,
+    "leaderStocks": [
+      "046970",
+      "456010"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "456010",
+        "name": "아이씨티케이",
+        "changeRate": 2.54,
+        "score": 10
+      },
+      {
+        "symbol": "046970",
+        "name": "우리로",
+        "changeRate": 1.7,
+        "score": 5
+      },
+      {
+        "symbol": "056360",
+        "name": "코위버",
+        "changeRate": -1.52,
+        "score": 5
+      }
+    ],
+    "signals": [
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "aerospace",
+    "sectorName": "우주항공",
+    "parentSectorId": "defense_space",
+    "parentSectorName": "국방/우주",
+    "score": 22,
+    "avgChangeRate": 0.67,
+    "relativeStrength": -4.47,
+    "totalTradingValue": 370419380900.0,
+    "tradingValueRatio20d": 0.59,
+    "upCount": 2,
+    "downCount": 2,
+    "upRatio": 0.5,
+    "leaderStocks": [
+      "012450",
+      "047810"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "047810",
+        "name": "한국항공우주",
+        "changeRate": 4.03,
+        "score": 5
+      },
+      {
+        "symbol": "274090",
+        "name": "켄코아에어로스페이스",
+        "changeRate": -12.56,
+        "score": 5
+      },
+      {
+        "symbol": "012450",
+        "name": "한화에어로스페이스",
+        "changeRate": 0.09,
+        "score": 0
+      }
+    ],
+    "signals": [
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "satellite",
+    "sectorName": "위성",
+    "parentSectorId": "defense_space",
+    "parentSectorName": "국방/우주",
+    "score": 22,
+    "avgChangeRate": 1.28,
+    "relativeStrength": -3.86,
+    "totalTradingValue": 480667362500.0,
+    "tradingValueRatio20d": 0.63,
+    "upCount": 3,
+    "downCount": 3,
+    "upRatio": 0.5,
+    "leaderStocks": [
+      "012450",
+      "272210"
+    ],
+    "leaderUpCount": 2,
+    "topStocks": [
+      {
+        "symbol": "047810",
+        "name": "한국항공우주",
+        "changeRate": 4.03,
+        "score": 5
+      },
+      {
+        "symbol": "272210",
+        "name": "한화시스템",
+        "changeRate": 3.98,
+        "score": 5
+      },
+      {
+        "symbol": "189300",
+        "name": "인텔리안테크",
+        "changeRate": -7.61,
+        "score": 5
+      }
+    ],
+    "signals": [
+      "sector_leaders_strong"
+    ]
+  },
+  {
+    "sectorId": "sto",
+    "sectorName": "STO",
+    "parentSectorId": "finance",
+    "parentSectorName": "금융",
+    "score": 21,
+    "avgChangeRate": -4.39,
+    "relativeStrength": -9.53,
+    "totalTradingValue": 575819334550.0,
+    "tradingValueRatio20d": 1.23,
+    "upCount": 3,
+    "downCount": 1,
+    "upRatio": 0.75,
+    "leaderStocks": [
+      "003530",
+      "006800"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "006800",
+        "name": "미래에셋증권",
+        "changeRate": -4.81,
+        "score": 5
+      },
+      {
+        "symbol": "041190",
+        "name": "우리기술투자",
+        "changeRate": 4.2,
+        "score": 0
+      },
+      {
+        "symbol": "003530",
+        "name": "한화투자증권",
+        "changeRate": 0.85,
+        "score": 0
+      }
+    ],
+    "signals": [
+      "sector_breadth_strong"
+    ]
+  },
+  {
+    "sectorId": "foundry",
+    "sectorName": "파운드리",
+    "parentSectorId": "ai_semiconductor",
+    "parentSectorName": "AI/반도체",
+    "score": 20,
+    "avgChangeRate": 4.13,
+    "relativeStrength": -1.01,
+    "totalTradingValue": 11659174058000.0,
+    "tradingValueRatio20d": 0.6,
+    "upCount": 1,
+    "downCount": 1,
+    "upRatio": 0.5,
+    "leaderStocks": [
+      "000990",
+      "005930"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "005930",
+        "name": "삼성전자",
+        "changeRate": 4.16,
+        "score": 30
+      },
+      {
+        "symbol": "000990",
+        "name": "DB하이텍",
+        "changeRate": -5.02,
+        "score": 10
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "solar",
+    "sectorName": "태양광",
+    "parentSectorId": "energy_power",
+    "parentSectorName": "에너지/전력",
+    "score": 12,
+    "avgChangeRate": 3.64,
+    "relativeStrength": -1.5,
+    "totalTradingValue": 311956008000.0,
+    "tradingValueRatio20d": 0.59,
+    "upCount": 2,
+    "downCount": 1,
+    "upRatio": 0.67,
+    "leaderStocks": [
+      "009830",
+      "010060"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "009830",
+        "name": "한화솔루션",
+        "changeRate": 11.02,
+        "score": 20
+      },
+      {
+        "symbol": "010060",
+        "name": "OCI홀딩스",
+        "changeRate": -6.11,
+        "score": 10
+      },
+      {
+        "symbol": "322000",
+        "name": "HD현대에너지솔루션",
+        "changeRate": 5.05,
+        "score": 5
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "food",
+    "sectorName": "음식료",
+    "parentSectorId": "consumer",
+    "parentSectorName": "소비",
+    "score": 11,
+    "avgChangeRate": 0.03,
+    "relativeStrength": -5.11,
+    "totalTradingValue": 162138456000.0,
+    "tradingValueRatio20d": 0.65,
+    "upCount": 2,
+    "downCount": 2,
+    "upRatio": 0.5,
+    "leaderStocks": [
+      "003230",
+      "033780"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "033780",
+        "name": "KT&G",
+        "changeRate": 0.27,
+        "score": 45
+      },
+      {
+        "symbol": "097950",
+        "name": "CJ제일제당",
+        "changeRate": 0.75,
+        "score": 0
+      },
+      {
+        "symbol": "004370",
+        "name": "농심",
+        "changeRate": -0.92,
+        "score": 0
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "fintech",
+    "sectorName": "핀테크",
+    "parentSectorId": "finance",
+    "parentSectorName": "금융",
+    "score": 7,
+    "avgChangeRate": 0.3,
+    "relativeStrength": -4.84,
+    "totalTradingValue": 254930596020.0,
+    "tradingValueRatio20d": 0.66,
+    "upCount": 3,
+    "downCount": 3,
+    "upRatio": 0.5,
+    "leaderStocks": [
+      "035720",
+      "323410"
+    ],
+    "leaderUpCount": 0,
+    "topStocks": [
+      {
+        "symbol": "012510",
+        "name": "더존비즈온",
+        "changeRate": -0.66,
+        "score": 25
+      },
+      {
+        "symbol": "323410",
+        "name": "카카오뱅크",
+        "changeRate": -0.21,
+        "score": 10
+      },
+      {
+        "symbol": "039490",
+        "name": "키움증권",
+        "changeRate": 1.8,
+        "score": 5
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "optical_communication",
+    "sectorName": "광통신",
+    "parentSectorId": "ai_semiconductor",
+    "parentSectorName": "AI/반도체",
+    "score": 5,
+    "avgChangeRate": 0.32,
+    "relativeStrength": -4.82,
+    "totalTradingValue": 48690388375.0,
+    "tradingValueRatio20d": 0.32,
+    "upCount": 2,
+    "downCount": 2,
+    "upRatio": 0.5,
+    "leaderStocks": [
+      "069540",
+      "138080"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "138080",
+        "name": "오이솔루션",
+        "changeRate": -3.22,
+        "score": 5
+      },
+      {
+        "symbol": "069540",
+        "name": "빛과전자",
+        "changeRate": 3.33,
+        "score": 5
+      },
+      {
+        "symbol": "046970",
+        "name": "우리로",
+        "changeRate": 1.7,
+        "score": 5
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "game",
+    "sectorName": "게임",
+    "parentSectorId": "consumer",
+    "parentSectorName": "소비",
+    "score": 1,
+    "avgChangeRate": -1.01,
+    "relativeStrength": -6.15,
+    "totalTradingValue": 110593305040.0,
+    "tradingValueRatio20d": 0.45,
+    "upCount": 3,
+    "downCount": 4,
+    "upRatio": 0.43,
+    "leaderStocks": [
+      "036570",
+      "259960"
+    ],
+    "leaderUpCount": 0,
+    "topStocks": [
+      {
+        "symbol": "036570",
+        "name": "NC",
+        "changeRate": -0.76,
+        "score": 10
+      },
+      {
+        "symbol": "259960",
+        "name": "크래프톤",
+        "changeRate": -0.21,
+        "score": 0
+      },
+      {
+        "symbol": "251270",
+        "name": "넷마블",
+        "changeRate": -3.64,
+        "score": 0
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "obesity_drug",
+    "sectorName": "비만치료제",
+    "parentSectorId": "bio_healthcare",
+    "parentSectorName": "바이오/헬스케어",
+    "score": 0,
+    "avgChangeRate": 0.16,
+    "relativeStrength": -4.98,
+    "totalTradingValue": 137781555000.0,
+    "tradingValueRatio20d": 0.45,
+    "upCount": 2,
+    "downCount": 2,
+    "upRatio": 0.5,
+    "leaderStocks": [
+      "087010",
+      "128940"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "128940",
+        "name": "한미약품",
+        "changeRate": 1.81,
+        "score": 0
+      },
+      {
+        "symbol": "087010",
+        "name": "펩트론",
+        "changeRate": -1.49,
+        "score": 0
+      },
+      {
+        "symbol": "389470",
+        "name": "인벤티지랩",
+        "changeRate": 2.11,
+        "score": 0
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "medical_device",
+    "sectorName": "의료기기",
+    "parentSectorId": "bio_healthcare",
+    "parentSectorName": "바이오/헬스케어",
+    "score": 0,
+    "avgChangeRate": -1.76,
+    "relativeStrength": -6.9,
+    "totalTradingValue": 23713298730.0,
+    "tradingValueRatio20d": 0.62,
+    "upCount": 0,
+    "downCount": 2,
+    "upRatio": 0.0,
+    "leaderStocks": [
+      "214150",
+      "328130"
+    ],
+    "leaderUpCount": 0,
+    "topStocks": [
+      {
+        "symbol": "328130",
+        "name": "루닛",
+        "changeRate": -3.74,
+        "score": 0
+      },
+      {
+        "symbol": "214150",
+        "name": "클래시스",
+        "changeRate": -1.02,
+        "score": 0
+      }
+    ],
+    "signals": []
+  },
+  {
+    "sectorId": "entertainment",
+    "sectorName": "엔터",
+    "parentSectorId": "consumer",
+    "parentSectorName": "소비",
+    "score": 0,
+    "avgChangeRate": -3.73,
+    "relativeStrength": -8.87,
+    "totalTradingValue": 98136079400.0,
+    "tradingValueRatio20d": 0.66,
+    "upCount": 1,
+    "downCount": 2,
+    "upRatio": 0.33,
+    "leaderStocks": [
+      "035900",
+      "352820"
+    ],
+    "leaderUpCount": 1,
+    "topStocks": [
+      {
+        "symbol": "352820",
+        "name": "하이브",
+        "changeRate": -4.61,
+        "score": 0
+      },
+      {
+        "symbol": "035900",
+        "name": "JYP Ent.",
+        "changeRate": 0.36,
+        "score": 0
+      },
+      {
+        "symbol": "041510",
+        "name": "에스엠",
+        "changeRate": -3.68,
+        "score": 0
+      }
+    ],
+    "signals": []
+  }
+]

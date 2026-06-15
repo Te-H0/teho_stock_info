@@ -34,6 +34,35 @@
         "ma20_breakdown"
       ],
       "score": 5
+    },
+    {
+      "date": "2026-06-15",
+      "session": "close",
+      "open": 251000.0,
+      "high": 290000.0,
+      "low": 248000.0,
+      "close": 268500.0,
+      "volume": 190858.0,
+      "changeRate": 8.7,
+      "tradingValue": 51245373000.0,
+      "marketCap": 21209643322500.0,
+      "ma5": 248900.0,
+      "ma20": 267275.0,
+      "ma60": 266716.67,
+      "ma200": 222651.0,
+      "rsi14": 43.0,
+      "volumeRatio20d": 0.72,
+      "tradingValueRatio20d": 0.72,
+      "high20": 302000.0,
+      "highLong": 336000.0,
+      "relativeStrength": 3.56,
+      "signals": [
+        "relative_strength_strong",
+        "above_ma20",
+        "above_ma60",
+        "above_ma200"
+      ],
+      "score": 25
     }
   ]
 }

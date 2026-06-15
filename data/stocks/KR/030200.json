@@ -35,6 +35,33 @@
         "ma_bearish_alignment"
       ],
       "score": 10
+    },
+    {
+      "date": "2026-06-15",
+      "session": "close",
+      "open": 55400.0,
+      "high": 56800.0,
+      "low": 55100.0,
+      "close": 55700.0,
+      "volume": 544206.0,
+      "changeRate": 0.54,
+      "tradingValue": 30312274200.0,
+      "marketCap": 14037607854500.0,
+      "ma5": 55700.0,
+      "ma20": 55110.0,
+      "ma60": 58915.0,
+      "ma200": 55291.0,
+      "rsi14": 48.6,
+      "volumeRatio20d": 0.72,
+      "tradingValueRatio20d": 0.73,
+      "high20": 60900.0,
+      "highLong": 70400.0,
+      "relativeStrength": -4.6,
+      "signals": [
+        "above_ma20",
+        "above_ma200"
+      ],
+      "score": 10
     }
   ]
 }
