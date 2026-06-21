@@ -1,0 +1,51 @@
+{
+  "date": "2026-06-16",
+  "session": "morning",
+  "marketChange": 3.91,
+  "upCount": 50,
+  "downCount": 9,
+  "totalCount": 59,
+  "upRatio": 0.85,
+  "strongSectors": [
+    "memory",
+    "hbm",
+    "foundry",
+    "securities",
+    "crypto"
+  ],
+  "weakSectors": [
+    "obesity_drug",
+    "bank",
+    "adc"
+  ],
+  "summary": "시장 강세(+3.91%). 메모리, HBM, 파운드리 섹터로 자금 유입 감지.",
+  "headline": [
+    {
+      "key": "sp500",
+      "name": "S&P500",
+      "symbol": "^GSPC",
+      "unit": "",
+      "value": 7554.29,
+      "changeRate": 1.65,
+      "date": "2026-06-15"
+    },
+    {
+      "key": "nasdaq",
+      "name": "나스닥",
+      "symbol": "^IXIC",
+      "unit": "",
+      "value": 26683.94,
+      "changeRate": 3.07,
+      "date": "2026-06-15"
+    },
+    {
+      "key": "usdkrw",
+      "name": "환율",
+      "symbol": "KRW=X",
+      "unit": "원",
+      "value": 1514.0,
+      "changeRate": -0.22,
+      "date": "2026-06-15"
+    }
+  ]
+}

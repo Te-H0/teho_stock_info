@@ -12,6 +12,26 @@
       "date": "2026-06-15",
       "value": 8545.98,
       "changeRate": 5.2
+    },
+    {
+      "date": "2026-06-16",
+      "value": 8726.6,
+      "changeRate": 7.42
+    },
+    {
+      "date": "2026-06-17",
+      "value": 8864.24,
+      "changeRate": 1.58
+    },
+    {
+      "date": "2026-06-18",
+      "value": 9063.84,
+      "changeRate": 2.25
+    },
+    {
+      "date": "2026-06-19",
+      "value": 9052.42,
+      "changeRate": -0.13
     }
   ]
 }

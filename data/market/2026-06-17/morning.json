@@ -1,0 +1,51 @@
+{
+  "date": "2026-06-17",
+  "session": "morning",
+  "marketChange": -0.91,
+  "upCount": 20,
+  "downCount": 39,
+  "totalCount": 59,
+  "upRatio": 0.34,
+  "strongSectors": [
+    "bank",
+    "payment",
+    "aerospace",
+    "securities",
+    "consumer_electronics"
+  ],
+  "weakSectors": [
+    "hbm",
+    "memory",
+    "foundry"
+  ],
+  "summary": "시장 약세(-0.91%). 은행, 결제, 우주항공 섹터로 자금 유입 감지.",
+  "headline": [
+    {
+      "key": "sp500",
+      "name": "S&P500",
+      "symbol": "^GSPC",
+      "unit": "",
+      "value": 7511.35,
+      "changeRate": -0.57,
+      "date": "2026-06-16"
+    },
+    {
+      "key": "nasdaq",
+      "name": "나스닥",
+      "symbol": "^IXIC",
+      "unit": "",
+      "value": 26376.34,
+      "changeRate": -1.15,
+      "date": "2026-06-16"
+    },
+    {
+      "key": "usdkrw",
+      "name": "환율",
+      "symbol": "KRW=X",
+      "unit": "원",
+      "value": 1512.91,
+      "changeRate": 0.23,
+      "date": "2026-06-16"
+    }
+  ]
+}

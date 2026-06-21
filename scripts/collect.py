@@ -1,8 +1,19 @@
 """토스 API에서 종목 데이터 수집 + 지표 계산까지."""
 
 import time
+from collections import Counter
 
 import indicators
+
+
+def latest_trade_date(enriched: list[dict]) -> str | None:
+    """수집 종목들의 '실제 최신 거래일'(최신 일봉 날짜)의 최빈값.
+    공휴일엔 토스가 직전 거래일 캔들을 그대로 주므로 이 값이 갱신되지 않는다.
+    → 발송 신선도 판정 근거(캘린더 타임존에 의존하지 않음)."""
+    dates = [s["metrics"].get("tradeDate") for s in enriched if s["metrics"].get("tradeDate")]
+    if not dates:
+        return None
+    return Counter(dates).most_common(1)[0][0]
 
 
 def collect(toss, stocks: list[dict], indicators_cfg: dict, throttle: float = 0.0) -> tuple:

@@ -1,0 +1,51 @@
+{
+  "date": "2026-06-18",
+  "session": "morning",
+  "marketChange": -1.1,
+  "upCount": 24,
+  "downCount": 35,
+  "totalCount": 59,
+  "upRatio": 0.41,
+  "strongSectors": [
+    "securities",
+    "foundry",
+    "semiconductor_equipment",
+    "packaging",
+    "semiconductor_material"
+  ],
+  "weakSectors": [
+    "xr",
+    "satellite",
+    "aerospace"
+  ],
+  "summary": "시장 약세(-1.10%). 증권, 파운드리, 반도체장비 섹터로 자금 유입 감지.",
+  "headline": [
+    {
+      "key": "sp500",
+      "name": "S&P500",
+      "symbol": "^GSPC",
+      "unit": "",
+      "value": 7420.1,
+      "changeRate": -1.21,
+      "date": "2026-06-17"
+    },
+    {
+      "key": "nasdaq",
+      "name": "나스닥",
+      "symbol": "^IXIC",
+      "unit": "",
+      "value": 26021.66,
+      "changeRate": -1.34,
+      "date": "2026-06-17"
+    },
+    {
+      "key": "usdkrw",
+      "name": "환율",
+      "symbol": "KRW=X",
+      "unit": "원",
+      "value": 1527.41,
+      "changeRate": 0.93,
+      "date": "2026-06-17"
+    }
+  ]
+}

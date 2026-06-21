@@ -75,6 +75,20 @@ def update_index_history(item: dict, date: str) -> None:
     _write(path, doc)
 
 
+def last_sent_date(session: str) -> str | None:
+    """해당 session으로 마지막에 '실제 발송'한 데이터의 거래일. 없으면 None."""
+    doc = _read(DATA / "state" / "last_sent.json") or {}
+    return doc.get(session)
+
+
+def mark_sent(session: str, trade_date: str) -> None:
+    """발송 완료한 데이터의 거래일을 기록(다음 실행의 신선도 비교 기준)."""
+    path = DATA / "state" / "last_sent.json"
+    doc = _read(path) or {}
+    doc[session] = trade_date
+    _write(path, doc)
+
+
 def load_prev_metrics(country: str, symbol: str, date: str) -> dict | None:
     """직전(date 이전) history 엔트리의 지표 — RSI 돌파 등 전일 비교용."""
     doc = _read(stock_path(country, symbol))

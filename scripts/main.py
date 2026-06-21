@@ -64,6 +64,15 @@ def run() -> None:
         print("[!] 유효 종목 없음")
         return
 
+    # 신선도 가드: 수집 데이터의 최신 거래일이 직전 발송과 같으면(=새 장 데이터 없음:
+    # 공휴일·임시휴장 등) 발송 생략. 토스는 휴장일에 직전 거래일 캔들을 그대로 주므로
+    # 캘린더 타임존에 의존하지 않고 데이터 자체로 판정한다.
+    data_date = collect.latest_trade_date(enriched)
+    last_sent = store.last_sent_date(session)
+    if not force and data_date and last_sent and data_date <= last_sent:
+        print(f"[데이터 미갱신] {session}: 최신 거래일 {data_date} 가 직전 발송({last_sent})과 동일 → 발송 생략")
+        return
+
     # 시장 벤치마크 → 상대강도 주입 → 종목 시그널/점수
     mkt_change = aggregate.market_change(enriched)
     for s in enriched:
@@ -121,6 +130,8 @@ def run() -> None:
         print(f"리포트 저장: {path}")
 
     Notifier(env).send(md)
+    if do_store and data_date:
+        store.mark_sent(session, data_date)   # 다음 실행의 신선도 비교 기준 갱신
 
 
 if __name__ == "__main__":

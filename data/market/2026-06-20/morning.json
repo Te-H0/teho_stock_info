@@ -1,0 +1,51 @@
+{
+  "date": "2026-06-20",
+  "session": "morning",
+  "marketChange": 1.91,
+  "upCount": 36,
+  "downCount": 23,
+  "totalCount": 59,
+  "upRatio": 0.61,
+  "strongSectors": [
+    "foundry",
+    "memory",
+    "semiconductor_equipment",
+    "packaging",
+    "hbm"
+  ],
+  "weakSectors": [
+    "satellite",
+    "aerospace",
+    "defense"
+  ],
+  "summary": "시장 강세(+1.91%). 파운드리, 메모리, 반도체장비 섹터로 자금 유입 감지.",
+  "headline": [
+    {
+      "key": "sp500",
+      "name": "S&P500",
+      "symbol": "^GSPC",
+      "unit": "",
+      "value": 7500.58,
+      "changeRate": 1.08,
+      "date": "2026-06-18"
+    },
+    {
+      "key": "nasdaq",
+      "name": "나스닥",
+      "symbol": "^IXIC",
+      "unit": "",
+      "value": 26517.93,
+      "changeRate": 1.91,
+      "date": "2026-06-18"
+    },
+    {
+      "key": "usdkrw",
+      "name": "환율",
+      "symbol": "KRW=X",
+      "unit": "원",
+      "value": 1529.89,
+      "changeRate": 0.29,
+      "date": "2026-06-19"
+    }
+  ]
+}
