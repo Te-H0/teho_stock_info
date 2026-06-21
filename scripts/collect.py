@@ -16,6 +16,22 @@ def latest_trade_date(enriched: list[dict]) -> str | None:
     return Counter(dates).most_common(1)[0][0]
 
 
+def probe_trade_date(toss, stocks: list[dict], n: int = 3) -> str | None:
+    """전체 수집 전에 대표 종목 n개의 일봉만 찍어 최신 거래일(max)을 본다.
+    공휴일이면 직전 거래일에 머무르므로, 이걸로 '새 장 데이터 없음'을 수집 전에 판정.
+    개별 거래정지 오판 방지를 위해 여러 종목 중 가장 최근 거래일을 택한다.
+    전부 실패하면 None(차단하지 않고 전체 수집 단계의 가드로 넘김)."""
+    dates = []
+    for s in stocks[:n]:
+        try:
+            candles = toss.candles(s["symbol"], "1d", 2)
+            if candles:
+                dates.append(str(candles[-1]["timestamp"])[:10])
+        except Exception as e:
+            print(f"  [프로브 실패] {s['symbol']}: {e}")
+    return max(dates) if dates else None
+
+
 def collect(toss, stocks: list[dict], indicators_cfg: dict, throttle: float = 0.0) -> tuple:
     """returns (enriched_stocks, prices_raw, candles_raw).
     enriched: 각 종목에 'metrics' 추가. info/캔들 부족 종목은 제외.

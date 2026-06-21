@@ -41,21 +41,29 @@ def run() -> None:
 
     toss = TossClient(env["TOSS_CLIENT_ID"], env["TOSS_CLIENT_SECRET"])
 
-    # 발송일 판정:
-    #  - close(한국): 한국 영업일(평일·비공휴일)
-    #  - morning(미국): 미국장 다음 한국 아침(화~토). 월요일·일요일 아침엔 미국을 보내지 않음.
-    if session == "close":
-        ok = sessions.is_market_open("KR", toss)
-    else:
-        ok = sessions.is_us_review_day()
-    if not force and not ok:
-        print(f"[휴장] {date} {session} 발송일 아님 → 수집/발송 생략")
-        return
-
     sectors_cfg = load_sectors()
     signals_cfg = load_signals()
     indicators_cfg = load_indicators()
     stocks = load_stocks(country)
+    last_sent = store.last_sent_date(session)
+
+    # 발송일 판정 (2단 게이트):
+    #  1) 요일/주말 — API 없이 확실히 안 보내는 날 컷.
+    #     close(한국)=평일, morning(미국 리뷰)=한국 화~토(월·일 아침 제외).
+    weekday_skip = (sessions.is_weekend(now) if session == "close"
+                    else not sessions.is_us_review_day(now))
+    if not force and weekday_skip:
+        print(f"[휴장] {date} {session} 발송일 아님(요일) → 종료")
+        return
+
+    #  2) 사전 신선도 프로브 — 대표 종목 일봉만 찍어 공휴일·임시휴장을 '전체 수집 전'에 차단.
+    #     토스는 휴장일에 직전 거래일 캔들을 그대로 주므로, 최신 거래일이 직전 발송과 같으면 생략.
+    #     (캘린더 타임존에 의존하지 않고 데이터 자체로 판정.)
+    probe_date = collect.probe_trade_date(toss, stocks)
+    if not force and probe_date and last_sent and probe_date <= last_sent:
+        print(f"[데이터 미갱신] {session}: 최신 거래일 {probe_date} 가 직전 발송({last_sent})과 동일 → 수집 전 종료")
+        return
+
     print(f"[{date} {session}/{country}] 종목 {len(stocks)}개 수집 시작...")
 
     enriched, prices, candles_raw = collect.collect(toss, stocks, indicators_cfg, throttle=0.03)
@@ -64,11 +72,8 @@ def run() -> None:
         print("[!] 유효 종목 없음")
         return
 
-    # 신선도 가드: 수집 데이터의 최신 거래일이 직전 발송과 같으면(=새 장 데이터 없음:
-    # 공휴일·임시휴장 등) 발송 생략. 토스는 휴장일에 직전 거래일 캔들을 그대로 주므로
-    # 캘린더 타임존에 의존하지 않고 데이터 자체로 판정한다.
+    # 백스톱: 전체 수집 데이터(최빈 거래일)로 한 번 더 확인. 프로브가 놓친 경우 대비.
     data_date = collect.latest_trade_date(enriched)
-    last_sent = store.last_sent_date(session)
     if not force and data_date and last_sent and data_date <= last_sent:
         print(f"[데이터 미갱신] {session}: 최신 거래일 {data_date} 가 직전 발송({last_sent})과 동일 → 발송 생략")
         return

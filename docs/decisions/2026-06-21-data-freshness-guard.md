@@ -10,11 +10,16 @@
 휴장 판정을 **캘린더가 아니라 수집 데이터의 실제 최신 거래일**로 한다. 토스는 휴장일에 직전 거래일 캔들을 그대로 주므로, **데이터의 최신 거래일이 직전 발송과 같으면(=새 장 데이터 없음) 발송 생략**한다. 캘린더 타임존/응답에 의존하지 않아 미국·한국 공휴일과 임시휴장을 한 번에 막는다.
 
 1. `collect.latest_trade_date(enriched)` — 종목들의 `metrics.tradeDate`(최신 일봉 날짜) **최빈값**.
-2. `store.last_sent_date(session)` / `store.mark_sent(session, date)` — `data/state/last_sent.json`에 세션별 마지막 발송 거래일 기록.
-3. `main.py` — 수집 직후 `data_date <= last_sent`면 발송 생략(`--force`로 우회), 발송 성공 후 `mark_sent`로 갱신.
-4. state 시드: `morning=2026-06-18`, `close=2026-06-19` (직전 정상 거래일) → 다음 실행부터 즉시 적용.
+2. `collect.probe_trade_date(toss, stocks, n=3)` — **전체 수집 전** 대표 종목 3개 일봉만 찍어 최신 거래일(max). 개별 거래정지 오판 방지로 여러 종목 중 max.
+3. `store.last_sent_date(session)` / `store.mark_sent(session, date)` — `data/state/last_sent.json`에 세션별 마지막 발송 거래일 기록.
+4. `main.py` **2단 게이트**:
+   - ① 요일/주말 early-out — API 없이 컷 (close=평일, morning=한국 화~토).
+   - ② 사전 프로브 — `probe_date <= last_sent`면 **전체 수집(약 214콜) 전에 종료**. 휴장일 API 낭비 제거.
+   - ③ 백스톱 — 전체 수집 후 `latest_trade_date`로 한 번 더 확인(프로브가 놓친 경우 대비).
+   - 발송 성공 후 `mark_sent`로 갱신. `--force`로 전 게이트 우회.
+5. state 시드: `morning=2026-06-18`, `close=2026-06-19` (직전 정상 거래일) → 다음 실행부터 즉시 적용.
 
-기존 요일/주말 early-out(`is_market_open`·`is_us_review_day`)은 불필요한 API 호출을 줄이는 1차 필터로 유지. 데이터 신선도 가드가 휴장 판정의 최종 권한.
+요일/주말 early-out은 1차 필터로 유지하되, 휴장(공휴일·임시휴장) 판정의 최종 권한은 **데이터 신선도(프로브+백스톱)**. 더 이상 토스 캘린더(`is_market_open`)에 의존하지 않음 — 대표 종목 일봉만으로 미국·한국 휴장을 동일하게 판정.
 
 ## 비고
 - CLAUDE.md 규칙5("캘린더 API로 휴장 생략")의 운영 방식을 데이터 기반으로 보강·대체.
