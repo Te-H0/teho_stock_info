@@ -8,7 +8,7 @@
 
 ## 기술 스택
 - Python 3.11
-- 데이터 저장소: **DB 없음**. GitHub Repo를 데이터 저장소로 사용 (JSON 파일 + git commit)
+- 데이터 저장소: **DB 없음**. 로컬 JSON 파일 (`data/`, `reports/` — 도커 볼륨으로 호스트에 영속). 레포 커밋은 수동
 - 실행: 맥 도커 상시 가동(`scheduler.py`), 하루 2회 (KST 07:30 아침=미국 마감 리뷰 / KST 18:00 마감=한국 정리·수급 확정)
   - 토스 API가 IP 화이트리스트라 GitHub Actions로는 불가(403). 워크플로는 수동 실행용으로만 남겨둠
 - 외부: Toss Invest Open API(시세·캔들·환율·캘린더), Telegram Bot API(전송)
